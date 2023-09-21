@@ -1,0 +1,212 @@
+File,Source_Contract,Source_Function,Target_Contract,Chain
+proxyAdmin.sol,Address,sendValue,Address,No chain
+proxyAdmin.sol,Address,sendValue,Address,No chain
+proxyAdmin.sol,Address,functionCallWithValue,Address,No chain
+proxyAdmin.sol,Address,functionCallWithValue,Address,No chain
+proxyAdmin.sol,ERC1967Upgrade,_getImplementation,StorageSlot,->getAddressSlot(_IMPLEMENTATION_SLOT)->value
+proxyAdmin.sol,ERC1967Upgrade,_getImplementation,StorageSlot,No chain
+proxyAdmin.sol,ERC1967Upgrade,_setImplementation,Address,No chain
+proxyAdmin.sol,ERC1967Upgrade,_setImplementation,StorageSlot,->getAddressSlot(_IMPLEMENTATION_SLOT)->value=newImplementation
+proxyAdmin.sol,ERC1967Upgrade,_setImplementation,StorageSlot,No chain
+proxyAdmin.sol,ERC1967Upgrade,_upgradeTo,ERC1967Upgrade,Upgraded
+proxyAdmin.sol,ERC1967Upgrade,_upgradeToAndCall,Address,"->functionDelegateCall(newImplementation,data)"
+proxyAdmin.sol,ERC1967Upgrade,_upgradeToAndCallSecure,StorageSlot,->BooleanSlotstoragerollbackTesting=StorageSlot->getBooleanSlot(_ROLLBACK_SLOT)
+proxyAdmin.sol,ERC1967Upgrade,_upgradeToAndCallSecure,StorageSlot,No chain
+proxyAdmin.sol,ERC1967Upgrade,_upgradeToAndCallSecure,Address,"->functionDelegateCall(newImplementation,abi->encodeWithSignature(""upgradeTo(address)"",oldImplementation))"
+proxyAdmin.sol,ERC1967Upgrade,_upgradeToAndCallSecure,Address,"->functionDelegateCall(newImplementation,data)"
+proxyAdmin.sol,ERC1967Upgrade,_upgradeToAndCallSecure,StorageSlot,->getBooleanSlot(_ROLLBACK_SLOT);
+proxyAdmin.sol,ERC1967Upgrade,_upgradeToAndCallSecure,Address,"->functionDelegateCall(newImplementation,abi->encodeWithSignature(""upgradeTo(address)"",oldImplementation))"
+proxyAdmin.sol,ERC1967Upgrade,_getAdmin,StorageSlot,->getAddressSlot(_ADMIN_SLOT)->value
+proxyAdmin.sol,ERC1967Upgrade,_getAdmin,StorageSlot,No chain
+proxyAdmin.sol,ERC1967Upgrade,_setAdmin,StorageSlot,->getAddressSlot(_ADMIN_SLOT)->value=newAdmin
+proxyAdmin.sol,ERC1967Upgrade,_setAdmin,StorageSlot,No chain
+proxyAdmin.sol,ERC1967Upgrade,_changeAdmin,ERC1967Upgrade,AdminChanged
+proxyAdmin.sol,ERC1967Upgrade,_getBeacon,StorageSlot,->getAddressSlot(_BEACON_SLOT)->value
+proxyAdmin.sol,ERC1967Upgrade,_getBeacon,StorageSlot,No chain
+proxyAdmin.sol,ERC1967Upgrade,_setBeacon,Address,No chain
+proxyAdmin.sol,ERC1967Upgrade,_setBeacon,Address,No chain
+proxyAdmin.sol,ERC1967Upgrade,_setBeacon,Address,No chain
+proxyAdmin.sol,ERC1967Upgrade,_setBeacon,StorageSlot,->getAddressSlot(_BEACON_SLOT)->value=newBeacon
+proxyAdmin.sol,ERC1967Upgrade,_setBeacon,StorageSlot,No chain
+proxyAdmin.sol,ERC1967Upgrade,_upgradeBeaconToAndCall,ERC1967Upgrade,BeaconUpgraded
+proxyAdmin.sol,ERC1967Upgrade,_upgradeBeaconToAndCall,Address,"->functionDelegateCall(IBeacon(newBeacon)->implementation(),data)"
+proxyAdmin.sol,ERC1967Upgrade,_upgradeBeaconToAndCall,Address,No chain
+proxyAdmin.sol,ERC1967Proxy,_implementation,ERC1967Upgrade,->_getImplementation()
+proxyAdmin.sol,TransparentUpgradeableProxy,constructor,ERC1967Proxy,No Chain
+proxyAdmin.sol,TransparentUpgradeableProxy,admin,TransparentUpgradeableProxy,ifAdmin
+proxyAdmin.sol,TransparentUpgradeableProxy,implementation,TransparentUpgradeableProxy,ifAdmin
+proxyAdmin.sol,TransparentUpgradeableProxy,changeAdmin,TransparentUpgradeableProxy,ifAdmin
+proxyAdmin.sol,TransparentUpgradeableProxy,upgradeTo,TransparentUpgradeableProxy,ifAdmin
+proxyAdmin.sol,TransparentUpgradeableProxy,upgradeToAndCall,TransparentUpgradeableProxy,ifAdmin
+proxyAdmin.sol,TransparentUpgradeableProxy,_beforeFallback,Proxy,No chain
+proxyAdmin.sol,Ownable,renounceOwnership,Ownable,onlyOwner
+proxyAdmin.sol,Ownable,transferOwnership,Ownable,onlyOwner
+proxyAdmin.sol,Ownable,_transferOwnership,Ownable,OwnershipTransferred
+proxyAdmin.sol,ProxyAdmin,getProxyImplementation,Proxy,No chain
+proxyAdmin.sol,ProxyAdmin,getProxyAdmin,Proxy,No chain
+proxyAdmin.sol,ProxyAdmin,changeProxyAdmin,Proxy,No chain
+proxyAdmin.sol,ProxyAdmin,changeProxyAdmin,Ownable,onlyOwner
+proxyAdmin.sol,ProxyAdmin,upgrade,Proxy,No chain
+proxyAdmin.sol,ProxyAdmin,upgrade,Ownable,onlyOwner
+proxyAdmin.sol,ProxyAdmin,upgradeAndCall,Proxy,No chain
+proxyAdmin.sol,ProxyAdmin,upgradeAndCall,Ownable,onlyOwner
+Parcel.sol,Parcel,constructor,Parcel,No Chain
+Parcel.sol,Parcel,takeOwnership,None,OwnershipTransferred
+Parcel.sol,Parcel,mint,Parcel,onlyOwner
+Parcel.sol,Parcel,mint,Parcel,SetPrice
+Parcel.sol,Parcel,tokenURI,String,No chain
+Parcel.sol,Parcel,tokenURI,String,No chain
+Parcel.sol,Parcel,burn,Parcel,onlyOwner
+Parcel.sol,Parcel,setPrice,Parcel,onlyOwner
+Parcel.sol,Parcel,setPrice,Parcel,SetPrice
+Parcel.sol,Parcel,buy,None,Transfer
+Migrations.sol,Migrations,setCompleted,Migrations,restricted
+Migrations.sol,Migrations,upgrade,Migrations,restricted
+Color.sol,Color,takeOwnership,None,OwnershipTransferred
+Color.sol,Color,_burn,Color,Burn
+Color.sol,Color,_burn,None,Transfer
+Color.sol,Color,stake,Color,Staked
+Color.sol,Color,withdraw,Color,canMint
+Color.sol,Color,withdraw,Color,Mint
+Color.sol,Color,withdraw,None,Transfer
+Color.sol,Color,withdraw,Color,Withdrawn
+Color.sol,Color,mint,Color,hasMintPermission
+Color.sol,Color,mint,Color,canMint
+Color.sol,Color,mint,Color,Mint
+Color.sol,Color,mint,None,Transfer
+Color.sol,Color,finishMinting,Color,onlyOwner
+Color.sol,Color,finishMinting,Color,canMint
+Color.sol,Color,finishMinting,Color,MintFinished
+cvCollectibles.sol,Counters,current,Counters,No chain
+cvCollectibles.sol,Counters,increment,Counters,No chain
+cvCollectibles.sol,Counters,decrement,Counters,No chain
+cvCollectibles.sol,Address,sendValue,Address,No chain
+cvCollectibles.sol,Address,sendValue,Address,No chain
+cvCollectibles.sol,Address,functionCallWithValue,Address,No chain
+cvCollectibles.sol,Address,functionCallWithValue,Address,No chain
+cvCollectibles.sol,ERC1155,balanceOfBatch,ERC1155,No chain
+cvCollectibles.sol,ERC1155,setApprovalForAll,IERC1155,ApprovalForAll
+cvCollectibles.sol,ERC1155,safeTransferFrom,ERC1155,No chain
+cvCollectibles.sol,ERC1155,safeTransferFrom,IERC1155,TransferSingle
+cvCollectibles.sol,ERC1155,safeBatchTransferFrom,ERC1155,No chain
+cvCollectibles.sol,ERC1155,safeBatchTransferFrom,ERC1155,No chain
+cvCollectibles.sol,ERC1155,safeBatchTransferFrom,IERC1155,TransferBatch
+cvCollectibles.sol,ERC1155,_mint,IERC1155,TransferSingle
+cvCollectibles.sol,ERC1155,_mintBatch,ERC1155,No chain
+cvCollectibles.sol,ERC1155,_mintBatch,IERC1155,TransferBatch
+cvCollectibles.sol,ERC1155,_burn,ERC1155,No chain
+cvCollectibles.sol,ERC1155,_burn,IERC1155,TransferSingle
+cvCollectibles.sol,ERC1155,_burnBatch,ERC1155,No chain
+cvCollectibles.sol,ERC1155,_burnBatch,ERC1155,No chain
+cvCollectibles.sol,ERC1155,_burnBatch,IERC1155,TransferBatch
+cvCollectibles.sol,ERC1155,_doSafeTransferAcceptanceCheck,IERC1155,No chain
+cvCollectibles.sol,ERC1155,_doSafeTransferAcceptanceCheck,IERC1155,No chain
+cvCollectibles.sol,ERC1155,_doSafeTransferAcceptanceCheck,IERC1155,No chain
+cvCollectibles.sol,ERC1155,_doSafeTransferAcceptanceCheck,IERC1155,No chain
+cvCollectibles.sol,ERC1155,_doSafeTransferAcceptanceCheck,IERC1155,->onERC1155Received->selector
+cvCollectibles.sol,ERC1155,_doSafeTransferAcceptanceCheck,IERC1155,No chain
+cvCollectibles.sol,ERC1155,_doSafeBatchTransferAcceptanceCheck,IERC1155,No chain
+cvCollectibles.sol,ERC1155,_doSafeBatchTransferAcceptanceCheck,IERC1155,No chain
+cvCollectibles.sol,ERC1155,_doSafeBatchTransferAcceptanceCheck,IERC1155,No chain
+cvCollectibles.sol,ERC1155,_doSafeBatchTransferAcceptanceCheck,IERC1155,No chain
+cvCollectibles.sol,ERC1155,_doSafeBatchTransferAcceptanceCheck,IERC1155,->onERC1155BatchReceived->selector
+cvCollectibles.sol,ERC1155,_doSafeBatchTransferAcceptanceCheck,IERC1155,No chain
+cvCollectibles.sol,Ownable,constructor,Ownable,OwnershipTransferred
+cvCollectibles.sol,Ownable,renounceOwnership,Ownable,onlyOwner
+cvCollectibles.sol,Ownable,renounceOwnership,Ownable,OwnershipTransferred
+cvCollectibles.sol,Ownable,transferOwnership,Ownable,onlyOwner
+cvCollectibles.sol,Ownable,transferOwnership,Ownable,OwnershipTransferred
+cvCollectibles.sol,EIP712Base,_initializeEIP712,Initializable,initializer
+cvCollectibles.sol,EIP712Base,_setDomainSeperator,EIP712Base,No chain
+cvCollectibles.sol,EIP712Base,_setDomainSeperator,EIP712Base,No chain
+cvCollectibles.sol,NativeMetaTransaction,executeMetaTransaction,Address,No chain
+cvCollectibles.sol,NativeMetaTransaction,executeMetaTransaction,Address,->add(1)
+cvCollectibles.sol,NativeMetaTransaction,executeMetaTransaction,Address,"->sender),functionSignature)"
+cvCollectibles.sol,NativeMetaTransaction,executeMetaTransaction,NativeMetaTransaction,No chain
+cvCollectibles.sol,NativeMetaTransaction,executeMetaTransaction,NativeMetaTransaction,No chain
+cvCollectibles.sol,NativeMetaTransaction,executeMetaTransaction,Address,"->call(abi->encodePacked(functionSignature,userAddress))"
+cvCollectibles.sol,NativeMetaTransaction,executeMetaTransaction,NativeMetaTransaction,MetaTransactionExecuted
+cvCollectibles.sol,NativeMetaTransaction,executeMetaTransaction,Address,"->call(abi->encodePacked(functionSignature,userAddress));"
+cvCollectibles.sol,cvCollectibles,constructor,ERC1155,No Chain
+cvCollectibles.sol,cvCollectibles,setURI,Ownable,onlyOwner
+cvCollectibles.sol,cvCollectibles,mint,Ownable,onlyOwner
+cvCollectibles.sol,cvCollectibles,_msgSender,Context,->msgSender()
+cvCollectibles.sol,cvCollectibles,isApprovedForAll,ERC1155,"->isApprovedForAll(_owner,_operator)"
+Name.sol,Name,constructor,Name,No Chain
+distributorV1.sol,ERC165Upgradeable,__ERC165_init,Initializable,initializer
+distributorV1.sol,ERC165Upgradeable,__ERC165_init_unchained,Initializable,initializer
+distributorV1.sol,ERC165Upgradeable,supportsInterface,IERC165Upgradeable,->interfaceId
+distributorV1.sol,ERC1155ReceiverUpgradeable,__ERC1155Receiver_init,Initializable,initializer
+distributorV1.sol,ERC1155ReceiverUpgradeable,__ERC1155Receiver_init_unchained,Initializable,initializer
+distributorV1.sol,ERC1155ReceiverUpgradeable,supportsInterface,IERC1155ReceiverUpgradeable,->interfaceId||super->supportsInterface(interfaceId)
+distributorV1.sol,ERC1155HolderUpgradeable,__ERC1155Holder_init,Initializable,initializer
+distributorV1.sol,ERC1155HolderUpgradeable,__ERC1155Holder_init_unchained,Initializable,initializer
+distributorV1.sol,ERC1155HolderUpgradeable,onERC1155Received,ERC1155HolderUpgradeable,No chain
+distributorV1.sol,ERC1155HolderUpgradeable,onERC1155Received,ERC1155HolderUpgradeable,No chain
+distributorV1.sol,ERC1155HolderUpgradeable,onERC1155Received,ERC1155HolderUpgradeable,No chain
+distributorV1.sol,ERC1155HolderUpgradeable,onERC1155BatchReceived,ERC1155HolderUpgradeable,No chain
+distributorV1.sol,ERC1155HolderUpgradeable,onERC1155BatchReceived,ERC1155HolderUpgradeable,No chain
+distributorV1.sol,ERC1155HolderUpgradeable,onERC1155BatchReceived,ERC1155HolderUpgradeable,No chain
+distributorV1.sol,ContextUpgradeable,__Context_init,Initializable,initializer
+distributorV1.sol,ContextUpgradeable,__Context_init_unchained,Initializable,initializer
+distributorV1.sol,OwnableUpgradeable,__Ownable_init,Initializable,initializer
+distributorV1.sol,OwnableUpgradeable,__Ownable_init_unchained,Initializable,initializer
+distributorV1.sol,OwnableUpgradeable,renounceOwnership,OwnableUpgradeable,onlyOwner
+distributorV1.sol,OwnableUpgradeable,transferOwnership,OwnableUpgradeable,onlyOwner
+distributorV1.sol,OwnableUpgradeable,_setOwner,OwnableUpgradeable,OwnershipTransferred
+distributorV1.sol,PausableUpgradeable,__Pausable_init,Initializable,initializer
+distributorV1.sol,PausableUpgradeable,__Pausable_init_unchained,Initializable,initializer
+distributorV1.sol,PausableUpgradeable,_pause,PausableUpgradeable,whenNotPaused
+distributorV1.sol,PausableUpgradeable,_pause,PausableUpgradeable,Paused
+distributorV1.sol,PausableUpgradeable,_unpause,PausableUpgradeable,whenPaused
+distributorV1.sol,PausableUpgradeable,_unpause,PausableUpgradeable,Unpaused
+distributorV1.sol,CollectibleDistributor,__Distributor_init,Initializable,initializer
+distributorV1.sol,CollectibleDistributor,addReceiver,OwnableUpgradeable,onlyOwner
+distributorV1.sol,CollectibleDistributor,removeReceiver,OwnableUpgradeable,onlyOwner
+distributorV1.sol,CollectibleDistributor,sendFreeWearable,CollectibleDistributor,No chain
+distributorV1.sol,CollectibleDistributor,sendFreeWearable,CollectibleDistributor,No chain
+distributorV1.sol,CollectibleDistributor,sendFreeWearable,CollectibleDistributor,No chain
+distributorV1.sol,CollectibleDistributor,sendFreeWearable,CollectibleDistributor,No chain
+distributorV1.sol,CollectibleDistributor,sendFreeWearable,PausableUpgradeable,whenNotPaused
+distributorV1.sol,CollectibleDistributor,sendFreeWearable,OwnableUpgradeable,onlyOwner
+proxy.sol,Address,sendValue,Address,No chain
+proxy.sol,Address,sendValue,Address,No chain
+proxy.sol,Address,functionCallWithValue,Address,No chain
+proxy.sol,Address,functionCallWithValue,Address,No chain
+proxy.sol,ERC1967Upgrade,_getImplementation,StorageSlot,->getAddressSlot(_IMPLEMENTATION_SLOT)->value
+proxy.sol,ERC1967Upgrade,_getImplementation,StorageSlot,No chain
+proxy.sol,ERC1967Upgrade,_setImplementation,Address,No chain
+proxy.sol,ERC1967Upgrade,_setImplementation,StorageSlot,->getAddressSlot(_IMPLEMENTATION_SLOT)->value=newImplementation
+proxy.sol,ERC1967Upgrade,_setImplementation,StorageSlot,No chain
+proxy.sol,ERC1967Upgrade,_upgradeTo,ERC1967Upgrade,Upgraded
+proxy.sol,ERC1967Upgrade,_upgradeToAndCall,Address,"->functionDelegateCall(newImplementation,data)"
+proxy.sol,ERC1967Upgrade,_upgradeToAndCallSecure,StorageSlot,->BooleanSlotstoragerollbackTesting=StorageSlot->getBooleanSlot(_ROLLBACK_SLOT)
+proxy.sol,ERC1967Upgrade,_upgradeToAndCallSecure,StorageSlot,No chain
+proxy.sol,ERC1967Upgrade,_upgradeToAndCallSecure,Address,"->functionDelegateCall(newImplementation,abi->encodeWithSignature(""upgradeTo(address)"",oldImplementation))"
+proxy.sol,ERC1967Upgrade,_upgradeToAndCallSecure,Address,"->functionDelegateCall(newImplementation,data)"
+proxy.sol,ERC1967Upgrade,_upgradeToAndCallSecure,StorageSlot,->getBooleanSlot(_ROLLBACK_SLOT);
+proxy.sol,ERC1967Upgrade,_upgradeToAndCallSecure,Address,"->functionDelegateCall(newImplementation,abi->encodeWithSignature(""upgradeTo(address)"",oldImplementation))"
+proxy.sol,ERC1967Upgrade,_getAdmin,StorageSlot,->getAddressSlot(_ADMIN_SLOT)->value
+proxy.sol,ERC1967Upgrade,_getAdmin,StorageSlot,No chain
+proxy.sol,ERC1967Upgrade,_setAdmin,StorageSlot,->getAddressSlot(_ADMIN_SLOT)->value=newAdmin
+proxy.sol,ERC1967Upgrade,_setAdmin,StorageSlot,No chain
+proxy.sol,ERC1967Upgrade,_changeAdmin,ERC1967Upgrade,AdminChanged
+proxy.sol,ERC1967Upgrade,_getBeacon,StorageSlot,->getAddressSlot(_BEACON_SLOT)->value
+proxy.sol,ERC1967Upgrade,_getBeacon,StorageSlot,No chain
+proxy.sol,ERC1967Upgrade,_setBeacon,Address,No chain
+proxy.sol,ERC1967Upgrade,_setBeacon,Address,No chain
+proxy.sol,ERC1967Upgrade,_setBeacon,Address,No chain
+proxy.sol,ERC1967Upgrade,_setBeacon,StorageSlot,->getAddressSlot(_BEACON_SLOT)->value=newBeacon
+proxy.sol,ERC1967Upgrade,_setBeacon,StorageSlot,No chain
+proxy.sol,ERC1967Upgrade,_upgradeBeaconToAndCall,ERC1967Upgrade,BeaconUpgraded
+proxy.sol,ERC1967Upgrade,_upgradeBeaconToAndCall,Address,"->functionDelegateCall(IBeacon(newBeacon)->implementation(),data)"
+proxy.sol,ERC1967Upgrade,_upgradeBeaconToAndCall,Address,No chain
+proxy.sol,ERC1967Proxy,_implementation,ERC1967Upgrade,->_getImplementation()
+proxy.sol,TransparentUpgradeableProxy,constructor,ERC1967Proxy,No Chain
+proxy.sol,TransparentUpgradeableProxy,admin,TransparentUpgradeableProxy,ifAdmin
+proxy.sol,TransparentUpgradeableProxy,implementation,TransparentUpgradeableProxy,ifAdmin
+proxy.sol,TransparentUpgradeableProxy,changeAdmin,TransparentUpgradeableProxy,ifAdmin
+proxy.sol,TransparentUpgradeableProxy,upgradeTo,TransparentUpgradeableProxy,ifAdmin
+proxy.sol,TransparentUpgradeableProxy,upgradeToAndCall,TransparentUpgradeableProxy,ifAdmin
+proxy.sol,TransparentUpgradeableProxy,_beforeFallback,Proxy,No chain
+proxy.sol,distributorProxy,constructor,TransparentUpgradeableProxy,No Chain

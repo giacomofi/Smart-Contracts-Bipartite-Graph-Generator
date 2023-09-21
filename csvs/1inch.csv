@@ -1,0 +1,13 @@
+File,Source_Contract,Source_Function,Target_Contract,Chain
+OneInchExchange.sol,OneInchExchange,discountedSwap,OneInchExchange,No chain
+OneInchExchange.sol,OneInchExchange,discountedSwap,OneInchExchange,No chain
+OneInchExchange.sol,OneInchExchange,discountedSwap,OneInchExchange,No chain
+OneInchExchange.sol,OneInchExchange,discountedSwap,OneInchExchange,No chain
+OneInchExchange.sol,OneInchExchange,discountedSwap,OneInchExchange,No chain
+OneInchExchange.sol,OneInchExchange,discountedSwap,OneInchExchange,Error
+OneInchExchange.sol,OneInchExchange,swap,OneInchExchange,whenNotPaused
+OneInchExchange.sol,OneInchExchange,_emitSwapped,OneInchExchange,Swapped
+OneInchExchange.sol,OneInchExchange,rescueFunds,OneInchExchange,onlyOwner
+OneInchExchange.sol,OneInchExchange,pause,OneInchExchange,onlyOwner
+UniERC20.sol,UniERC20,uniApprove,UniERC20,No chain
+UniERC20.sol,UniERC20,uniApprove,UniERC20,No chain

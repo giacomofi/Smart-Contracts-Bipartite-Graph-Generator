@@ -1,0 +1,274 @@
+File,Source_Contract,Source_Function,Target_Contract,Chain
+V3Migrator.sol,V3Migrator,constructor,V3Migrator,No Chain
+V3Migrator.sol,V3Migrator,migrate,V3Migrator,No chain
+V3Migrator.sol,V3Migrator,migrate,V3Migrator,No chain
+V3Migrator.sol,V3Migrator,migrate,V3Migrator,No chain
+SwapRouter.sol,SwapRouter,constructor,SwapRouter,No Chain
+SwapRouter.sol,SwapRouter,exactInputSingle,SwapRouter,checkDeadline
+SwapRouter.sol,SwapRouter,exactInput,SwapRouter,No chain
+SwapRouter.sol,SwapRouter,exactInput,SwapRouter,No chain
+SwapRouter.sol,SwapRouter,exactInput,SwapRouter,No chain
+SwapRouter.sol,SwapRouter,exactInput,SwapRouter,No chain
+SwapRouter.sol,SwapRouter,exactInput,SwapRouter,No chain
+SwapRouter.sol,SwapRouter,exactInput,SwapRouter,No chain
+SwapRouter.sol,SwapRouter,exactInput,SwapRouter,checkDeadline
+SwapRouter.sol,SwapRouter,exactOutputSingle,SwapRouter,checkDeadline
+SwapRouter.sol,SwapRouter,exactOutput,SwapRouter,checkDeadline
+NonfungiblePositionManager.sol,NonfungiblePositionManager,constructor,NonfungiblePositionManager,No Chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,mint,NonfungiblePositionManager,No chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,mint,NonfungiblePositionManager,No chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,mint,NonfungiblePositionManager,No chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,mint,NonfungiblePositionManager,No chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,mint,NonfungiblePositionManager,No chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,mint,NonfungiblePositionManager,No chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,mint,NonfungiblePositionManager,No chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,mint,NonfungiblePositionManager,No chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,mint,NonfungiblePositionManager,No chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,mint,NonfungiblePositionManager,No chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,mint,NonfungiblePositionManager,No chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,mint,NonfungiblePositionManager,No chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,mint,NonfungiblePositionManager,No chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,mint,NonfungiblePositionManager,No chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,mint,NonfungiblePositionManager,checkDeadline
+NonfungiblePositionManager.sol,NonfungiblePositionManager,mint,None,IncreaseLiquidity
+NonfungiblePositionManager.sol,NonfungiblePositionManager,tokenURI,NonfungiblePositionManager,No chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,tokenURI,NonfungiblePositionManager,No chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,increaseLiquidity,NonfungiblePositionManager,No chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,increaseLiquidity,NonfungiblePositionManager,No chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,increaseLiquidity,NonfungiblePositionManager,No chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,increaseLiquidity,NonfungiblePositionManager,No chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,increaseLiquidity,NonfungiblePositionManager,No chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,increaseLiquidity,NonfungiblePositionManager,No chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,increaseLiquidity,NonfungiblePositionManager,No chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,increaseLiquidity,NonfungiblePositionManager,No chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,increaseLiquidity,NonfungiblePositionManager,No chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,increaseLiquidity,NonfungiblePositionManager,No chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,increaseLiquidity,NonfungiblePositionManager,No chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,increaseLiquidity,NonfungiblePositionManager,No chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,increaseLiquidity,NonfungiblePositionManager,No chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,increaseLiquidity,NonfungiblePositionManager,No chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,increaseLiquidity,NonfungiblePositionManager,checkDeadline
+NonfungiblePositionManager.sol,NonfungiblePositionManager,increaseLiquidity,None,IncreaseLiquidity
+NonfungiblePositionManager.sol,NonfungiblePositionManager,decreaseLiquidity,NonfungiblePositionManager,No chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,decreaseLiquidity,NonfungiblePositionManager,No chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,decreaseLiquidity,NonfungiblePositionManager,No chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,decreaseLiquidity,NonfungiblePositionManager,No chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,decreaseLiquidity,NonfungiblePositionManager,isAuthorizedForToken
+NonfungiblePositionManager.sol,NonfungiblePositionManager,decreaseLiquidity,NonfungiblePositionManager,checkDeadline
+NonfungiblePositionManager.sol,NonfungiblePositionManager,decreaseLiquidity,None,DecreaseLiquidity
+NonfungiblePositionManager.sol,NonfungiblePositionManager,collect,NonfungiblePositionManager,No chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,collect,NonfungiblePositionManager,No chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,collect,NonfungiblePositionManager,No chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,collect,NonfungiblePositionManager,No chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,collect,NonfungiblePositionManager,No chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,collect,NonfungiblePositionManager,No chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,collect,NonfungiblePositionManager,No chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,collect,NonfungiblePositionManager,No chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,collect,NonfungiblePositionManager,isAuthorizedForToken
+NonfungiblePositionManager.sol,NonfungiblePositionManager,collect,NonfungiblePositionManager,No chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,collect,NonfungiblePositionManager,No chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,collect,NonfungiblePositionManager,No chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,collect,NonfungiblePositionManager,No chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,collect,NonfungiblePositionManager,No chain
+NonfungiblePositionManager.sol,NonfungiblePositionManager,collect,None,Collect
+NonfungiblePositionManager.sol,NonfungiblePositionManager,burn,NonfungiblePositionManager,isAuthorizedForToken
+NonfungiblePositionManager.sol,NonfungiblePositionManager,_approve,None,Approval
+TestERC20Metadata.sol,TestERC20Metadata,constructor,TestERC20Metadata,No Chain
+MockTimeSwapRouter.sol,MockTimeSwapRouter,constructor,MockTimeSwapRouter,No Chain
+TestERC20PermitAllowed.sol,TestERC20PermitAllowed,constructor,TestERC20PermitAllowed,No Chain
+TestERC20PermitAllowed.sol,TestERC20PermitAllowed,permit,TestERC20PermitAllowed,No chain
+TestERC20PermitAllowed.sol,TestERC20PermitAllowed,permit,TestERC20PermitAllowed,No chain
+MockTimeNonfungiblePositionManager.sol,MockTimeNonfungiblePositionManager,constructor,MockTimeNonfungiblePositionManager,No Chain
+TestERC20.sol,TestERC20,constructor,TestERC20,No Chain
+PeripheryImmutableStateTest.sol,PeripheryImmutableStateTest,constructor,PeripheryImmutableStateTest,No Chain
+NFTDescriptor.sol,NFTDescriptor,generateDescriptionPartOne,NFTDescriptor,No chain
+NFTDescriptor.sol,NFTDescriptor,generateDescriptionPartOne,NFTDescriptor,No chain
+NFTDescriptor.sol,NFTDescriptor,generateDescriptionPartOne,NFTDescriptor,No chain
+NFTDescriptor.sol,NFTDescriptor,generateDescriptionPartOne,NFTDescriptor,No chain
+NFTDescriptor.sol,NFTDescriptor,generateDescriptionPartTwo,NFTDescriptor,No chain
+NFTDescriptor.sol,NFTDescriptor,generateDescriptionPartTwo,NFTDescriptor,No chain
+NFTDescriptor.sol,NFTDescriptor,generateDescriptionPartTwo,NFTDescriptor,No chain
+NFTDescriptor.sol,NFTDescriptor,generateDescriptionPartTwo,NFTDescriptor,No chain
+QuoterV2.sol,QuoterV2,constructor,QuoterV2,No Chain
+QuoterV2.sol,QuoterV2,quoteExactInputSingle,QuoterV2,No chain
+QuoterV2.sol,QuoterV2,quoteExactInputSingle,QuoterV2,No chain
+QuoterV2.sol,QuoterV2,quoteExactInputSingle,QuoterV2,No chain
+QuoterV2.sol,QuoterV2,quoteExactInputSingle,QuoterV2,No chain
+QuoterV2.sol,QuoterV2,quoteExactInputSingle,QuoterV2,No chain
+QuoterV2.sol,QuoterV2,quoteExactInputSingle,QuoterV2,No chain
+QuoterV2.sol,QuoterV2,quoteExactInputSingle,QuoterV2,No chain
+QuoterV2.sol,QuoterV2,quoteExactInputSingle,QuoterV2,No chain
+QuoterV2.sol,QuoterV2,quoteExactInputSingle,QuoterV2,No chain
+QuoterV2.sol,QuoterV2,quoteExactInputSingle,QuoterV2,No chain
+QuoterV2.sol,QuoterV2,quoteExactInputSingle,QuoterV2,No chain
+QuoterV2.sol,QuoterV2,quoteExactInputSingle,QuoterV2,No chain
+QuoterV2.sol,QuoterV2,quoteExactOutputSingle,QuoterV2,No chain
+QuoterV2.sol,QuoterV2,quoteExactOutputSingle,QuoterV2,No chain
+QuoterV2.sol,QuoterV2,quoteExactOutputSingle,QuoterV2,No chain
+QuoterV2.sol,QuoterV2,quoteExactOutputSingle,QuoterV2,No chain
+QuoterV2.sol,QuoterV2,quoteExactOutputSingle,QuoterV2,No chain
+QuoterV2.sol,QuoterV2,quoteExactOutputSingle,QuoterV2,No chain
+QuoterV2.sol,QuoterV2,quoteExactOutputSingle,QuoterV2,No chain
+QuoterV2.sol,QuoterV2,quoteExactOutputSingle,QuoterV2,No chain
+QuoterV2.sol,QuoterV2,quoteExactOutputSingle,QuoterV2,No chain
+QuoterV2.sol,QuoterV2,quoteExactOutputSingle,QuoterV2,No chain
+QuoterV2.sol,QuoterV2,quoteExactOutputSingle,QuoterV2,No chain
+QuoterV2.sol,QuoterV2,quoteExactOutputSingle,QuoterV2,No chain
+Quoter.sol,Quoter,constructor,Quoter,No Chain
+Quoter.sol,Quoter,quoteExactInputSingle,Quoter,No chain
+Quoter.sol,Quoter,quoteExactInputSingle,Quoter,No chain
+Quoter.sol,Quoter,quoteExactInputSingle,Quoter,No chain
+Quoter.sol,Quoter,quoteExactInputSingle,Quoter,No chain
+Quoter.sol,Quoter,quoteExactInputSingle,Quoter,No chain
+Quoter.sol,Quoter,quoteExactInputSingle,Quoter,No chain
+Quoter.sol,Quoter,quoteExactOutputSingle,Quoter,No chain
+Quoter.sol,Quoter,quoteExactOutputSingle,Quoter,No chain
+Quoter.sol,Quoter,quoteExactOutputSingle,Quoter,No chain
+Quoter.sol,Quoter,quoteExactOutputSingle,Quoter,No chain
+Quoter.sol,Quoter,quoteExactOutputSingle,Quoter,No chain
+Quoter.sol,Quoter,quoteExactOutputSingle,Quoter,No chain
+PairFlash.sol,PairFlash,constructor,PairFlash,No Chain
+PairFlash.sol,PairFlash,uniswapV3FlashCallback,PairFlash,No chain
+PairFlash.sol,PairFlash,uniswapV3FlashCallback,PairFlash,No chain
+PairFlash.sol,PairFlash,uniswapV3FlashCallback,PairFlash,No chain
+PairFlash.sol,PairFlash,uniswapV3FlashCallback,PairFlash,No chain
+PairFlash.sol,PairFlash,uniswapV3FlashCallback,PairFlash,No chain
+PairFlash.sol,PairFlash,uniswapV3FlashCallback,PairFlash,No chain
+PairFlash.sol,PairFlash,uniswapV3FlashCallback,PairFlash,No chain
+PairFlash.sol,PairFlash,uniswapV3FlashCallback,PairFlash,No chain
+PairFlash.sol,PairFlash,uniswapV3FlashCallback,PairFlash,No chain
+PairFlash.sol,PairFlash,uniswapV3FlashCallback,PairFlash,No chain
+PairFlash.sol,PairFlash,uniswapV3FlashCallback,PairFlash,No chain
+PairFlash.sol,PairFlash,uniswapV3FlashCallback,PairFlash,No chain
+PairFlash.sol,PairFlash,uniswapV3FlashCallback,PairFlash,No chain
+PairFlash.sol,PairFlash,uniswapV3FlashCallback,PairFlash,No chain
+PairFlash.sol,PairFlash,uniswapV3FlashCallback,PairFlash,No chain
+PairFlash.sol,PairFlash,uniswapV3FlashCallback,PairFlash,No chain
+PairFlash.sol,PairFlash,uniswapV3FlashCallback,PairFlash,No chain
+PairFlash.sol,PairFlash,uniswapV3FlashCallback,PairFlash,No chain
+PairFlash.sol,PairFlash,uniswapV3FlashCallback,PairFlash,No chain
+PairFlash.sol,PairFlash,uniswapV3FlashCallback,PairFlash,No chain
+PairFlash.sol,PairFlash,uniswapV3FlashCallback,PairFlash,No chain
+PairFlash.sol,PairFlash,uniswapV3FlashCallback,PairFlash,No chain
+PairFlash.sol,PairFlash,uniswapV3FlashCallback,PairFlash,No chain
+PairFlash.sol,PairFlash,uniswapV3FlashCallback,PairFlash,No chain
+PairFlash.sol,PairFlash,uniswapV3FlashCallback,PairFlash,No chain
+PairFlash.sol,PairFlash,uniswapV3FlashCallback,PairFlash,No chain
+PairFlash.sol,PairFlash,initFlash,PairFlash,No chain
+PairFlash.sol,PairFlash,initFlash,PairFlash,No chain
+PairFlash.sol,PairFlash,initFlash,PairFlash,No chain
+PairFlash.sol,PairFlash,initFlash,PairFlash,No chain
+PairFlash.sol,PairFlash,initFlash,PairFlash,No chain
+PairFlash.sol,PairFlash,initFlash,PairFlash,No chain
+PairFlash.sol,PairFlash,initFlash,PairFlash,No chain
+PairFlash.sol,PairFlash,initFlash,PairFlash,No chain
+PairFlash.sol,PairFlash,initFlash,PairFlash,No chain
+PairFlash.sol,PairFlash,initFlash,PairFlash,No chain
+SelfPermit.sol,SelfPermit,selfPermit,SelfPermit,No chain
+SelfPermit.sol,SelfPermit,selfPermit,SelfPermit,No chain
+SelfPermit.sol,SelfPermit,selfPermit,SelfPermit,No chain
+SelfPermit.sol,SelfPermit,selfPermitIfNecessary,SelfPermit,No chain
+SelfPermit.sol,SelfPermit,selfPermitIfNecessary,SelfPermit,No chain
+SelfPermit.sol,SelfPermit,selfPermitIfNecessary,SelfPermit,No chain
+SelfPermit.sol,SelfPermit,selfPermitAllowed,SelfPermit,No chain
+SelfPermit.sol,SelfPermit,selfPermitAllowed,SelfPermit,No chain
+SelfPermit.sol,SelfPermit,selfPermitAllowed,SelfPermit,No chain
+SelfPermit.sol,SelfPermit,selfPermitAllowedIfNecessary,SelfPermit,No chain
+SelfPermit.sol,SelfPermit,selfPermitAllowedIfNecessary,SelfPermit,No chain
+SelfPermit.sol,SelfPermit,selfPermitAllowedIfNecessary,SelfPermit,No chain
+PeripheryPaymentsWithFee.sol,PeripheryPaymentsWithFee,unwrapWETH9WithFee,PeripheryPaymentsWithFee,No chain
+PeripheryPaymentsWithFee.sol,PeripheryPaymentsWithFee,unwrapWETH9WithFee,PeripheryPaymentsWithFee,No chain
+PeripheryPaymentsWithFee.sol,PeripheryPaymentsWithFee,sweepTokenWithFee,PeripheryPaymentsWithFee,No chain
+PeripheryPaymentsWithFee.sol,PeripheryPaymentsWithFee,sweepTokenWithFee,PeripheryPaymentsWithFee,No chain
+PeripheryPayments.sol,PeripheryPayments,unwrapWETH9,PeripheryPayments,No chain
+PeripheryPayments.sol,PeripheryPayments,unwrapWETH9,PeripheryPayments,No chain
+PeripheryPayments.sol,PeripheryPayments,sweepToken,PeripheryPayments,No chain
+PeripheryPayments.sol,PeripheryPayments,sweepToken,PeripheryPayments,No chain
+PeripheryPayments.sol,PeripheryPayments,refundETH,PeripheryPayments,No chain
+PeripheryPayments.sol,PeripheryPayments,refundETH,PeripheryPayments,No chain
+PeripheryPayments.sol,PeripheryPayments,refundETH,PeripheryPayments,No chain
+PeripheryPayments.sol,PeripheryPayments,refundETH,PeripheryPayments,No chain
+PeripheryPayments.sol,PeripheryPayments,refundETH,PeripheryPayments,No chain
+PeripheryPayments.sol,PeripheryPayments,refundETH,PeripheryPayments,No chain
+PeripheryPayments.sol,PeripheryPayments,pay,PeripheryPayments,No chain
+PeripheryPayments.sol,PeripheryPayments,pay,PeripheryPayments,No chain
+PeripheryPayments.sol,PeripheryPayments,pay,PeripheryPayments,No chain
+PeripheryPayments.sol,PeripheryPayments,pay,PeripheryPayments,No chain
+ERC721Permit.sol,ERC721Permit,constructor,ERC721Permit,No Chain
+ERC721Permit.sol,ERC721Permit,DOMAIN_SEPARATOR,ERC721Permit,No chain
+ERC721Permit.sol,ERC721Permit,DOMAIN_SEPARATOR,ERC721Permit,No chain
+ERC721Permit.sol,ERC721Permit,DOMAIN_SEPARATOR,ERC721Permit,No chain
+Multicall.sol,Multicall,multicall,Multicall,No chain
+Multicall.sol,Multicall,multicall,Multicall,No chain
+Setup.sol,UniswapMinter,doMint,UniswapMinter,No chain
+Setup.sol,UniswapMinter,doMint,UniswapMinter,No chain
+Setup.sol,UniswapSwapper,getStats,UniswapSwapper,No chain
+Setup.sol,UniswapSwapper,getStats,UniswapSwapper,No chain
+Setup.sol,UniswapSwapper,getStats,UniswapSwapper,No chain
+Setup.sol,UniswapSwapper,getStats,UniswapSwapper,No chain
+Setup.sol,UniswapSwapper,getStats,UniswapSwapper,No chain
+Setup.sol,UniswapSwapper,getStats,UniswapSwapper,No chain
+Setup.sol,UniswapSwapper,doSwap,UniswapSwapper,No chain
+Setup.sol,UniswapSwapper,doSwap,UniswapSwapper,No chain
+UniswapV3Factory.sol,UniswapV3Factory,constructor,None,OwnerChanged
+UniswapV3Factory.sol,UniswapV3Factory,constructor,None,FeeAmountEnabled
+UniswapV3Factory.sol,UniswapV3Factory,createPool,UniswapV3Factory,noDelegateCall
+UniswapV3Factory.sol,UniswapV3Factory,createPool,None,PoolCreated
+UniswapV3Factory.sol,UniswapV3Factory,setOwner,None,OwnerChanged
+UniswapV3Factory.sol,UniswapV3Factory,enableFeeAmount,None,FeeAmountEnabled
+UniswapV3Pool.sol,UniswapV3Pool,constructor,UniswapV3Pool,->sender)->parameters()
+UniswapV3Pool.sol,UniswapV3Pool,balance0,UniswapV3Pool,No chain
+UniswapV3Pool.sol,UniswapV3Pool,balance0,UniswapV3Pool,No chain
+UniswapV3Pool.sol,UniswapV3Pool,balance0,UniswapV3Pool,No chain
+UniswapV3Pool.sol,UniswapV3Pool,balance0,UniswapV3Pool,No chain
+UniswapV3Pool.sol,UniswapV3Pool,balance0,UniswapV3Pool,No chain
+UniswapV3Pool.sol,UniswapV3Pool,balance1,UniswapV3Pool,No chain
+UniswapV3Pool.sol,UniswapV3Pool,balance1,UniswapV3Pool,No chain
+UniswapV3Pool.sol,UniswapV3Pool,balance1,UniswapV3Pool,No chain
+UniswapV3Pool.sol,UniswapV3Pool,balance1,UniswapV3Pool,No chain
+UniswapV3Pool.sol,UniswapV3Pool,balance1,UniswapV3Pool,No chain
+UniswapV3Pool.sol,UniswapV3Pool,snapshotCumulativesInside,UniswapV3Pool,noDelegateCall
+UniswapV3Pool.sol,UniswapV3Pool,observe,UniswapV3Pool,noDelegateCall
+UniswapV3Pool.sol,UniswapV3Pool,increaseObservationCardinalityNext,UniswapV3Pool,lock
+UniswapV3Pool.sol,UniswapV3Pool,increaseObservationCardinalityNext,UniswapV3Pool,noDelegateCall
+UniswapV3Pool.sol,UniswapV3Pool,increaseObservationCardinalityNext,None,IncreaseObservationCardinalityNext
+UniswapV3Pool.sol,UniswapV3Pool,initialize,None,Initialize
+UniswapV3Pool.sol,UniswapV3Pool,_modifyPosition,UniswapV3Pool,noDelegateCall
+UniswapV3Pool.sol,UniswapV3Pool,mint,UniswapV3Pool,lock
+UniswapV3Pool.sol,UniswapV3Pool,mint,None,Mint
+UniswapV3Pool.sol,UniswapV3Pool,collect,UniswapV3Pool,lock
+UniswapV3Pool.sol,UniswapV3Pool,collect,None,Collect
+UniswapV3Pool.sol,UniswapV3Pool,burn,UniswapV3Pool,lock
+UniswapV3Pool.sol,UniswapV3Pool,burn,None,Burn
+UniswapV3Pool.sol,UniswapV3Pool,swap,UniswapV3Pool,noDelegateCall
+UniswapV3Pool.sol,UniswapV3Pool,swap,None,Swap
+UniswapV3Pool.sol,UniswapV3Pool,flash,UniswapV3Pool,lock
+UniswapV3Pool.sol,UniswapV3Pool,flash,UniswapV3Pool,noDelegateCall
+UniswapV3Pool.sol,UniswapV3Pool,flash,None,Flash
+UniswapV3Pool.sol,UniswapV3Pool,setFeeProtocol,UniswapV3Pool,lock
+UniswapV3Pool.sol,UniswapV3Pool,setFeeProtocol,UniswapV3Pool,onlyFactoryOwner
+UniswapV3Pool.sol,UniswapV3Pool,setFeeProtocol,None,SetFeeProtocol
+UniswapV3Pool.sol,UniswapV3Pool,collectProtocol,UniswapV3Pool,lock
+UniswapV3Pool.sol,UniswapV3Pool,collectProtocol,UniswapV3Pool,onlyFactoryOwner
+UniswapV3Pool.sol,UniswapV3Pool,collectProtocol,None,CollectProtocol
+NoDelegateCallTest.sol,NoDelegateCallTest,cannotBeDelegateCalled,NoDelegateCallTest,noDelegateCall
+NoDelegateCallTest.sol,NoDelegateCallTest,noDelegateCallPrivate,NoDelegateCallTest,noDelegateCall
+TestUniswapV3Callee.sol,TestUniswapV3Callee,uniswapV3SwapCallback,TestUniswapV3Callee,SwapCallback
+TestUniswapV3Callee.sol,TestUniswapV3Callee,uniswapV3MintCallback,TestUniswapV3Callee,MintCallback
+TestUniswapV3Callee.sol,TestUniswapV3Callee,uniswapV3FlashCallback,TestUniswapV3Callee,FlashCallback
+TestUniswapV3Router.sol,TestUniswapV3Router,uniswapV3SwapCallback,TestUniswapV3Router,SwapCallback
+MockTimeUniswapV3PoolDeployer.sol,MockTimeUniswapV3PoolDeployer,deploy,MockTimeUniswapV3PoolDeployer,PoolDeployed
+TestERC20.sol,TestERC20,transfer,None,Transfer
+TestERC20.sol,TestERC20,approve,None,Approval
+TestERC20.sol,TestERC20,transferFrom,None,Transfer
+Tick.sol,Tick,tickSpacingToMaxLiquidityPerTick,Tick,->MIN_TICK/tickSpacing)*tickSpacing
+Tick.sol,Tick,tickSpacingToMaxLiquidityPerTick,Tick,->MAX_TICK/tickSpacing)*tickSpacing
+Tick.sol,Tick,tickSpacingToMaxLiquidityPerTick,Tick,->max/numTicks
+Tick.sol,Tick,tickSpacingToMaxLiquidityPerTick,Tick,->MIN_TICK/tickSpacing)*tickSpacing;
+Tick.sol,Tick,tickSpacingToMaxLiquidityPerTick,Tick,->MAX_TICK/tickSpacing)*tickSpacing;
+Tick.sol,Tick,getFeeGrowthInside,Tick,No chain
+Tick.sol,Tick,update,Tick,No chain
+Tick.sol,Tick,update,Tick,->Infostorageinfo=self[tick]
+Tick.sol,Tick,clear,Tick,No chain
+Tick.sol,Tick,cross,Tick,No chain
+Tick.sol,Tick,cross,Tick,->Infostorageinfo=self[tick]

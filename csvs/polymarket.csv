@@ -1,0 +1,212 @@
+File,Source_Contract,Source_Function,Target_Contract,Chain
+CTFExchange.sol,CTFExchange,constructor,CTFExchange,No Chain
+CTFExchange.sol,CTFExchange,pauseTrading,CTFExchange,onlyAdmin
+CTFExchange.sol,CTFExchange,unpauseTrading,CTFExchange,onlyAdmin
+CTFExchange.sol,CTFExchange,fillOrder,CTFExchange,nonReentrant
+CTFExchange.sol,CTFExchange,fillOrder,CTFExchange,onlyOperator
+CTFExchange.sol,CTFExchange,fillOrder,CTFExchange,notPaused
+CTFExchange.sol,CTFExchange,fillOrders,CTFExchange,nonReentrant
+CTFExchange.sol,CTFExchange,fillOrders,CTFExchange,onlyOperator
+CTFExchange.sol,CTFExchange,fillOrders,CTFExchange,notPaused
+CTFExchange.sol,CTFExchange,matchOrders,CTFExchange,nonReentrant
+CTFExchange.sol,CTFExchange,matchOrders,CTFExchange,onlyOperator
+CTFExchange.sol,CTFExchange,matchOrders,CTFExchange,notPaused
+CTFExchange.sol,CTFExchange,setProxyFactory,CTFExchange,onlyAdmin
+CTFExchange.sol,CTFExchange,setSafeFactory,CTFExchange,onlyAdmin
+CTFExchange.sol,CTFExchange,registerToken,CTFExchange,onlyAdmin
+CTFExchange.t.sol,CTFExchangeTest,testAuth,None,NewAdmin
+CTFExchange.t.sol,CTFExchangeTest,testAuth,None,NewOperator
+CTFExchange.t.sol,CTFExchangeTest,testAuthRemoveAdmin,None,RemovedAdmin
+CTFExchange.t.sol,CTFExchangeTest,testAuthRemoveAdmin,None,RemovedOperator
+CTFExchange.t.sol,CTFExchangeTest,testPause,None,TradingPaused
+CTFExchange.t.sol,CTFExchangeTest,testPause,None,TradingUnpaused
+CTFExchange.t.sol,CTFExchangeTest,testPause,None,OrderFilled
+CTFExchange.t.sol,CTFExchangeTest,testRegisterToken,None,TokenRegistered
+CTFExchange.t.sol,CTFExchangeTest,testRegisterToken,None,TokenRegistered
+CTFExchange.t.sol,CTFExchangeTest,testFillOrder,None,OrderFilled
+CTFExchange.t.sol,CTFExchangeTest,testFillOrderWithFees,None,OrderFilled
+CTFExchange.t.sol,CTFExchangeTest,testFuzzFillOrderWithFees,None,OrderFilled
+CTFExchange.t.sol,CTFExchangeTest,testFillOrderNonTaker,None,OrderFilled
+CTFExchange.t.sol,CTFExchangeTest,testFillOrders,None,OrderFilled
+CTFExchange.t.sol,CTFExchangeTest,testFillOrders,None,OrderFilled
+CTFExchange.t.sol,CTFExchangeTest,testFillOrders,None,OrderFilled
+CTFExchange.t.sol,CTFExchangeTest,testFillOrderZeroTakerAmount,None,TransferSingle
+CTFExchange.t.sol,CTFExchangeTest,testFillOrderZeroTakerAmount,None,OrderFilled
+CTFExchange.t.sol,CTFExchangeTest,testCancelOrder,None,OrderCancelled
+CTFExchange.t.sol,CTFExchangeTest,testCancelOrders,None,OrderCancelled
+CTFExchange.t.sol,CTFExchangeTest,testCancelOrders,None,OrderCancelled
+MatchOrders.t.sol,MatchOrdersTest,testMatchTypeComplementary,None,OrderFilled
+MatchOrders.t.sol,MatchOrdersTest,testMatchTypeComplementary,None,OrderFilled
+MatchOrders.t.sol,MatchOrdersTest,testMatchTypeComplementary,None,OrderFilled
+MatchOrders.t.sol,MatchOrdersTest,testMatchTypeComplementary,None,OrdersMatched
+MatchOrders.t.sol,MatchOrdersTest,testMatchTypeComplementaryFuzz,None,FeeCharged
+MatchOrders.t.sol,MatchOrdersTest,testMatchTypeComplementaryFuzz,None,FeeCharged
+MatchOrders.t.sol,MatchOrdersTest,testMatchTypeMintFuzz,None,FeeCharged
+MatchOrders.t.sol,MatchOrdersTest,testMatchTypeMintFuzz,None,FeeCharged
+MatchOrders.t.sol,MatchOrdersTest,testMatchTypeMergeFuzz,None,FeeCharged
+MatchOrders.t.sol,MatchOrdersTest,testMatchTypeMergeFuzz,None,FeeCharged
+MatchOrders.t.sol,MatchOrdersTest,testTakerRefund,None,Transfer
+MatchOrders.t.sol,MatchOrdersTest,testWithFees,None,FeeCharged
+MatchOrders.t.sol,MatchOrdersTest,testWithFees,None,OrderFilled
+MatchOrders.t.sol,MatchOrdersTest,testWithFees,None,FeeCharged
+MatchOrders.t.sol,MatchOrdersTest,testWithFees,None,OrderFilled
+MatchOrders.t.sol,MatchOrdersTest,testWithFeesWithSurplus,None,OrderFilled
+MatchOrders.t.sol,MatchOrdersTest,testWithFeesWithSurplus,None,FeeCharged
+MatchOrders.t.sol,MatchOrdersTest,testWithFeesWithSurplus,None,OrderFilled
+MatchOrders.t.sol,MatchOrdersTest,testWithFeesWithSurplus,None,OrdersMatched
+MatchOrders.t.sol,MatchOrdersTest,testMintWithFees,None,FeeCharged
+MatchOrders.t.sol,MatchOrdersTest,testMintWithFees,None,OrderFilled
+MatchOrders.t.sol,MatchOrdersTest,testMintWithFees,None,FeeCharged
+MatchOrders.t.sol,MatchOrdersTest,testMintWithFees,None,OrderFilled
+MatchOrders.t.sol,MatchOrdersTest,testMergeWithFees,None,FeeCharged
+MatchOrders.t.sol,MatchOrdersTest,testMergeWithFees,None,OrderFilled
+MatchOrders.t.sol,MatchOrdersTest,testMergeWithFees,None,FeeCharged
+MatchOrders.t.sol,MatchOrdersTest,testMergeWithFees,None,OrderFilled
+MatchOrders.t.sol,MatchOrdersTest,testMatchNonTaker,None,OrdersMatched
+MatchOrders.t.sol,MatchOrdersTest,testMatchZeroTakerAmount,None,OrdersMatched
+PolyFactoryHelper.sol,PolyFactoryHelper,getPolyProxyFactoryImplementation,IPolyProxyFactory,->getImplementation()
+PolyFactoryHelper.sol,PolyFactoryHelper,getSafeFactoryImplementation,IPolySafeFactory,->masterCopy()
+PolyFactoryHelper.sol,PolyFactoryHelper,_setProxyFactory,PolyFactoryHelper,ProxyFactoryUpdated
+PolyFactoryHelper.sol,PolyFactoryHelper,_setSafeFactory,PolyFactoryHelper,SafeFactoryUpdated
+Auth.sol,Auth,addAdmin,Auth,onlyAdmin
+Auth.sol,Auth,addAdmin,None,NewAdmin
+Auth.sol,Auth,addOperator,Auth,onlyAdmin
+Auth.sol,Auth,addOperator,None,NewOperator
+Auth.sol,Auth,removeAdmin,Auth,onlyAdmin
+Auth.sol,Auth,removeAdmin,None,RemovedAdmin
+Auth.sol,Auth,removeOperator,Auth,onlyAdmin
+Auth.sol,Auth,removeOperator,None,RemovedOperator
+Auth.sol,Auth,renounceAdminRole,Auth,onlyAdmin
+Auth.sol,Auth,renounceAdminRole,None,RemovedAdmin
+Auth.sol,Auth,renounceOperatorRole,Auth,onlyOperator
+Auth.sol,Auth,renounceOperatorRole,None,RemovedOperator
+AssetOperations.sol,AssetOperations,_getBalance,AssetOperations,No chain
+AssetOperations.sol,AssetOperations,_getBalance,AssetOperations,No chain
+AssetOperations.sol,AssetOperations,_getBalance,AssetOperations,No chain
+AssetOperations.sol,AssetOperations,_getBalance,AssetOperations,No chain
+Hashing.sol,Hashing,constructor,Hashing,No Chain
+Pausable.sol,Pausable,_pauseTrading,None,TradingPaused
+Pausable.sol,Pausable,_unpauseTrading,None,TradingUnpaused
+Trading.sol,Trading,_cancelOrder,None,OrderCancelled
+Trading.sol,Trading,_fillOrder,None,OrderFilled
+Trading.sol,Trading,_matchOrders,Trading,No chain
+Trading.sol,Trading,_matchOrders,Trading,No chain
+Trading.sol,Trading,_matchOrders,Trading,No chain
+Trading.sol,Trading,_matchOrders,Trading,No chain
+Trading.sol,Trading,_matchOrders,Trading,No chain
+Trading.sol,Trading,_matchOrders,Trading,No chain
+Trading.sol,Trading,_matchOrders,Trading,No chain
+Trading.sol,Trading,_matchOrders,Trading,No chain
+Trading.sol,Trading,_matchOrders,Trading,No chain
+Trading.sol,Trading,_matchOrders,Trading,No chain
+Trading.sol,Trading,_matchOrders,None,OrderFilled
+Trading.sol,Trading,_matchOrders,None,OrdersMatched
+Trading.sol,Trading,_fillMakerOrder,None,OrderFilled
+Trading.sol,Trading,_fillFacingExchange,Trading,No chain
+Trading.sol,Trading,_fillFacingExchange,Trading,No chain
+Trading.sol,Trading,_chargeFee,None,FeeCharged
+Registry.sol,Registry,_registerToken,None,TokenRegistered
+Registry.sol,Registry,_registerToken,None,TokenRegistered
+Signatures.sol,Signatures,constructor,Signatures,No Chain
+ERC20.sol,ERC20,approve,ERC20,Approval
+ERC20.sol,ERC20,transfer,ERC20,Transfer
+ERC20.sol,ERC20,transferFrom,ERC20,Transfer
+ERC20.sol,ERC20,permit,ERC20,Approval
+ERC20.sol,ERC20,computeDomainSeparator,ERC20,No chain
+ERC20.sol,ERC20,computeDomainSeparator,ERC20,No chain
+ERC20.sol,ERC20,computeDomainSeparator,ERC20,No chain
+ERC20.sol,ERC20,_mint,ERC20,Transfer
+ERC20.sol,ERC20,_burn,ERC20,Transfer
+Owned.sol,Owned,constructor,None,OwnerUpdated
+Owned.sol,Owned,setOwner,Owned,onlyOwner
+Owned.sol,Owned,setOwner,None,OwnerUpdated
+Authorized.sol,Authorized,constructor,Authorized,No Chain
+Authorized.sol,Authorized,addAuthorization,Authorized,onlyOwner
+Authorized.sol,Authorized,addAuthorization,None,AuthorizationAdded
+Authorized.sol,Authorized,removeAuthorization,Authorized,onlyOwner
+Authorized.sol,Authorized,removeAuthorization,None,AuthorizationRemoved
+Ownable.sol,Ownable,transferOwnership,Ownable,onlyOwner
+ERC20.sol,ERC20,constructor,ERC20,No Chain
+USDC.sol,USDC,constructor,USDC,No Chain
+prepareTempFolder.s.sol,prepareTempFolder,run,prepareTempFolder,->_prepareTempFolder()
+ZeroTx.s.sol,ZeroTx,run,ZeroTx,No chain
+ZeroTx.s.sol,ZeroTx,run,ZeroTx,No chain
+ffi.sol,ffi,run,ffi,->ffi(inputs)
+ffi.sol,ffi,run,ffi,->ffi(inputs);
+UmaCtfAdapter.sol,UmaCtfAdapter,initialize,UmaCtfAdapter,No chain
+UmaCtfAdapter.sol,UmaCtfAdapter,initialize,UmaCtfAdapter,No chain
+UmaCtfAdapter.sol,UmaCtfAdapter,initialize,None,QuestionInitialized
+UmaCtfAdapter.sol,UmaCtfAdapter,getExpectedPayouts,UmaCtfAdapter,No chain
+UmaCtfAdapter.sol,UmaCtfAdapter,getExpectedPayouts,UmaCtfAdapter,No chain
+UmaCtfAdapter.sol,UmaCtfAdapter,getExpectedPayouts,UmaCtfAdapter,No chain
+UmaCtfAdapter.sol,UmaCtfAdapter,getExpectedPayouts,UmaCtfAdapter,No chain
+UmaCtfAdapter.sol,UmaCtfAdapter,getExpectedPayouts,UmaCtfAdapter,No chain
+UmaCtfAdapter.sol,UmaCtfAdapter,priceDisputed,UmaCtfAdapter,onlyOptimisticOracle
+UmaCtfAdapter.sol,UmaCtfAdapter,flag,UmaCtfAdapter,onlyAdmin
+UmaCtfAdapter.sol,UmaCtfAdapter,flag,None,QuestionFlagged
+UmaCtfAdapter.sol,UmaCtfAdapter,reset,UmaCtfAdapter,onlyAdmin
+UmaCtfAdapter.sol,UmaCtfAdapter,emergencyResolve,UmaCtfAdapter,onlyAdmin
+UmaCtfAdapter.sol,UmaCtfAdapter,emergencyResolve,None,QuestionEmergencyResolved
+UmaCtfAdapter.sol,UmaCtfAdapter,pause,UmaCtfAdapter,onlyAdmin
+UmaCtfAdapter.sol,UmaCtfAdapter,pause,None,QuestionPaused
+UmaCtfAdapter.sol,UmaCtfAdapter,unpause,UmaCtfAdapter,onlyAdmin
+UmaCtfAdapter.sol,UmaCtfAdapter,unpause,None,QuestionUnpaused
+UmaCtfAdapter.sol,UmaCtfAdapter,_requestPrice,UmaCtfAdapter,No chain
+UmaCtfAdapter.sol,UmaCtfAdapter,_requestPrice,UmaCtfAdapter,No chain
+UmaCtfAdapter.sol,UmaCtfAdapter,_requestPrice,UmaCtfAdapter,No chain
+UmaCtfAdapter.sol,UmaCtfAdapter,_requestPrice,UmaCtfAdapter,No chain
+UmaCtfAdapter.sol,UmaCtfAdapter,_requestPrice,UmaCtfAdapter,No chain
+UmaCtfAdapter.sol,UmaCtfAdapter,_requestPrice,UmaCtfAdapter,No chain
+UmaCtfAdapter.sol,UmaCtfAdapter,_requestPrice,UmaCtfAdapter,No chain
+UmaCtfAdapter.sol,UmaCtfAdapter,_requestPrice,UmaCtfAdapter,No chain
+UmaCtfAdapter.sol,UmaCtfAdapter,_requestPrice,UmaCtfAdapter,No chain
+UmaCtfAdapter.sol,UmaCtfAdapter,_requestPrice,UmaCtfAdapter,No chain
+UmaCtfAdapter.sol,UmaCtfAdapter,_requestPrice,UmaCtfAdapter,No chain
+UmaCtfAdapter.sol,UmaCtfAdapter,_requestPrice,UmaCtfAdapter,No chain
+UmaCtfAdapter.sol,UmaCtfAdapter,_requestPrice,UmaCtfAdapter,No chain
+UmaCtfAdapter.sol,UmaCtfAdapter,_requestPrice,UmaCtfAdapter,No chain
+UmaCtfAdapter.sol,UmaCtfAdapter,_reset,None,QuestionReset
+UmaCtfAdapter.sol,UmaCtfAdapter,_resolve,None,QuestionResolved
+UmaCtfAdapter.sol,UmaCtfAdapter,_hasPrice,UmaCtfAdapter,No chain
+UmaCtfAdapter.sol,UmaCtfAdapter,_hasPrice,UmaCtfAdapter,No chain
+UmaCtfAdapter.sol,UmaCtfAdapter,_hasPrice,UmaCtfAdapter,No chain
+UmaCtfAdapter.sol,UmaCtfAdapter,_hasPrice,UmaCtfAdapter,No chain
+UmaCtfAdapter.t.sol,UmaCtfAdapterTest,testInitialize,None,QuestionInitialized
+UmaCtfAdapter.t.sol,UmaCtfAdapterTest,testInitializeZeroRewardAndBond,None,QuestionInitialized
+UmaCtfAdapter.t.sol,UmaCtfAdapterTest,testInitializeCustomLiveness,None,QuestionInitialized
+UmaCtfAdapter.t.sol,UmaCtfAdapterTest,testResolve,None,QuestionResolved
+UmaCtfAdapter.t.sol,UmaCtfAdapterTest,testResolveYes,None,ConditionResolution
+UmaCtfAdapter.t.sol,UmaCtfAdapterTest,testResolveYes,None,QuestionResolved
+UmaCtfAdapter.t.sol,UmaCtfAdapterTest,testResolveNo,None,ConditionResolution
+UmaCtfAdapter.t.sol,UmaCtfAdapterTest,testResolveNo,None,QuestionResolved
+UmaCtfAdapter.t.sol,UmaCtfAdapterTest,testResolveUnknown,None,ConditionResolution
+UmaCtfAdapter.t.sol,UmaCtfAdapterTest,testResolveUnknown,None,QuestionResolved
+UmaCtfAdapter.t.sol,UmaCtfAdapterTest,testResolveIgnorePrice,None,QuestionReset
+UmaCtfAdapter.t.sol,UmaCtfAdapterTest,testEmergencyResolve,None,ConditionResolution
+UmaCtfAdapter.t.sol,UmaCtfAdapterTest,testEmergencyResolve,None,QuestionEmergencyResolved
+UmaCtfAdapter.t.sol,UmaCtfAdapterTest,testEmergencyResolvePaused,None,ConditionResolution
+UmaCtfAdapter.t.sol,UmaCtfAdapterTest,testEmergencyResolvePaused,None,QuestionEmergencyResolved
+UmaCtfAdapter.t.sol,UmaCtfAdapterTest,testPriceDisputed,None,Transfer
+UmaCtfAdapter.t.sol,UmaCtfAdapterTest,testPriceDisputed,None,QuestionReset
+UmaCtfAdapter.t.sol,UmaCtfAdapterTest,testPriceDisputedResolveAfterDispute,None,ConditionResolution
+UmaCtfAdapter.t.sol,UmaCtfAdapterTest,testPriceDisputedResolveAfterDispute,None,QuestionResolved
+UmaCtfAdapter.t.sol,UmaCtfAdapterTest,testPriceDisputedAlreadyReset,None,QuestionResolved
+UmaCtfAdapter.t.sol,UmaCtfAdapterTest,testPriceDisputedIgnorePriceReceived,None,Transfer
+UmaCtfAdapter.t.sol,UmaCtfAdapterTest,testPriceDisputedIgnorePriceReceived,None,Transfer
+UmaCtfAdapter.t.sol,UmaCtfAdapterTest,testPriceDisputedIgnorePriceReceived,None,QuestionReset
+UmaCtfAdapter.t.sol,UmaCtfAdapterTest,testReset,None,QuestionReset
+Auth.t.sol,AuthHarness,useOnlyAdmin,AuthHarness,onlyAdmin
+Auth.t.sol,AuthTest,testAddAdmin,None,NewAdmin
+Auth.t.sol,AuthTest,testRemoveAdmin,None,RemovedAdmin
+Auth.t.sol,AuthTest,testRenounceAdmin,None,RemovedAdmin
+BulletinBoard.t.sol,BulletinBoardTest,testPostUpdate,None,AncillaryDataUpdated
+AdapterHelper.sol,AdapterHelper,setupUmaContracts,IStore,No chain
+AdapterHelper.sol,AdapterHelper,setupUmaContracts,IIdentifierWhitelist,"->addSupportedIdentifier(""YES_OR_NO_QUERY"")"
+MintableERC20.sol,MintableERC20,constructor,MintableERC20,No Chain
+Auth.sol,Auth,addAdmin,Auth,onlyAdmin
+Auth.sol,Auth,addAdmin,None,NewAdmin
+Auth.sol,Auth,removeAdmin,Auth,onlyAdmin
+Auth.sol,Auth,removeAdmin,None,RemovedAdmin
+Auth.sol,Auth,renounceAdmin,Auth,onlyAdmin
+Auth.sol,Auth,renounceAdmin,None,RemovedAdmin
+BulletinBoard.sol,BulletinBoard,postUpdate,None,AncillaryDataUpdated

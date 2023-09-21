@@ -1,0 +1,47 @@
+File,Source_Contract,Source_Function,Target_Contract,Chain
+TokenUpgrader.sol,TokenUpgrader,tor,V1Token,No chain
+TokenUpgrader.sol,TokenUpgrader,setupV2Address,V2Token,No chain
+TokenUpgrader.sol,TokenUpgrader,setupV2Address,TokenUpgrader,onlyAdmin
+TokenUpgrader.sol,TokenUpgrader,prepareTokenForUpgrade,TokenUpgrader,onlyAdmin
+TokenUpgrader.sol,TokenUpgrader,upgradeToken,TokenUpgrader,No chain
+TokenUpgrader.sol,TokenUpgrader,upgradeToken,TokenUpgrader,No chain
+TokenUpgrader.sol,TokenUpgrader,upgradeToken,V1Token,"->upgradeV1Token(tokenId,address(v1TokenAddress),isControlTokenMapping[tokenId],tokenOwner,platformFirstPercentageForToken[tokenId],platformSecondPercentageForToken[tokenId],hasTokenHadFirstSale[tokenId],uniqueTokenCreatorMapping[tokenId])"
+TokenUpgrader.sol,TokenUpgrader,upgradeToken,TokenUpgrader,TokenUpgraded
+ERC721Metadata.sol,ERC721Metadata,initialize,ERC721Metadata,initializer
+AsyncArtwork_v2.sol,AsyncArtwork_v2,setup,AsyncArtwork_v2,initializer
+AsyncArtwork_v2.sol,AsyncArtwork_v2,setExpectedTokenSupply,AsyncArtwork_v2,onlyPlatform
+AsyncArtwork_v2.sol,AsyncArtwork_v2,whitelistTokenForCreator,AsyncArtwork_v2,onlyMinter
+AsyncArtwork_v2.sol,AsyncArtwork_v2,whitelistTokenForCreator,AsyncArtwork_v2,CreatorWhitelisted
+AsyncArtwork_v2.sol,AsyncArtwork_v2,updateMinterAddress,AsyncArtwork_v2,onlyPlatform
+AsyncArtwork_v2.sol,AsyncArtwork_v2,updatePlatformAddress,AsyncArtwork_v2,onlyPlatform
+AsyncArtwork_v2.sol,AsyncArtwork_v2,updatePlatformAddress,AsyncArtwork_v2,PlatformAddressUpdated
+AsyncArtwork_v2.sol,AsyncArtwork_v2,waiveFirstSaleRequirement,AsyncArtwork_v2,onlyPlatform
+AsyncArtwork_v2.sol,AsyncArtwork_v2,waiveFirstSaleRequirement,AsyncArtwork_v2,FirstSaleWaived
+AsyncArtwork_v2.sol,AsyncArtwork_v2,updatePlatformSalePercentage,AsyncArtwork_v2,onlyPlatform
+AsyncArtwork_v2.sol,AsyncArtwork_v2,updatePlatformSalePercentage,AsyncArtwork_v2,PlatformSalePercentageUpdated
+AsyncArtwork_v2.sol,AsyncArtwork_v2,updateDefaultPlatformSalePercentage,AsyncArtwork_v2,onlyPlatform
+AsyncArtwork_v2.sol,AsyncArtwork_v2,updateDefaultPlatformSalePercentage,AsyncArtwork_v2,DefaultPlatformSalePercentageUpdated
+AsyncArtwork_v2.sol,AsyncArtwork_v2,updateMinimumBidIncreasePercent,AsyncArtwork_v2,onlyPlatform
+AsyncArtwork_v2.sol,AsyncArtwork_v2,updateTokenURI,AsyncArtwork_v2,onlyPlatform
+AsyncArtwork_v2.sol,AsyncArtwork_v2,lockTokenURI,AsyncArtwork_v2,onlyPlatform
+AsyncArtwork_v2.sol,AsyncArtwork_v2,updateArtistSecondSalePercentage,AsyncArtwork_v2,onlyPlatform
+AsyncArtwork_v2.sol,AsyncArtwork_v2,updateArtistSecondSalePercentage,AsyncArtwork_v2,ArtistSecondSalePercentUpdated
+AsyncArtwork_v2.sol,AsyncArtwork_v2,mintArtwork,AsyncArtwork_v2,onlyWhitelistedCreator
+AsyncArtwork_v2.sol,AsyncArtwork_v2,bid,AsyncArtwork_v2,BidProposed
+AsyncArtwork_v2.sol,AsyncArtwork_v2,_withdrawBid,AsyncArtwork_v2,BidWithdrawn
+AsyncArtwork_v2.sol,AsyncArtwork_v2,onTokenSold,AsyncArtwork_v2,TokenSale
+AsyncArtwork_v2.sol,AsyncArtwork_v2,makeBuyPrice,AsyncArtwork_v2,BuyPriceSet
+AsyncArtwork_v2.sol,AsyncArtwork_v2,grantControlPermission,AsyncArtwork_v2,PermissionUpdated
+AsyncArtwork_v2.sol,AsyncArtwork_v2,useControlToken,AsyncArtwork_v2,ControlLeverUpdated
+AsyncArtwork_v2.sol,AsyncArtwork_v2,withdrawAllFailedCredits,AsyncArtwork_v2,No chain
+AsyncArtwork_v2.sol,AsyncArtwork_v2,withdrawAllFailedCredits,AsyncArtwork_v2,No chain
+ERC721.sol,ERC721,initialize,ERC721,initializer
+ERC721.sol,ERC721,approve,None,Approval
+ERC721.sol,ERC721,setApprovalForAll,None,ApprovalForAll
+ERC721.sol,ERC721,_mint,None,Transfer
+ERC721.sol,ERC721,_transferFrom,None,Transfer
+ERC721.sol,ERC721,_checkOnERC721Received,ERC721,"->call(abi->encodeWithSelector(IERC721Receiver(to)->onERC721Received->selector,_msgSender(),from,tokenId,_data))"
+ERC721.sol,ERC721,_checkOnERC721Received,ERC721,No chain
+ERC721.sol,ERC721,_checkOnERC721Received,ERC721,"->call(abi->encodeWithSelector(IERC721Receiver(to)->onERC721Received->selector,_msgSender(),from,tokenId,_data));"
+Migrations.sol,Migrations,setCompleted,Migrations,restricted
+ERC721Enumerable.sol,ERC721Enumerable,initialize,ERC721Enumerable,initializer

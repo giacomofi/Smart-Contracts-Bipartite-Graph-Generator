@@ -1,0 +1,607 @@
+File,Source_Contract,Source_Function,Target_Contract,Chain
+MasterMock.sol,MasterMock,callChangeMaster,MasterMock,No chain
+MasterMock.sol,MasterMock,callChangeMaster,MasterMock,No chain
+MasterMock.sol,MasterMock,delegateCallBack,MasterMock,unused
+MasterMock.sol,MasterMock,masterInitialized,MasterMock,unused
+MasterMock.sol,MasterMock,updatePauseTime,MasterMock,unused
+TokenControllerMock.sol,TokenControllerMock,mint,TokenControllerMock,onlyInternal
+TokenControllerMock.sol,TokenControllerMock,burnFrom,TokenControllerMock,onlyInternal
+TokenControllerMock.sol,TokenControllerMock,addToWhitelist,TokenControllerMock,onlyInternal
+TokenControllerMock.sol,TokenControllerMock,removeFromWhitelist,TokenControllerMock,onlyInternal
+TokenControllerMock.sol,TokenControllerMock,cover,ICover,->CO)])
+TokenControllerMock.sol,TokenControllerMock,operatorTransfer,TokenControllerMock,onlyInternal
+TokenControllerMock.sol,TokenControllerMock,mintStakingPoolNXMRewards,TokenControllerMock,No chain
+TokenControllerMock.sol,TokenControllerMock,mintStakingPoolNXMRewards,TokenControllerMock,No chain
+TokenControllerMock.sol,TokenControllerMock,transferStakingPoolsOwnership,TokenControllerMock,TransferStakingPoolsOwnershipCalledWith
+TokenControllerMock.sol,TokenControllerMock,burnLockedTokens,TokenControllerMock,unused
+TokenControllerMock.sol,TokenControllerMock,releaseLockedTokens,TokenControllerMock,unused
+TestnetClaimProofs.sol,TestnetClaimProofs,addMockProof,None,ProofAdded
+TestnetNXMaster.sol,TestnetNXMaster,switchGovernanceAddress,TestnetNXMaster,onlyGovernanceOwner
+TestnetQuotationData.sol,TestnetQuotationData,constructor,TestnetQuotationData,No Chain
+TestnetQuotationData.sol,TestnetQuotationData,addV1Cover,None,CoverDetailsEvent
+DisposableGateway.sol,DisposableGateway,constructor,DisposableGateway,No Chain
+DisposableMemberRoles.sol,DisposableMemberRoles,constructor,DisposableMemberRoles,No Chain
+DisposableNXMaster.sol,DisposableNXMaster,switchGovernanceAddress,DisposableNXMaster,No chain
+DisposableNXMaster.sol,DisposableNXMaster,switchGovernanceAddress,DisposableNXMaster,No chain
+DisposablePooledStaking.sol,DisposablePooledStaking,initialize,DisposablePooledStaking,No chain
+DisposablePooledStaking.sol,DisposablePooledStaking,initialize,DisposablePooledStaking,No chain
+DisposablePooledStaking.sol,DisposablePooledStaking,constructor,DisposablePooledStaking,No Chain
+DisposableTokenController.sol,DisposableTokenController,constructor,DisposableTokenController,No Chain
+DisposableTokenController.sol,DisposableTokenController,initialize,DisposableTokenController,No chain
+DisposableTokenController.sol,DisposableTokenController,initialize,DisposableTokenController,No chain
+DisposableTokenController.sol,DisposableTokenController,initialize,DisposableTokenController,No chain
+DisposableTokenController.sol,DisposableTokenController,initialize,DisposableTokenController,No chain
+DisposableTokenController.sol,DisposableTokenController,_lock,None,Locked
+DisposableProposalCategory.sol,DisposableProposalCategory,_addCategory,None,Category
+SPMockStakingProducts.sol,SPMockStakingProducts,setProducts,None,ProductUpdated
+SPMockStakingProducts.sol,SPMockStakingProducts,setInitialProducts,SPMockStakingProducts,onlyInternal
+SPMockCover.sol,SPMockCover,callAllocateCapacity,SPMockCover,RequestAllocationReturned
+SPMockStakingNFT.sol,SPMockStakingNFT,constructor,SPMockStakingNFT,No Chain
+MulticallMock.sol,MulticallMock,returndataSizeTest,MulticallMock,No chain
+MulticallMock.sol,MulticallMock,returndataSizeTest,MulticallMock,No chain
+MulticallMock.sol,MulticallMock,returndataSizeTest,MulticallMock,No chain
+MulticallMock.sol,MulticallMock,returndataSizeTest,MulticallMock,No chain
+CMMockCover.sol,CMMockCover,addLegacyCover,CMMockCover,AddLegacyCoverCalledWith
+StakingProductsMockCover.sol,StakingProductsMockCover,callAllocateCapacity,StakingProductsMockCover,RequestAllocationReturned
+StakingProductsMockCover.sol,StakingProductsMockCover,createStakingPool,StakingProductsMockCover,No chain
+StakingProductsMockCover.sol,StakingProductsMockCover,createStakingPool,StakingProductsMockCover,No chain
+SOMockSettlement.sol,SOMockSettlement,constructor,SOMockSettlement,No chain
+SOMockSettlement.sol,SOMockSettlement,constructor,SOMockSettlement,No chain
+SOMockSettlement.sol,SOMockSettlement,constructor,SOMockSettlement,No chain
+SOMockEnzymeV4Vault.sol,SOMockEnzymeV4Vault,constructor,SOMockEnzymeV4Vault,No Chain
+SOMockWeth.sol,SOMockWeth,constructor,SOMockWeth,No Chain
+MRMockStakingNFT.sol,MRMockStakingNFT,constructor,MRMockStakingNFT,No Chain
+MRMockCoverNFT.sol,MRMockCoverNFT,constructor,MRMockCoverNFT,No Chain
+P1MockLido.sol,P1MockLido,constructor,P1MockLido,No Chain
+ERC20MintableDetailed.sol,ERC20MintableDetailed,constructor,ERC20MintableDetailed,No Chain
+ERC20Mock.sol,ERC20Mock,constructor,ERC20Mock,No Chain
+ERC721Mock.sol,ERC721Mock,constructor,ERC721Mock,No Chain
+ERC721Mock.sol,ERC721Mock,_operatorTransferFrom,None,Transfer
+ERC20RevertingBalanceOfMock.sol,ERC20RevertingBalanceOfMock,constructor,ERC20RevertingBalanceOfMock,No Chain
+ERC20CustomDecimalsMock.sol,ERC20CustomDecimalsMock,constructor,ERC20CustomDecimalsMock,No Chain
+ERC20PermitMock.sol,ERC20PermitMock,constructor,ERC20PermitMock,No Chain
+ERC20MockNameable.sol,ERC20MockNameable,constructor,ERC20MockNameable,No Chain
+ICMockCoverNFT.sol,ICMockCoverNFT,constructor,ICMockCoverNFT,No Chain
+CLMockCoverNFT.sol,CLMockCoverNFT,constructor,CLMockCoverNFT,No Chain
+CoverMockCoverNFT.sol,CoverMockCoverNFT,constructor,CoverMockCoverNFT,No Chain
+CoverMockStakingNFT.sol,CoverMockStakingNFT,constructor,CoverMockStakingNFT,No Chain
+MasterAware.sol,MasterAware,changeMasterAddress,MasterAware,onlyMaster
+Multicall.sol,Multicall,multicall,Multicall,No chain
+Multicall.sol,Multicall,multicall,Multicall,No chain
+MasterAwareV2.sol,MasterAwareV2,changeMasterAddress,MasterAwareV2,onlyMaster
+WETH9.sol,WETH9,deposit,WETH9,Deposit
+WETH9.sol,WETH9,withdraw,WETH9,Withdrawal
+WETH9.sol,WETH9,totalSupply,WETH9,No chain
+WETH9.sol,WETH9,totalSupply,WETH9,No chain
+WETH9.sol,WETH9,approve,WETH9,Approval
+WETH9.sol,WETH9,transferFrom,WETH9,Transfer
+NXMToken.sol,NXMToken,approve,None,Approval
+NXMToken.sol,NXMToken,increaseAllowance,None,Approval
+NXMToken.sol,NXMToken,decreaseAllowance,None,Approval
+NXMToken.sol,NXMToken,addToWhiteList,NXMToken,onlyOperator
+NXMToken.sol,NXMToken,addToWhiteList,NXMToken,WhiteListed
+NXMToken.sol,NXMToken,removeFromWhiteList,NXMToken,onlyOperator
+NXMToken.sol,NXMToken,removeFromWhiteList,NXMToken,BlackListed
+NXMToken.sol,NXMToken,changeOperator,NXMToken,onlyOperator
+NXMToken.sol,NXMToken,mint,NXMToken,onlyOperator
+NXMToken.sol,NXMToken,transfer,NXMToken,canTransfer
+NXMToken.sol,NXMToken,operatorTransfer,NXMToken,onlyOperator
+NXMToken.sol,NXMToken,transferFrom,NXMToken,canTransfer
+NXMToken.sol,NXMToken,lockForMemberVote,NXMToken,onlyOperator
+NXMToken.sol,NXMToken,_transfer,None,Transfer
+NXMToken.sol,NXMToken,_transferFrom,None,Transfer
+NXMToken.sol,NXMToken,_mint,None,Transfer
+NXMToken.sol,NXMToken,_burn,None,Transfer
+TokenController.sol,TokenController,changeOperator,TokenController,onlyGovernance
+TokenController.sol,TokenController,operatorTransfer,TokenController,onlyInternal
+TokenController.sol,TokenController,burnFrom,TokenController,onlyInternal
+TokenController.sol,TokenController,addToWhitelist,TokenController,onlyInternal
+TokenController.sol,TokenController,removeFromWhitelist,TokenController,onlyInternal
+TokenController.sol,TokenController,mint,TokenController,onlyInternal
+TokenController.sol,TokenController,lockForMemberVote,TokenController,onlyInternal
+TokenController.sol,TokenController,withdrawClaimAssessmentTokens,TokenController,whenNotPaused
+TokenController.sol,TokenController,withdrawClaimAssessmentTokens,None,Unlocked
+TokenController.sol,TokenController,updateUintParameters,TokenController,onlyGovernance
+TokenController.sol,TokenController,withdrawGovernanceRewards,TokenController,whenNotPaused
+TokenController.sol,TokenController,withdrawGovernanceRewardsTo,TokenController,whenNotPaused
+TokenController.sol,TokenController,withdrawPendingRewards,TokenController,whenNotPaused
+TokenController.sol,TokenController,withdrawCoverNote,TokenController,whenNotPaused
+TokenController.sol,TokenController,withdrawCoverNote,None,Unlocked
+TokenController.sol,TokenController,transferStakingPoolsOwnership,TokenController,onlyInternal
+TokenController.sol,TokenController,assignStakingPoolManager,TokenController,onlyInternal
+TokenController.sol,TokenController,createStakingPoolOwnershipOffer,TokenController,No chain
+TokenController.sol,TokenController,createStakingPoolOwnershipOffer,TokenController,No chain
+TokenController.sol,TokenController,acceptStakingPoolOwnershipOffer,TokenController,No chain
+TokenController.sol,TokenController,acceptStakingPoolOwnershipOffer,TokenController,No chain
+TokenController.sol,TokenController,acceptStakingPoolOwnershipOffer,TokenController,No chain
+TokenController.sol,TokenController,cancelStakingPoolOwnershipOffer,TokenController,No chain
+TokenController.sol,TokenController,mintStakingPoolNXMRewards,TokenController,No chain
+TokenController.sol,TokenController,mintStakingPoolNXMRewards,TokenController,No chain
+TokenController.sol,TokenController,mintStakingPoolNXMRewards,TokenController,No chain
+TokenController.sol,TokenController,burnStakingPoolNXMRewards,TokenController,No chain
+TokenController.sol,TokenController,depositStakedNXM,TokenController,No chain
+TokenController.sol,TokenController,withdrawNXMStakeAndRewards,TokenController,No chain
+TokenController.sol,TokenController,burnStakedNXM,TokenController,No chain
+SwapOperator.sol,SwapOperator,placeOrder,SwapOperator,"->transferAssetToSwapOperator(ETH,totalOutAmount)"
+SwapOperator.sol,SwapOperator,placeOrder,SwapOperator,"->transferAssetToSwapOperator(address(order->sellToken),totalOutAmount)"
+SwapOperator.sol,SwapOperator,placeOrder,SwapOperator,onlyController
+SwapOperator.sol,SwapOperator,placeOrder,SwapOperator,"->transferAssetToSwapOperator(ETH,totalOutAmount)"
+SwapOperator.sol,SwapOperator,placeOrder,SwapOperator,"->transferAssetToSwapOperator(address(order->sellToken),totalOutAmount)"
+SwapOperator.sol,SwapOperator,placeOrder,SwapOperator,"->transferAssetToSwapOperator(address(order->sellToken),totalOutAmount)"
+SwapOperator.sol,SwapOperator,placeOrder,SwapOperator,OrderPlaced
+SwapOperator.sol,SwapOperator,closeOrder,SwapOperator,OrderClosed
+SwapOperator.sol,SwapOperator,returnAssetToPool,SwapOperator,No chain
+SwapOperator.sol,SwapOperator,returnAssetToPool,SwapOperator,No chain
+SwapOperator.sol,SwapOperator,validateBasicCowParams,SwapOperator,No chain
+SwapOperator.sol,SwapOperator,validateBasicCowParams,SwapOperator,No chain
+SwapOperator.sol,SwapOperator,validateSwapFrequency,SwapOperator,No chain
+SwapOperator.sol,SwapOperator,validateSwapFrequency,SwapOperator,No chain
+SwapOperator.sol,SwapOperator,validateSwapFrequency,SwapOperator,No chain
+SwapOperator.sol,SwapOperator,swapETHForEnzymeVaultShare,SwapOperator,"->transferAssetToSwapOperator(ETH,amountIn)"
+SwapOperator.sol,SwapOperator,swapETHForEnzymeVaultShare,SwapOperator,No chain
+SwapOperator.sol,SwapOperator,swapETHForEnzymeVaultShare,SwapOperator,No chain
+SwapOperator.sol,SwapOperator,swapETHForEnzymeVaultShare,SwapOperator,onlyController
+SwapOperator.sol,SwapOperator,swapETHForEnzymeVaultShare,SwapOperator,Swapped
+SwapOperator.sol,SwapOperator,swapEnzymeVaultShareForETH,SwapOperator,"->transferAssetToSwapOperator(address(fromToken),amountIn)"
+SwapOperator.sol,SwapOperator,swapEnzymeVaultShareForETH,SwapOperator,No chain
+SwapOperator.sol,SwapOperator,swapEnzymeVaultShareForETH,SwapOperator,No chain
+SwapOperator.sol,SwapOperator,swapEnzymeVaultShareForETH,SwapOperator,No chain
+SwapOperator.sol,SwapOperator,swapEnzymeVaultShareForETH,SwapOperator,No chain
+SwapOperator.sol,SwapOperator,swapEnzymeVaultShareForETH,SwapOperator,onlyController
+SwapOperator.sol,SwapOperator,swapEnzymeVaultShareForETH,SwapOperator,Swapped
+SwapOperator.sol,SwapOperator,recoverAsset,SwapOperator,No chain
+SwapOperator.sol,SwapOperator,recoverAsset,SwapOperator,No chain
+SwapOperator.sol,SwapOperator,recoverAsset,SwapOperator,onlyController
+SwapOperator.sol,SwapOperator,recoverAsset,SwapOperator,No chain
+SwapOperator.sol,SwapOperator,recoverAsset,SwapOperator,No chain
+Pool.sol,Pool,getAssetValueInEth,Pool,No chain
+Pool.sol,Pool,getAssetValueInEth,Pool,No chain
+Pool.sol,Pool,getPoolValueInEth,Pool,No chain
+Pool.sol,Pool,getPoolValueInEth,Pool,No chain
+Pool.sol,Pool,getAsset,Pool,No chain
+Pool.sol,Pool,addAsset,Pool,No chain
+Pool.sol,Pool,addAsset,Pool,onlyGovernance
+Pool.sol,Pool,setAssetDetails,Pool,No chain
+Pool.sol,Pool,setAssetDetails,Pool,onlyGovernance
+Pool.sol,Pool,setSwapDetails,Pool,onlyGovernance
+Pool.sol,Pool,transferAsset,Pool,No chain
+Pool.sol,Pool,transferAsset,Pool,No chain
+Pool.sol,Pool,transferAsset,Pool,No chain
+Pool.sol,Pool,transferAsset,Pool,onlyGovernance
+Pool.sol,Pool,transferAsset,Pool,nonReentrant
+Pool.sol,Pool,transferAssetToSwapOperator,Pool,onlySwapOperator
+Pool.sol,Pool,transferAssetToSwapOperator,Pool,nonReentrant
+Pool.sol,Pool,transferAssetToSwapOperator,Pool,whenNotPaused
+Pool.sol,Pool,setSwapDetailsLastSwapTime,Pool,onlySwapOperator
+Pool.sol,Pool,setSwapDetailsLastSwapTime,Pool,whenNotPaused
+Pool.sol,Pool,setSwapValue,Pool,onlySwapOperator
+Pool.sol,Pool,setSwapValue,Pool,whenNotPaused
+Pool.sol,Pool,sendPayout,Pool,onlyInternal
+Pool.sol,Pool,sendPayout,Pool,nonReentrant
+Pool.sol,Pool,sendPayout,Pool,Payout
+Pool.sol,Pool,sellNXMTokens,Pool,onlyMember
+Pool.sol,Pool,sellNXMTokens,Pool,whenNotPaused
+Pool.sol,Pool,buyNXM,Pool,onlyMember
+Pool.sol,Pool,buyNXM,Pool,whenNotPaused
+Pool.sol,Pool,buyNXM,Pool,NXMBought
+Pool.sol,Pool,sellNXM,Pool,No chain
+Pool.sol,Pool,sellNXM,Pool,No chain
+Pool.sol,Pool,sellNXM,Pool,onlyMember
+Pool.sol,Pool,sellNXM,Pool,nonReentrant
+Pool.sol,Pool,sellNXM,Pool,whenNotPaused
+Pool.sol,Pool,sellNXM,Pool,NXMSold
+Pool.sol,Pool,getTokenPriceInAsset,Pool,No chain
+Pool.sol,Pool,upgradeCapitalPool,Pool,No chain
+Pool.sol,Pool,upgradeCapitalPool,Pool,No chain
+Pool.sol,Pool,upgradeCapitalPool,Pool,No chain
+Pool.sol,Pool,upgradeCapitalPool,Pool,No chain
+Pool.sol,Pool,upgradeCapitalPool,Pool,No chain
+Pool.sol,Pool,upgradeCapitalPool,Pool,No chain
+Pool.sol,Pool,upgradeCapitalPool,Pool,"->safeTransfer(newPoolAddress,balance)"
+Pool.sol,Pool,upgradeCapitalPool,Pool,onlyMaster
+Pool.sol,Pool,upgradeCapitalPool,Pool,nonReentrant
+Pool.sol,Pool,upgradeCapitalPool,Pool,No chain
+Pool.sol,Pool,updateUintParameters,Pool,onlyGovernance
+Pool.sol,Pool,updateAddressParameters,Pool,onlyGovernance
+Pool.sol,Pool,updateAddressParameters,Pool,No chain
+Pool.sol,Pool,updateAddressParameters,Pool,No chain
+MCR.sol,MCR,constructor,MCR,"->getLatestAddress(""MC""))"
+MCR.sol,MCR,initialize,MCR,"->getLatestAddress(""MC"")"
+MCR.sol,MCR,initialize,MCR,->mcrFloor()
+MCR.sol,MCR,initialize,MCR,->mcr()
+MCR.sol,MCR,initialize,MCR,->desiredMCR()
+MCR.sol,MCR,initialize,MCR,No chain
+MCR.sol,MCR,initialize,MCR,->lastUpdateTime()
+MCR.sol,MCR,initialize,MCR,->mcrFloorIncrementThreshold()
+MCR.sol,MCR,initialize,MCR,->maxMCRFloorIncrement()
+MCR.sol,MCR,initialize,MCR,No chain
+MCR.sol,MCR,initialize,MCR,->maxMCRIncrement()
+MCR.sol,MCR,initialize,MCR,No chain
+MCR.sol,MCR,initialize,MCR,->gearingFactor()
+MCR.sol,MCR,initialize,MCR,->minUpdateTime()
+MCR.sol,MCR,updateMCR,MCR,"->getPoolValueInEth(),false)"
+MCR.sol,MCR,updateMCR,MCR,whenNotPaused
+MCR.sol,MCR,updateMCRInternal,MCR,onlyInternal
+MCR.sol,MCR,_updateMCR,MCR,"->timestamp>_lastUpdateTime&&pool()->calculateMCRRatio(poolValueInEth,_mcr)>=_mcrFloorIncrementThreshold)uintbasisPointsAdjustment=Math->min(_maxMCRFloorIncrement*(block->timestamp-_lastUpdateTime)/1days,_maxMCRFloorIncrement)"
+MCR.sol,MCR,_updateMCR,MCR,No chain
+MCR.sol,MCR,_updateMCR,MCR,No chain
+MCR.sol,MCR,_updateMCR,MCR,No chain
+MCR.sol,MCR,_updateMCR,MCR,No chain
+MCR.sol,MCR,_updateMCR,MCR,"->max(gearedMCR,mcrFloor))"
+MCR.sol,MCR,_updateMCR,MCR,No chain
+MCR.sol,MCR,_updateMCR,MCR,"->calculateMCRRatio(poolValueInEth,_mcr)>=_mcrFloorIncrementThreshold"
+MCR.sol,MCR,_updateMCR,MCR,"->min(_maxMCRFloorIncrement*(block->timestamp-_lastUpdateTime)/1days,_maxMCRFloorIncrement)"
+MCR.sol,MCR,_updateMCR,MCR,No chain
+MCR.sol,MCR,_updateMCR,MCR,No chain
+MCR.sol,MCR,_updateMCR,MCR,No chain
+MCR.sol,MCR,_updateMCR,MCR,"->min(_maxMCRFloorIncrement*(block->timestamp-_lastUpdateTime)/1days,_maxMCRFloorIncrement);"
+MCR.sol,MCR,_updateMCR,MCR,"->max(gearedMCR,mcrFloor));"
+MCR.sol,MCR,_updateMCR,MCR,MCRUpdated
+MCR.sol,MCR,getMCR,MCR,->timestamp-_lastUpdateTime)/1days
+MCR.sol,MCR,getMCR,MCR,"->min(basisPointsAdjustment,MAX_MCR_ADJUSTMENT)"
+MCR.sol,MCR,getMCR,MCR,"->min(_mcr*(basisPointsAdjustment+BASIS_PRECISION)/BASIS_PRECISION,_desiredMCR)"
+MCR.sol,MCR,getMCR,MCR,No chain
+MCR.sol,MCR,getMCR,MCR,"->max(_mcr*(BASIS_PRECISION-basisPointsAdjustment)/(BASIS_PRECISION),_desiredMCR)"
+MCR.sol,MCR,getMCR,MCR,->timestamp-_lastUpdateTime)/1days;
+MCR.sol,MCR,getMCR,MCR,"->min(_mcr*(basisPointsAdjustment+BASIS_PRECISION)/BASIS_PRECISION,_desiredMCR)"
+MCR.sol,MCR,updateUintParameters,MCR,onlyGovernance
+PriceFeedOracle.sol,PriceFeedOracle,constructor,PriceFeedOracle,No chain
+LegacyPooledStaking.sol,LegacyPooledStaking,withdraw,LegacyPooledStaking,whenNotPaused
+LegacyPooledStaking.sol,LegacyPooledStaking,withdraw,LegacyPooledStaking,onlyMember
+LegacyPooledStaking.sol,LegacyPooledStaking,withdraw,LegacyPooledStaking,noPendingBurns
+LegacyPooledStaking.sol,LegacyPooledStaking,withdrawForUser,LegacyPooledStaking,whenNotPaused
+LegacyPooledStaking.sol,LegacyPooledStaking,withdrawForUser,LegacyPooledStaking,onlyMember
+LegacyPooledStaking.sol,LegacyPooledStaking,withdrawForUser,LegacyPooledStaking,noPendingBurns
+LegacyPooledStaking.sol,LegacyPooledStaking,_withdrawForUser,LegacyPooledStaking,Withdrawn
+LegacyPooledStaking.sol,LegacyPooledStaking,withdrawReward,LegacyPooledStaking,whenNotPaused
+LegacyPooledStaking.sol,LegacyPooledStaking,withdrawReward,LegacyPooledStaking,RewardWithdrawn
+LegacyPooledStaking.sol,LegacyPooledStaking,_pushRewards,LegacyPooledStaking,RewardRequested
+LegacyPooledStaking.sol,LegacyPooledStaking,pushRewards,LegacyPooledStaking,whenNotPaused
+LegacyPooledStaking.sol,LegacyPooledStaking,processPendingActions,LegacyPooledStaking,whenNotPaused
+LegacyPooledStaking.sol,LegacyPooledStaking,processPendingActionsReturnLeft,LegacyPooledStaking,whenNotPaused
+LegacyPooledStaking.sol,LegacyPooledStaking,_processPendingActions,LegacyPooledStaking,whenNotPaused
+LegacyPooledStaking.sol,LegacyPooledStaking,_processPendingActions,LegacyPooledStaking,PendingActionsProcessed
+LegacyPooledStaking.sol,LegacyPooledStaking,_processPendingActions,LegacyPooledStaking,PendingActionsProcessed
+LegacyPooledStaking.sol,LegacyPooledStaking,_processPendingActions,LegacyPooledStaking,PendingActionsProcessed
+LegacyPooledStaking.sol,LegacyPooledStaking,_processPendingActions,LegacyPooledStaking,PendingActionsProcessed
+LegacyPooledStaking.sol,LegacyPooledStaking,_processBurn,LegacyPooledStaking,Burned
+LegacyPooledStaking.sol,LegacyPooledStaking,_processFirstUnstakeRequest,LegacyPooledStaking,Unstaked
+LegacyPooledStaking.sol,LegacyPooledStaking,_processFirstReward,LegacyPooledStaking,No chain
+LegacyPooledStaking.sol,LegacyPooledStaking,_processFirstReward,LegacyPooledStaking,No chain
+LegacyPooledStaking.sol,LegacyPooledStaking,_processFirstReward,LegacyPooledStaking,Rewarded
+LegacyPooledStaking.sol,LegacyPooledStaking,updateUintParameters,LegacyPooledStaking,onlyGovernance
+LegacyPooledStaking.sol,LegacyPooledStaking,createPoolAndDeposit,LegacyPooledStaking,No chain
+LegacyPooledStaking.sol,LegacyPooledStaking,createPoolAndDeposit,LegacyPooledStaking,No chain
+LegacyPooledStaking.sol,LegacyPooledStaking,createPoolAndDeposit,LegacyPooledStaking,No chain
+LegacyPooledStaking.sol,LegacyPooledStaking,createPoolAndDeposit,LegacyPooledStaking,No chain
+LegacyPooledStaking.sol,LegacyPooledStaking,createPoolAndDeposit,LegacyPooledStaking,No chain
+LegacyPooledStaking.sol,LegacyPooledStaking,migrateToNewV2Pool,LegacyPooledStaking,No chain
+LegacyPooledStaking.sol,LegacyPooledStaking,migrateToNewV2Pool,LegacyPooledStaking,No chain
+LegacyPooledStaking.sol,LegacyPooledStaking,migrateToNewV2Pool,LegacyPooledStaking,No chain
+LegacyPooledStaking.sol,LegacyPooledStaking,migrateToNewV2Pool,LegacyPooledStaking,No chain
+LegacyPooledStaking.sol,LegacyPooledStaking,migrateToNewV2Pool,LegacyPooledStaking,noPendingActions
+LegacyClaimProofs.sol,LegacyClaimProofs,addProof,LegacyClaimProofs,ProofAdded
+LegacyClaimsData.sol,LegacyClaimsData,setpendingClaimStart,LegacyClaimsData,onlyInternal
+LegacyClaimsData.sol,LegacyClaimsData,setRewardDistributedIndexCA,LegacyClaimsData,onlyInternal
+LegacyClaimsData.sol,LegacyClaimsData,setRewardDistributedIndexMV,LegacyClaimsData,onlyInternal
+LegacyClaimsData.sol,LegacyClaimsData,setClaimRewardDetail,LegacyClaimsData,onlyInternal
+LegacyClaimsData.sol,LegacyClaimsData,setRewardClaimed,LegacyClaimsData,onlyInternal
+LegacyClaimsData.sol,LegacyClaimsData,changeFinalVerdict,LegacyClaimsData,onlyInternal
+LegacyClaimsData.sol,LegacyClaimsData,addClaim,LegacyClaimsData,onlyInternal
+LegacyClaimsData.sol,LegacyClaimsData,addVote,LegacyClaimsData,onlyInternal
+LegacyClaimsData.sol,LegacyClaimsData,addClaimVoteCA,LegacyClaimsData,onlyInternal
+LegacyClaimsData.sol,LegacyClaimsData,setUserClaimVoteCA,LegacyClaimsData,onlyInternal
+LegacyClaimsData.sol,LegacyClaimsData,setClaimTokensCA,LegacyClaimsData,onlyInternal
+LegacyClaimsData.sol,LegacyClaimsData,setClaimTokensMV,LegacyClaimsData,onlyInternal
+LegacyClaimsData.sol,LegacyClaimsData,addClaimVotemember,LegacyClaimsData,onlyInternal
+LegacyClaimsData.sol,LegacyClaimsData,setUserClaimVoteMember,LegacyClaimsData,onlyInternal
+LegacyClaimsData.sol,LegacyClaimsData,updateState12Count,LegacyClaimsData,onlyInternal
+LegacyClaimsData.sol,LegacyClaimsData,setClaimStatus,LegacyClaimsData,onlyInternal
+LegacyClaimsData.sol,LegacyClaimsData,setClaimdateUpd,LegacyClaimsData,onlyInternal
+LegacyClaimsData.sol,LegacyClaimsData,setClaimAtEmergencyPause,LegacyClaimsData,onlyInternal
+LegacyClaimsData.sol,LegacyClaimsData,setClaimSubmittedAtEPTrue,LegacyClaimsData,onlyInternal
+LegacyClaimsData.sol,LegacyClaimsData,setFirstClaimIndexToSubmitAfterEP,LegacyClaimsData,onlyInternal
+LegacyClaimsData.sol,LegacyClaimsData,setPendingClaimDetails,LegacyClaimsData,onlyInternal
+LegacyClaimsData.sol,LegacyClaimsData,setPendingClaimVoteStatus,LegacyClaimsData,onlyInternal
+LegacyClaimsData.sol,LegacyClaimsData,setFirstClaimIndexToStartVotingAfterEP,LegacyClaimsData,onlyInternal
+LegacyClaimsData.sol,LegacyClaimsData,callVoteEvent,LegacyClaimsData,onlyInternal
+LegacyClaimsData.sol,LegacyClaimsData,callVoteEvent,LegacyClaimsData,VoteCast
+LegacyClaimsData.sol,LegacyClaimsData,callClaimEvent,LegacyClaimsData,onlyInternal
+LegacyClaimsData.sol,LegacyClaimsData,callClaimEvent,LegacyClaimsData,ClaimRaise
+LegacyClaimsData.sol,LegacyClaimsData,changeDependentContractAddress,LegacyClaimsData,onlyInternal
+LegacyGateway.sol,LegacyGateway,buyCover,LegacyGateway,onlyMember
+LegacyGateway.sol,LegacyGateway,buyCover,LegacyGateway,whenNotPaused
+LegacyQuotationData.sol,LegacyQuotationData,addInTotalSumAssuredSC,LegacyQuotationData,onlyInternal
+LegacyQuotationData.sol,LegacyQuotationData,subFromTotalSumAssuredSC,LegacyQuotationData,onlyInternal
+LegacyQuotationData.sol,LegacyQuotationData,subFromTotalSumAssured,LegacyQuotationData,onlyInternal
+LegacyQuotationData.sol,LegacyQuotationData,addInTotalSumAssured,LegacyQuotationData,onlyInternal
+LegacyQuotationData.sol,LegacyQuotationData,setTimestampRepeated,LegacyQuotationData,onlyInternal
+LegacyQuotationData.sol,LegacyQuotationData,addCover,LegacyQuotationData,onlyInternal
+LegacyQuotationData.sol,LegacyQuotationData,addCover,LegacyQuotationData,CoverDetailsEvent
+LegacyQuotationData.sol,LegacyQuotationData,addHoldCover,LegacyQuotationData,onlyInternal
+LegacyQuotationData.sol,LegacyQuotationData,setRefundEligible,LegacyQuotationData,onlyInternal
+LegacyQuotationData.sol,LegacyQuotationData,setHoldedCoverIDStatus,LegacyQuotationData,onlyInternal
+LegacyQuotationData.sol,LegacyQuotationData,setKycAuthAddress,LegacyQuotationData,onlyInternal
+LegacyQuotationData.sol,LegacyQuotationData,changeAuthQuoteEngine,LegacyQuotationData,onlyInternal
+LegacyQuotationData.sol,LegacyQuotationData,changeCoverStatusNo,LegacyQuotationData,onlyInternal
+LegacyQuotationData.sol,LegacyQuotationData,changeCoverStatusNo,LegacyQuotationData,CoverStatusEvent
+LegacyClaimsReward.sol,LegacyClaimsReward,transferRewards,LegacyClaimsReward,No chain
+LegacyClaimsReward.sol,LegacyClaimsReward,transferRewards,LegacyClaimsReward,No chain
+LegacyClaimsReward.sol,LegacyClaimsReward,transferRewards,LegacyClaimsReward,No chain
+LegacyClaimsReward.sol,LegacyClaimsReward,transferRewards,LegacyClaimsReward,No chain
+LegacyClaimsReward.sol,LegacyClaimsReward,changeDependentContractAddress,LegacyClaimsReward,onlyInternal
+LegacyClaimsReward.sol,LegacyClaimsReward,upgrade,LegacyClaimsReward,No chain
+LegacyClaimsReward.sol,LegacyClaimsReward,upgrade,LegacyClaimsReward,No chain
+LegacyClaimsReward.sol,LegacyClaimsReward,upgrade,LegacyClaimsReward,onlyInternal
+YieldTokenIncidents.sol,YieldTokenIncidents,submitIncident,YieldTokenIncidents,No chain
+YieldTokenIncidents.sol,YieldTokenIncidents,submitIncident,YieldTokenIncidents,No chain
+YieldTokenIncidents.sol,YieldTokenIncidents,submitIncident,YieldTokenIncidents,"->claimMethod==uint8(ClaimMethod->YieldTokenIncidents),""Invalid claim method for this product type"")"
+YieldTokenIncidents.sol,YieldTokenIncidents,submitIncident,YieldTokenIncidents,onlyGovernance
+YieldTokenIncidents.sol,YieldTokenIncidents,submitIncident,YieldTokenIncidents,whenNotPaused
+YieldTokenIncidents.sol,YieldTokenIncidents,submitIncident,None,MetadataSubmitted
+YieldTokenIncidents.sol,YieldTokenIncidents,submitIncident,None,IncidentSubmitted
+YieldTokenIncidents.sol,YieldTokenIncidents,redeemPayout,YieldTokenIncidents,No chain
+YieldTokenIncidents.sol,YieldTokenIncidents,redeemPayout,YieldTokenIncidents,No chain
+YieldTokenIncidents.sol,YieldTokenIncidents,redeemPayout,YieldTokenIncidents,No chain
+YieldTokenIncidents.sol,YieldTokenIncidents,redeemPayout,YieldTokenIncidents,No chain
+YieldTokenIncidents.sol,YieldTokenIncidents,redeemPayout,YieldTokenIncidents,onlyMember
+YieldTokenIncidents.sol,YieldTokenIncidents,redeemPayout,YieldTokenIncidents,whenNotPaused
+YieldTokenIncidents.sol,YieldTokenIncidents,redeemPayout,None,IncidentPayoutRedeemed
+YieldTokenIncidents.sol,YieldTokenIncidents,withdrawAsset,YieldTokenIncidents,No chain
+YieldTokenIncidents.sol,YieldTokenIncidents,withdrawAsset,YieldTokenIncidents,No chain
+YieldTokenIncidents.sol,YieldTokenIncidents,withdrawAsset,YieldTokenIncidents,onlyGovernance
+YieldTokenIncidents.sol,YieldTokenIncidents,updateUintParameters,YieldTokenIncidents,onlyGovernance
+IndividualClaims.sol,IndividualClaims,submitClaim,IndividualClaims,onlyMember
+IndividualClaims.sol,IndividualClaims,submitClaim,IndividualClaims,whenNotPaused
+IndividualClaims.sol,IndividualClaims,submitClaimFor,IndividualClaims,onlyInternal
+IndividualClaims.sol,IndividualClaims,submitClaimFor,IndividualClaims,whenNotPaused
+IndividualClaims.sol,IndividualClaims,_submitClaim,IndividualClaims,No chain
+IndividualClaims.sol,IndividualClaims,_submitClaim,IndividualClaims,No chain
+IndividualClaims.sol,IndividualClaims,_submitClaim,IndividualClaims,"->claimMethod==uint8(ClaimMethod->IndividualClaims),""Invalid claim method for this product type"")"
+IndividualClaims.sol,IndividualClaims,_submitClaim,None,ClaimSubmitted
+IndividualClaims.sol,IndividualClaims,_submitClaim,None,MetadataSubmitted
+IndividualClaims.sol,IndividualClaims,redeemClaimPayout,IndividualClaims,whenNotPaused
+IndividualClaims.sol,IndividualClaims,redeemClaimPayout,None,ClaimPayoutRedeemed
+IndividualClaims.sol,IndividualClaims,updateUintParameters,IndividualClaims,onlyGovernance
+Assessment.sol,Assessment,stake,Assessment,No chain
+Assessment.sol,Assessment,stake,Assessment,No chain
+Assessment.sol,Assessment,stake,Assessment,No chain
+Assessment.sol,Assessment,stake,Assessment,No chain
+Assessment.sol,Assessment,stake,Assessment,whenNotPaused
+Assessment.sol,Assessment,stake,None,StakeDeposited
+Assessment.sol,Assessment,unstake,Assessment,whenNotPaused
+Assessment.sol,Assessment,unstake,Assessment,No chain
+Assessment.sol,Assessment,unstake,None,StakeWithdrawn
+Assessment.sol,Assessment,withdrawRewards,Assessment,whenNotPaused
+Assessment.sol,Assessment,withdrawRewardsTo,Assessment,whenNotPaused
+Assessment.sol,Assessment,_withdrawRewards,None,RewardWithdrawn
+Assessment.sol,Assessment,startAssessment,Assessment,No chain
+Assessment.sol,Assessment,startAssessment,Assessment,"->push(Assessment(Poll(0,0,uint32(block->timestamp),uint32(block->timestamp+uint32(config->minVotingPeriodInDays)*1days)),uint128(totalAssessmentReward),uint128(assessmentDepositInETH)))"
+Assessment.sol,Assessment,startAssessment,Assessment,No chain
+Assessment.sol,Assessment,startAssessment,Assessment,onlyInternal
+Assessment.sol,Assessment,castVotes,Assessment,No chain
+Assessment.sol,Assessment,castVotes,Assessment,"->length==ipfsAssessmentDataHashes->length,""The lengths of the assessment ids and ipfs assessment data hashes arrays mismatch"")"
+Assessment.sol,Assessment,castVotes,Assessment,onlyMember
+Assessment.sol,Assessment,castVotes,Assessment,whenNotPaused
+Assessment.sol,Assessment,castVote,Assessment,No chain
+Assessment.sol,Assessment,castVote,Assessment,"->sender,assessmentId,stakeAmount,isAcceptVote,ipfsAssessmentDataHash)"
+Assessment.sol,Assessment,castVote,None,VoteCast
+Assessment.sol,Assessment,submitFraud,Assessment,onlyGovernance
+Assessment.sol,Assessment,submitFraud,None,FraudSubmitted
+Assessment.sol,Assessment,processFraud,Assessment,->Votememoryvote=votesOf[assessor][j]
+Assessment.sol,Assessment,processFraud,Assessment,->Pollmemorypoll=assessments[vote->assessmentId]->poll
+Assessment.sol,Assessment,processFraud,Assessment,whenNotPaused
+Assessment.sol,Assessment,processFraud,None,FraudProcessed
+Assessment.sol,Assessment,updateUintParameters,Assessment,->UintParams->stakeLockupPeriodInDays)newConfig->stakeLockupPeriodInDays=uint8(values[i])
+Assessment.sol,Assessment,updateUintParameters,Assessment,->UintParams->payoutCooldownInDays)newConfig->payoutCooldownInDays=uint8(values[i])
+Assessment.sol,Assessment,updateUintParameters,Assessment,->UintParams->silentEndingPeriodInDays)newConfig->silentEndingPeriodInDays=uint8(values[i])
+Assessment.sol,Assessment,updateUintParameters,Assessment,onlyGovernance
+Assessment.sol,Assessment,updateUintParameters,Assessment,->UintParams->minVotingPeriodInDays
+Assessment.sol,Assessment,updateUintParameters,Assessment,->UintParams->stakeLockupPeriodInDays
+Assessment.sol,Assessment,updateUintParameters,Assessment,->UintParams->payoutCooldownInDays
+Assessment.sol,Assessment,updateUintParameters,Assessment,->UintParams->silentEndingPeriodInDays
+Assessment.sol,Assessment,changeDependentContractAddress,Assessment,No chain
+Assessment.sol,Assessment,changeDependentContractAddress,Assessment,No chain
+Assessment.sol,Assessment,changeDependentContractAddress,Assessment,No chain
+Assessment.sol,Assessment,changeDependentContractAddress,Assessment,No chain
+Assessment.sol,Assessment,changeDependentContractAddress,Assessment,No chain
+Assessment.sol,Assessment,changeDependentContractAddress,Assessment,No chain
+StakingProducts.sol,StakingProducts,setProducts,None,ProductUpdated
+StakingProducts.sol,StakingProducts,setInitialProducts,StakingProducts,onlyInternal
+StakingNFT.sol,StakingNFT,changeOperator,StakingNFT,onlyOperator
+StakingNFT.sol,StakingNFT,changeNFTDescriptor,StakingNFT,onlyOperator
+StakingNFT.sol,StakingNFT,mint,None,Transfer
+StakingNFT.sol,StakingNFT,tokenURI,StakingNFT,->tokenURI(id)
+StakingNFT.sol,StakingNFT,approve,None,Approval
+StakingNFT.sol,StakingNFT,setApprovalForAll,None,ApprovalForAll
+StakingNFT.sol,StakingNFT,transferFrom,None,Transfer
+StakingNFT.sol,ERC721TokenReceiver,onERC721Received,ERC721TokenReceiver,->onERC721Received->selector
+StakingPoolFactory.sol,StakingPoolFactory,changeOperator,StakingPoolFactory,No chain
+StakingPoolFactory.sol,StakingPoolFactory,create,StakingPoolFactory,No chain
+StakingPoolFactory.sol,StakingPoolFactory,create,None,StakingPoolCreated
+StakingPool.sol,StakingPool,initialize,StakingPool,onlyCoverContract
+StakingPool.sol,StakingPool,initialize,None,PoolDescriptionSet
+StakingPool.sol,StakingPool,processExpirations,None,BucketExpired
+StakingPool.sol,StakingPool,processExpirations,None,TrancheExpired
+StakingPool.sol,StakingPool,depositTo,StakingPool,->stakingPoolOf(requestTokenId)!=poolId)revertInvalidStakingPoolForToken()
+StakingPool.sol,StakingPool,depositTo,StakingPool,whenNotPaused
+StakingPool.sol,StakingPool,depositTo,StakingPool,whenNotHalted
+StakingPool.sol,StakingPool,depositTo,None,StakeDeposited
+StakingPool.sol,StakingPool,withdraw,StakingPool,whenNotPaused
+StakingPool.sol,StakingPool,withdraw,None,Withdraw
+StakingPool.sol,StakingPool,requestAllocation,StakingPool,"->mintStakingPoolNXMRewards(rewardsToMint,poolId)"
+StakingPool.sol,StakingPool,requestAllocation,StakingPool,"->burnStakingPoolNXMRewards(rewardsToBurn,poolId)"
+StakingPool.sol,StakingPool,requestAllocation,StakingPool,onlyCoverContract
+StakingPool.sol,StakingPool,requestAllocation,None,Deallocated
+StakingPool.sol,StakingPool,requestAllocation,StakingPool,"->burnStakingPoolNXMRewards(rewardsToBurn,poolId)"
+StakingPool.sol,StakingPool,extendDeposit,StakingPool,->stakingPoolOf(tokenId)!=poolId)revertInvalidStakingPoolForToken()
+StakingPool.sol,StakingPool,extendDeposit,StakingPool,whenNotPaused
+StakingPool.sol,StakingPool,extendDeposit,StakingPool,whenNotHalted
+StakingPool.sol,StakingPool,extendDeposit,None,DepositExtended
+StakingPool.sol,StakingPool,burnStake,StakingPool,onlyCoverContract
+StakingPool.sol,StakingPool,burnStake,None,StakeBurned
+StakingPool.sol,StakingPool,setPoolFee,StakingPool,onlyManager
+StakingPool.sol,StakingPool,setPoolFee,None,PoolFeeChanged
+StakingPool.sol,StakingPool,setPoolPrivacy,StakingPool,onlyManager
+StakingPool.sol,StakingPool,setPoolPrivacy,None,PoolPrivacyChanged
+StakingPool.sol,StakingPool,setPoolDescription,StakingPool,onlyManager
+StakingPool.sol,StakingPool,setPoolDescription,None,PoolDescriptionSet
+StakingPool.sol,StakingPool,manager,StakingPool,->getStakingPoolManager(poolId)
+Governance.sol,Governance,createProposal,Governance,isAllowed
+Governance.sol,Governance,updateProposal,Governance,onlyProposalOwner
+Governance.sol,Governance,updateProposal,None,Proposal
+Governance.sol,Governance,categorizeProposal,Governance,voteNotStarted
+Governance.sol,Governance,categorizeProposal,Governance,isAllowedToCategorize
+Governance.sol,Governance,submitProposalWithSolution,Governance,onlyProposalOwner
+Governance.sol,Governance,createProposalwithSolution,Governance,isAllowed
+Governance.sol,Governance,claimReward,None,RewardClaimed
+Governance.sol,Governance,unDelegate,Governance,isMemberAndcheckPause
+Governance.sol,Governance,unDelegate,Governance,checkPendingRewards
+Governance.sol,Governance,rejectAction,Governance,ActionRejected
+Governance.sol,Governance,_createProposal,None,Proposal
+Governance.sol,Governance,_categorizeProposal,Governance,ProposalCategorized
+Governance.sol,Governance,_addSolution,None,Solution
+Governance.sol,Governance,_proposalSubmission,None,CloseProposalOnTime
+Governance.sol,Governance,_submitVote,Governance,"->propStatus==uint(Governance->ProposalStatus->VotingStarted),""Not allowed"")"
+Governance.sol,Governance,_submitVote,None,Vote
+Governance.sol,Governance,_submitVote,None,VoteCast
+Governance.sol,Governance,_submitVote,None,VoteCast
+Governance.sol,Governance,_callIfMajReached,None,ProposalAccepted
+Governance.sol,Governance,_triggerAction,None,ActionSuccess
+ProposalCategory.sol,ProposalCategory,newCategory,ProposalCategory,onlyAuthorizedToGovern
+ProposalCategory.sol,ProposalCategory,editCategory,ProposalCategory,onlyAuthorizedToGovern
+ProposalCategory.sol,ProposalCategory,editCategory,None,Category
+ProposalCategory.sol,ProposalCategory,_addCategory,None,Category
+MemberRoles.sol,MemberRoles,swapABMember,MemberRoles,checkRoleAuthority
+MemberRoles.sol,MemberRoles,changeMaxABCount,MemberRoles,onlyGovernance
+MemberRoles.sol,MemberRoles,setKycAuthAddress,MemberRoles,onlyGovernance
+MemberRoles.sol,MemberRoles,addRole,MemberRoles,onlyGovernance
+MemberRoles.sol,MemberRoles,updateRole,MemberRoles,checkRoleAuthority
+MemberRoles.sol,MemberRoles,join,MemberRoles,No chain
+MemberRoles.sol,MemberRoles,join,MemberRoles,No chain
+MemberRoles.sol,MemberRoles,join,None,MemberJoined
+MemberRoles.sol,MemberRoles,withdrawMembership,MemberRoles,No chain
+MemberRoles.sol,MemberRoles,withdrawMembership,MemberRoles,No chain
+MemberRoles.sol,MemberRoles,withdrawMembership,MemberRoles,No chain
+MemberRoles.sol,MemberRoles,withdrawMembership,MemberRoles,whenNotPaused
+MemberRoles.sol,MemberRoles,switchMembershipOf,MemberRoles,onlyInternal
+MemberRoles.sol,MemberRoles,isMember,MemberRoles,->Role->Member))
+MemberRoles.sol,MemberRoles,_switchMembership,None,switchedMembership
+MemberRoles.sol,MemberRoles,changeAuthorized,MemberRoles,checkRoleAuthority
+MemberRoles.sol,MemberRoles,_addRole,None,MemberRole
+NXMaster.sol,NXMaster,addNewInternalContracts,NXMaster,No chain
+NXMaster.sol,NXMaster,addNewInternalContracts,NXMaster,No chain
+NXMaster.sol,NXMaster,addNewInternalContracts,NXMaster,onlyAuthorizedToGovern
+NXMaster.sol,NXMaster,addNewInternalContract,NXMaster,No chain
+NXMaster.sol,NXMaster,addNewInternalContract,NXMaster,No chain
+NXMaster.sol,NXMaster,addNewInternalContract,NXMaster,InternalContractAdded
+NXMaster.sol,NXMaster,upgradeMultipleContracts,NXMaster,No chain
+NXMaster.sol,NXMaster,upgradeMultipleContracts,NXMaster,onlyAuthorizedToGovern
+NXMaster.sol,NXMaster,upgradeMultipleContracts,NXMaster,ContractUpgraded
+NXMaster.sol,NXMaster,upgradeMultipleContracts,NXMaster,ContractUpgraded
+NXMaster.sol,NXMaster,replaceContract,NXMaster,No chain
+NXMaster.sol,NXMaster,replaceContract,NXMaster,No chain
+NXMaster.sol,NXMaster,removeContracts,NXMaster,onlyAuthorizedToGovern
+NXMaster.sol,NXMaster,removeContracts,NXMaster,ContractRemoved
+NXMaster.sol,NXMaster,setEmergencyPause,NXMaster,onlyEmergencyAdmin
+NXMaster.sol,NXMaster,setEmergencyPause,NXMaster,PauseConfigured
+NXMaster.sol,NXMaster,updateOwnerParameters,NXMaster,onlyAuthorizedToGovern
+OwnedUpgradeabilityProxy.sol,OwnedUpgradeabilityProxy,transferProxyOwnership,OwnedUpgradeabilityProxy,onlyProxyOwner
+OwnedUpgradeabilityProxy.sol,OwnedUpgradeabilityProxy,transferProxyOwnership,OwnedUpgradeabilityProxy,ProxyOwnershipTransferred
+OwnedUpgradeabilityProxy.sol,OwnedUpgradeabilityProxy,upgradeTo,OwnedUpgradeabilityProxy,onlyProxyOwner
+UpgradeabilityProxy.sol,UpgradeabilityProxy,_upgradeTo,UpgradeabilityProxy,Upgraded
+CoverNFT.sol,CoverNFT,changeOperator,CoverNFT,onlyOperator
+CoverNFT.sol,CoverNFT,changeNFTDescriptor,CoverNFT,onlyOperator
+CoverNFT.sol,CoverNFT,mint,CoverNFT,onlyOperator
+CoverNFT.sol,CoverNFT,mint,None,Transfer
+CoverNFT.sol,CoverNFT,tokenURI,CoverNFT,->tokenURI(id)
+CoverNFT.sol,CoverNFT,approve,None,Approval
+CoverNFT.sol,CoverNFT,setApprovalForAll,None,ApprovalForAll
+CoverNFT.sol,CoverNFT,transferFrom,None,Transfer
+CoverNFT.sol,ERC721TokenReceiver,onERC721Received,ERC721TokenReceiver,->onERC721Received->selector
+CoverMigrator.sol,CoverMigrator,submitClaim,CoverMigrator,whenNotPaused
+CoverMigrator.sol,CoverMigrator,migrateCovers,CoverMigrator,whenNotPaused
+CoverMigrator.sol,CoverMigrator,migrateCoverFrom,CoverMigrator,onlyInternal
+CoverMigrator.sol,CoverMigrator,migrateCoverFrom,CoverMigrator,whenNotPaused
+CoverMigrator.sol,CoverMigrator,migrateAndSubmitClaim,CoverMigrator,whenNotPaused
+CoverMigrator.sol,CoverMigrator,_migrateCoverFrom,CoverMigrator,CoverMigrated
+Cover.sol,Cover,constructor,Cover,No chain
+Cover.sol,Cover,buyCover,Cover,No chain
+Cover.sol,Cover,buyCover,Cover,->period>MAX_COVER_PERIOD)revertCoverPeriodTooLong()
+Cover.sol,Cover,buyCover,Cover,->amount==0)revertCoverAmountIsZero()
+Cover.sol,Cover,buyCover,Cover,"->coverAsset,product->coverAssets))revertCoverAssetNotSupported()"
+Cover.sol,Cover,buyCover,Cover,No chain
+Cover.sol,Cover,buyCover,Cover,"->productId,params->coverAsset,0)"
+Cover.sol,Cover,buyCover,Cover,->getTokenPriceInAsset(params->coverAsset)
+Cover.sol,Cover,buyCover,Cover,->amount)revertInsufficientCoverAmountAllocated()
+Cover.sol,Cover,buyCover,Cover,No chain
+Cover.sol,Cover,buyCover,Cover,"->push(CoverSegment(coverAmountInCoverAsset->toUint96(),block->timestamp->toUint32(),params->period,allocationRequest->gracePeriod->toUint32(),GLOBAL_REWARDS_RATIO->toUint24(),GLOBAL_CAPACITY_RATIO->toUint24()))"
+Cover.sol,Cover,buyCover,Cover,->coverAsset]
+Cover.sol,Cover,buyCover,Cover,->totalActiveCoverInAsset
+Cover.sol,Cover,buyCover,Cover,No chain
+Cover.sol,Cover,buyCover,Cover,"->coverAsset,_activeCover->lastBucketUpdateId,currentBucketId)"
+Cover.sol,Cover,buyCover,Cover,No chain
+Cover.sol,Cover,buyCover,Cover,->lastBucketUpdateId=currentBucketId->toUint64()
+Cover.sol,Cover,buyCover,Cover,->totalActiveCoverInAsset=totalActiveCover->toUint192()
+Cover.sol,Cover,buyCover,Cover,No chain
+Cover.sol,Cover,buyCover,Cover,->coverAsset]=_activeCover
+Cover.sol,Cover,buyCover,Cover,No chain
+Cover.sol,Cover,buyCover,Cover,->coverAsset][bucketAtExpiry]+=coverAmountInCoverAsset
+Cover.sol,Cover,buyCover,Cover,No chain
+Cover.sol,Cover,buyCover,Cover,"->paymentAsset,nxmPriceInCoverAsset,params->maxPremiumInAsset,params->commissionRatio,params->commissionDestination)"
+Cover.sol,Cover,buyCover,Cover,"->productId,segmentId,msg->sender,params->ipfsData)"
+Cover.sol,Cover,buyCover,Cover,onlyMember
+Cover.sol,Cover,buyCover,Cover,nonReentrant
+Cover.sol,Cover,buyCover,Cover,whenNotPaused
+Cover.sol,Cover,buyCover,Cover,"->coverAsset,product->coverAssets)"
+Cover.sol,Cover,buyCover,Cover,"->productId,params->coverAsset,0)"
+Cover.sol,Cover,buyCover,Cover,->coverAsset];
+Cover.sol,Cover,buyCover,Cover,->totalActiveCoverInAsset;
+Cover.sol,Cover,buyCover,Cover,"->coverAsset,_activeCover->lastBucketUpdateId,currentBucketId)"
+Cover.sol,Cover,buyCover,Cover,No chain
+Cover.sol,Cover,buyCover,None,CoverEdited
+Cover.sol,Cover,expireCover,Cover,->coverAsset][bucketAtExpiry]-=lastSegment->amount
+Cover.sol,Cover,expireCover,Cover,->coverAsset][bucketAtExpiry]-=lastSegment->amount
+Cover.sol,Cover,requestAllocation,Cover,No chain
+Cover.sol,Cover,requestAllocation,Cover,->coverAmountInNXM
+Cover.sol,Cover,requestAllocation,Cover,"->roundUp(Math->divCeil(poolAllocationRequests[i]->coverAmountInAsset*ONE_NXM,nxmPriceInCoverAsset),NXM_PER_ALLOCATION_UNIT)"
+Cover.sol,Cover,requestAllocation,Cover,->coverAmountInNXM
+Cover.sol,Cover,requestAllocation,Cover,->coverAmountInNXM
+Cover.sol,Cover,requestAllocation,Cover,"->roundUp(Math->divCeil(poolAllocationRequests[i]->coverAmountInAsset*ONE_NXM,nxmPriceInCoverAsset),NXM_PER_ALLOCATION_UNIT);"
+Cover.sol,Cover,retrievePayment,Cover,No chain
+Cover.sol,Cover,addLegacyCover,Cover,"->toUint24(),coverAsset->toUint8(),0)"
+Cover.sol,Cover,addLegacyCover,Cover,->totalActiveCoverInAsset+=amount->toUint192()
+Cover.sol,Cover,addLegacyCover,Cover,No chain
+Cover.sol,Cover,addLegacyCover,Cover,"->push(CoverSegment(amount->toUint96(),start->toUint32(),period->toUint32(),productType->gracePeriod,0,1))"
+Cover.sol,Cover,addLegacyCover,Cover,"->sender,"""")"
+Cover.sol,Cover,addLegacyCover,Cover,onlyInternal
+Cover.sol,Cover,addLegacyCover,None,CoverEdited
+Cover.sol,Cover,createStakingPool,Cover,No chain
+Cover.sol,Cover,createStakingPool,Cover,No chain
+Cover.sol,Cover,createStakingPool,Cover,whenNotPaused
+Cover.sol,Cover,createStakingPool,Cover,onlyMember
+Cover.sol,Cover,burnStake,Cover,->coverAsset]
+Cover.sol,Cover,burnStake,Cover,->lastBucketUpdateId
+Cover.sol,Cover,burnStake,Cover,->toUint192()
+Cover.sol,Cover,burnStake,Cover,->totalActiveCoverInAsset-=activeCoverToExpire->toUint192()
+Cover.sol,Cover,burnStake,Cover,No chain
+Cover.sol,Cover,burnStake,Cover,->lastBucketUpdateId=currentBucketId->toUint64()
+Cover.sol,Cover,burnStake,Cover,onlyInternal
+Cover.sol,Cover,burnStake,Cover,->coverAsset];
+Cover.sol,Cover,burnStake,Cover,->lastBucketUpdateId;
+Cover.sol,Cover,burnStake,Cover,->toUint192()
+Cover.sol,Cover,setProducts,Cover,->max
+Cover.sol,Cover,setProducts,Cover,->coverAssets!=0)revertUnsupportedCoverAssets()
+Cover.sol,Cover,setProducts,Cover,No chain
+Cover.sol,Cover,setProducts,Cover,onlyAdvisoryBoard
+Cover.sol,Cover,setProducts,Cover,->isCoverAsset
+Cover.sol,Cover,setProducts,Cover,->coverAssets
+Cover.sol,Cover,setProducts,None,ProductSet
+Cover.sol,Cover,setProducts,None,ProductSet
+Cover.sol,Cover,setProductTypes,Cover,onlyAdvisoryBoard
+Cover.sol,Cover,setProductTypes,None,ProductTypeSet
+Cover.sol,Cover,setProductTypes,None,ProductTypeSet
+Cover.sol,Cover,totalActiveCoverInAsset,Cover,->totalActiveCoverInAsset)
+Cover.sol,Cover,totalActiveCoverInAsset,Cover,No chain
+Cover.sol,Cover,isCoverAssetSupported,Cover,No chain
+Cover.sol,Cover,isCoverAssetSupported,Cover,->isCoverAsset&&!asset->isAbandoned

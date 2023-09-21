@@ -1,0 +1,114 @@
+File,Source_Contract,Source_Function,Target_Contract,Chain
+PWNConfig.t.sol,PWNConfig_SetFee_Test,test_shouldEmitEvent_FeeUpdated,PWNConfigTest,FeeUpdated
+PWNConfig.t.sol,PWNConfig_SetFeeCollector_Test,test_shouldEmitEvent_FeeCollectorUpdated,PWNConfigTest,FeeCollectorUpdated
+PWNConfig.t.sol,PWNConfig_SetLoanMetadataUri_Test,test_shouldEmitEvent_LoanMetadataUriUpdated,PWNConfigTest,LoanMetadataUriUpdated
+PWNVault.t.sol,PWNVault_Pull_Test,test_shouldEmitEvent_VaultPull,PWNVaultTest,VaultPull
+PWNVault.t.sol,PWNVault_Push_Test,test_shouldEmitEvent_VaultPush,PWNVaultTest,VaultPush
+PWNVault.t.sol,PWNVault_PushFrom_Test,test_shouldEmitEvent_VaultPushFrom,PWNVaultTest,VaultPushFrom
+PWNRevokedNonce.t.sol,PWNRevokedNonce_RevokeNonceByOwner_Test,test_shouldEmitEvent_NonceRevoked,PWNRevokedNonceTest,NonceRevoked
+PWNRevokedNonce.t.sol,PWNRevokedNonce_RevokeNonceWithOwner_Test,test_shouldEmitEvent_NonceRevoked,PWNRevokedNonceTest,NonceRevoked
+PWNRevokedNonce.t.sol,PWNRevokedNonce_SetMinNonceByOwner_Test,test_shouldEmitEvent_MinNonceSet,PWNRevokedNonceTest,MinNonceSet
+PWNSimpleLoan.t.sol,PWNSimpleLoanTest,setUp,PWNSimpleLoanTest,No chain
+PWNSimpleLoan.t.sol,PWNSimpleLoanTest,setUp,PWNSimpleLoanTest,No chain
+PWNSimpleLoan.t.sol,PWNSimpleLoanTest,setUp,PWNSimpleLoanTest,No chain
+PWNSimpleLoan.t.sol,PWNSimpleLoanTest,setUp,PWNSimpleLoanTest,No chain
+PWNSimpleLoan.t.sol,PWNSimpleLoan_CreateLoan_Test,test_shouldGetLOANTermsStructFromGivenFactoryContract,PWNSimpleLoan_CreateLoan_Test,No chain
+PWNSimpleLoan.t.sol,PWNSimpleLoan_CreateLoan_Test,test_shouldGetLOANTermsStructFromGivenFactoryContract,PWNSimpleLoan_CreateLoan_Test,No chain
+PWNSimpleLoan.t.sol,PWNSimpleLoan_CreateLoan_Test,test_shouldGetLOANTermsStructFromGivenFactoryContract,PWNSimpleLoan_CreateLoan_Test,No chain
+PWNSimpleLoan.t.sol,PWNSimpleLoan_CreateLoan_Test,test_shouldEmitEvent_LOANCreated,PWNSimpleLoanTest,LOANCreated
+PWNSimpleLoan.t.sol,PWNSimpleLoan_RepayLOAN_Test,test_shouldEmitEvent_LOANPaidBack,PWNSimpleLoanTest,LOANPaidBack
+PWNSimpleLoan.t.sol,PWNSimpleLoan_ClaimLOAN_Test,test_shouldEmitEvent_LOANClaimed_whenRepaid,PWNSimpleLoanTest,LOANClaimed
+PWNSimpleLoan.t.sol,PWNSimpleLoan_ClaimLOAN_Test,test_shouldEmitEvent_LOANClaimed_whenDefaulted,PWNSimpleLoanTest,LOANClaimed
+PWNSimpleLoan.t.sol,PWNSimpleLoan_ExtendExpirationDate_Test,test_shouldEmitEvent_LOANExpirationDateExtended,PWNSimpleLoanTest,LOANExpirationDateExtended
+PWNSimpleLoanOffer.t.sol,PWNSimpleLoanOfferExposed,constructor,PWNSimpleLoanOfferExposed,No Chain
+PWNSimpleLoanOffer.t.sol,PWNSimpleLoanOffer_MakeOffer_Test,test_shouldEmitEvent_OfferMade,PWNSimpleLoanOfferTest,OfferMade
+PWNHub.t.sol,PWNHub_SetTag_Test,test_shouldEmitEvent_TagSet,PWNHubTest,TagSet
+PWNHub.t.sol,PWNHub_SetTags_Test,test_shouldEmitEvent_TagSet_forEverySet,PWNHubTest,TagSet
+PWNSimpleLoanRequest.t.sol,PWNSimpleLoanRequestExposed,constructor,PWNSimpleLoanRequestExposed,No Chain
+PWNSimpleLoanRequest.t.sol,PWNSimpleLoanRequest_MakeRequest_Test,test_shouldEmitEvent_RequestMade,PWNSimpleLoanRequestTest,RequestMade
+PWNLOAN.t.sol,PWNLOAN_Mint_Test,test_shouldEmitEvent_LOANMinted,PWNLOANTest,LOANMinted
+PWNLOAN.t.sol,PWNLOAN_Burn_Test,test_shouldEmitEvent_LOANBurned,PWNLOANTest,LOANBurned
+DeploymentTest.t.sol,DeploymentTest,_deployProtocol,DeploymentTest,No chain
+DeploymentTest.t.sol,DeploymentTest,_deployProtocol,DeploymentTest,No chain
+PWN.s.sol,Deploy,deployProtocol,Deploy,No chain
+PWN.s.sol,Deploy,deployProtocol,Deploy,No chain
+PWN.s.sol,Deploy,deployProtocol,Deploy,No chain
+PWN.s.sol,Deploy,deployProtocol,Deploy,No chain
+PWN.s.sol,Deploy,deployProtocol,Deploy,No chain
+PWN.s.sol,Deploy,deployProtocol,Deploy,No chain
+PWN.s.sol,Deploy,deployProtocol,Deploy,No chain
+PWN.s.sol,Deploy,deployProtocol,Deploy,No chain
+PWN.s.sol,Deploy,deployProtocol,Deploy,No chain
+PWN.s.sol,Deploy,deployProtocol,Deploy,No chain
+PWN.s.sol,Deploy,deployProtocol,Deploy,No chain
+PWN.s.sol,Deploy,deployProtocol,Deploy,No chain
+PWN.s.sol,Deploy,deployProtocol,Deploy,No chain
+PWN.s.sol,Deploy,deployProtocol,Deploy,No chain
+PWN.s.sol,Deploy,deployProtocol,Deploy,No chain
+PWN.s.sol,Deploy,deployProtocol,Deploy,No chain
+PWN.s.sol,Deploy,deployProtocol,Deploy,No chain
+PWN.s.sol,Deploy,deployProtocol,Deploy,No chain
+PWN.s.sol,Deploy,deployProtocol,Deploy,No chain
+PWN.s.sol,Deploy,deployProtocol,Deploy,No chain
+PWN.s.sol,Deploy,timelockControllerProtocol,Deploy,->PROTOCOL_TEAM_TIMELOCK_CONTROLLER
+PWN.s.sol,Deploy,timelockControllerProtocol,Deploy,No chain
+PWN.s.sol,Deploy,timelockControllerProtocol,Deploy,No chain
+PWN.s.sol,Deploy,timelockControllerProtocol,Deploy,->PROTOCOL_TEAM_TIMELOCK_CONTROLLER;
+PWN.s.sol,Deploy,timelockControllerProduct,Deploy,->PRODUCT_TEAM_TIMELOCK_CONTROLLER
+PWN.s.sol,Deploy,timelockControllerProduct,Deploy,No chain
+PWN.s.sol,Deploy,timelockControllerProduct,Deploy,No chain
+PWN.s.sol,Deploy,timelockControllerProduct,Deploy,->PRODUCT_TEAM_TIMELOCK_CONTROLLER;
+PWNDeployer.sol,PWNDeployer,constructor,PWNDeployer,No Chain
+PWNDeployer.sol,PWNDeployer,deploy,PWNDeployer,onlyOwner
+PWNDeployer.sol,PWNDeployer,deployAndTransferOwnership,PWNDeployer,onlyOwner
+PWNVault.sol,PWNVault,_pull,PWNVault,No chain
+PWNVault.sol,PWNVault,_pull,PWNVault,No chain
+PWNVault.sol,PWNVault,_pull,PWNVault,No chain
+PWNVault.sol,PWNVault,_pull,PWNVault,No chain
+PWNVault.sol,PWNVault,_pull,PWNVault,VaultPull
+PWNVault.sol,PWNVault,_push,PWNVault,No chain
+PWNVault.sol,PWNVault,_push,PWNVault,No chain
+PWNVault.sol,PWNVault,_push,PWNVault,VaultPush
+PWNVault.sol,PWNVault,_pushFrom,PWNVault,VaultPushFrom
+PWNVault.sol,PWNVault,_permit,PWNVault,No chain
+PWNVault.sol,PWNVault,_permit,PWNVault,No chain
+PWNLOAN.sol,PWNLOAN,constructor,PWNLOAN,No Chain
+PWNLOAN.sol,PWNLOAN,mint,PWNLOAN,onlyActiveLoan
+PWNLOAN.sol,PWNLOAN,mint,PWNLOAN,LOANMinted
+PWNLOAN.sol,PWNLOAN,burn,PWNLOAN,LOANBurned
+PWNSimpleLoan.sol,PWNSimpleLoan,createLOAN,PWNSimpleLoan,No chain
+PWNSimpleLoan.sol,PWNSimpleLoan,createLOAN,PWNSimpleLoan,No chain
+PWNSimpleLoan.sol,PWNSimpleLoan,createLOAN,PWNSimpleLoan,LOANCreated
+PWNSimpleLoan.sol,PWNSimpleLoan,repayLOAN,PWNSimpleLoan,LOANPaidBack
+PWNSimpleLoan.sol,PWNSimpleLoan,claimLOAN,PWNSimpleLoan,LOANClaimed
+PWNSimpleLoan.sol,PWNSimpleLoan,claimLOAN,PWNSimpleLoan,LOANClaimed
+PWNSimpleLoan.sol,PWNSimpleLoan,extendLOANExpirationDate,PWNSimpleLoan,LOANExpirationDateExtended
+PWNSimpleLoan.sol,PWNSimpleLoan,loanMetadataUri,PWNSimpleLoan,No chain
+PWNSimpleLoan.sol,PWNSimpleLoan,loanMetadataUri,PWNSimpleLoan,No chain
+PWNSimpleLoanSimpleOffer.sol,PWNSimpleLoanSimpleOffer,constructor,PWNSimpleLoanSimpleOffer,No chain
+PWNSimpleLoanSimpleOffer.sol,PWNSimpleLoanSimpleOffer,constructor,PWNSimpleLoanSimpleOffer,"->encode(keccak256(""EIP712Domain(string name,string version,uint256 chainId,address verifyingContract)""),keccak256(""PWNSimpleLoanSimpleOffer""),keccak256(""1""),block->chainid,address(this)))"
+PWNSimpleLoanSimpleOffer.sol,PWNSimpleLoanSimpleOffer,createLOANTerms,PWNSimpleLoanSimpleOffer,onlyActiveLoan
+PWNSimpleLoanListOffer.sol,PWNSimpleLoanListOffer,createLOANTerms,PWNSimpleLoanListOffer,onlyActiveLoan
+PWNSimpleLoanOffer.sol,PWNSimpleLoanOffer,constructor,PWNSimpleLoanOffer,No Chain
+PWNSimpleLoanOffer.sol,PWNSimpleLoanOffer,_makeOffer,PWNSimpleLoanOffer,OfferMade
+PWNSimpleLoanSimpleRequest.sol,PWNSimpleLoanSimpleRequest,constructor,PWNSimpleLoanSimpleRequest,No chain
+PWNSimpleLoanSimpleRequest.sol,PWNSimpleLoanSimpleRequest,constructor,PWNSimpleLoanSimpleRequest,"->encode(keccak256(""EIP712Domain(string name,string version,uint256 chainId,address verifyingContract)""),keccak256(""PWNSimpleLoanSimpleRequest""),keccak256(""1""),block->chainid,address(this)))"
+PWNSimpleLoanSimpleRequest.sol,PWNSimpleLoanSimpleRequest,createLOANTerms,PWNSimpleLoanSimpleRequest,onlyActiveLoan
+PWNSimpleLoanRequest.sol,PWNSimpleLoanRequest,constructor,PWNSimpleLoanRequest,No Chain
+PWNSimpleLoanRequest.sol,PWNSimpleLoanRequest,_makeRequest,PWNSimpleLoanRequest,RequestMade
+PWNRevokedNonce.sol,PWNRevokedNonce,constructor,PWNRevokedNonce,No Chain
+PWNRevokedNonce.sol,PWNRevokedNonce,revokeNonce,PWNRevokedNonce,onlyWithTag
+PWNRevokedNonce.sol,PWNRevokedNonce,_revokeNonce,PWNRevokedNonce,NonceRevoked
+PWNRevokedNonce.sol,PWNRevokedNonce,setMinNonce,PWNRevokedNonce,MinNonceSet
+PWNConfig.sol,PWNConfig,constructor,PWNConfig,No Chain
+PWNConfig.sol,PWNConfig,initialize,PWNConfig,initializer
+PWNConfig.sol,PWNConfig,setFee,PWNConfig,onlyOwner
+PWNConfig.sol,PWNConfig,_setFee,PWNConfig,FeeUpdated
+PWNConfig.sol,PWNConfig,setFeeCollector,PWNConfig,onlyOwner
+PWNConfig.sol,PWNConfig,_setFeeCollector,PWNConfig,FeeCollectorUpdated
+PWNConfig.sol,PWNConfig,setLoanMetadataUri,PWNConfig,onlyOwner
+PWNConfig.sol,PWNConfig,setLoanMetadataUri,PWNConfig,LoanMetadataUriUpdated
+PWNHub.sol,PWNHub,constructor,PWNHub,No Chain
+PWNHub.sol,PWNHub,setTag,PWNHub,onlyOwner
+PWNHub.sol,PWNHub,setTag,PWNHub,TagSet
+PWNHub.sol,PWNHub,setTags,PWNHub,onlyOwner

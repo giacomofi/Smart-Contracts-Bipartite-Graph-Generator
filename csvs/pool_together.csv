@@ -1,0 +1,185 @@
+File,Source_Contract,Source_Function,Target_Contract,Chain
+DrawCalculator.sol,DrawCalculator,constructor,None,Deployed
+DrawBeacon.sol,DrawBeacon,constructor,DrawBeacon,No Chain
+DrawBeacon.sol,DrawBeacon,constructor,DrawBeacon,Deployed
+DrawBeacon.sol,DrawBeacon,constructor,None,BeaconPeriodStarted
+DrawBeacon.sol,DrawBeacon,cancelDraw,None,DrawCancelled
+DrawBeacon.sol,DrawBeacon,completeDraw,DrawBeacon,No chain
+DrawBeacon.sol,DrawBeacon,completeDraw,DrawBeacon,No chain
+DrawBeacon.sol,DrawBeacon,completeDraw,DrawBeacon,requireCanCompleteRngRequest
+DrawBeacon.sol,DrawBeacon,completeDraw,DrawBeacon,No chain
+DrawBeacon.sol,DrawBeacon,completeDraw,None,DrawCompleted
+DrawBeacon.sol,DrawBeacon,completeDraw,None,BeaconPeriodStarted
+DrawBeacon.sol,DrawBeacon,setDrawBuffer,DrawBeacon,onlyOwner
+DrawBeacon.sol,DrawBeacon,startDraw,DrawBeacon,requireCanStartDraw
+DrawBeacon.sol,DrawBeacon,startDraw,None,DrawStarted
+DrawBeacon.sol,DrawBeacon,setBeaconPeriodSeconds,DrawBeacon,onlyOwner
+DrawBeacon.sol,DrawBeacon,setBeaconPeriodSeconds,DrawBeacon,requireDrawNotStarted
+DrawBeacon.sol,DrawBeacon,setRngTimeout,DrawBeacon,onlyOwner
+DrawBeacon.sol,DrawBeacon,setRngTimeout,DrawBeacon,requireDrawNotStarted
+DrawBeacon.sol,DrawBeacon,setRngService,DrawBeacon,onlyOwner
+DrawBeacon.sol,DrawBeacon,setRngService,DrawBeacon,requireDrawNotStarted
+DrawBeacon.sol,DrawBeacon,_setRngService,None,RngServiceUpdated
+DrawBeacon.sol,DrawBeacon,_requireDrawNotStarted,DrawBeacon,"->lockBlock==0||currentBlock<rngRequest->lockBlock,""DrawBeacon/rng-in-flight"")"
+DrawBeacon.sol,DrawBeacon,_setDrawBuffer,None,DrawBufferUpdated
+DrawBeacon.sol,DrawBeacon,_setBeaconPeriodSeconds,None,BeaconPeriodSecondsUpdated
+DrawBeacon.sol,DrawBeacon,_setRngTimeout,None,RngTimeoutSet
+Ticket.sol,Ticket,constructor,Ticket,No Chain
+Ticket.sol,Ticket,controllerDelegateFor,Ticket,onlyController
+Ticket.sol,Ticket,delegateWithSignature,Ticket,"->timestamp<=_deadline,""Ticket/delegate-expired-deadline"")"
+Ticket.sol,Ticket,_delegate,None,Delegated
+Ticket.sol,Ticket,_getAverageBalancesBetween,Ticket,"->length,""Ticket/start-end-times-length-match"")"
+Ticket.sol,Ticket,_increaseUserTwab,None,NewUserTwab
+Ticket.sol,Ticket,_decreaseUserTwab,Ticket,"->AccountDetailsmemoryaccountDetails,ObservationLib->Observationmemorytwab,boolisNew)=TwabLib->decreaseBalance(_account,_amount->toUint208(),""Ticket/twab-burn-lt-balance"",uint32(block->timestamp))"
+Ticket.sol,Ticket,_decreaseUserTwab,Ticket,"->decreaseBalance(_account,_amount->toUint208(),""Ticket/twab-burn-lt-balance"",uint32(block->timestamp));"
+Ticket.sol,Ticket,_decreaseUserTwab,None,NewUserTwab
+Ticket.sol,Ticket,_decreaseTotalSupplyTwab,Ticket,"->AccountDetailsmemoryaccountDetails,ObservationLib->ObservationmemorytsTwab,booltsIsNew)=TwabLib->decreaseBalance(totalSupplyTwab,_amount->toUint208(),""Ticket/burn-amount-exceeds-total-supply-twab"",uint32(block->timestamp))"
+Ticket.sol,Ticket,_decreaseTotalSupplyTwab,Ticket,"->decreaseBalance(totalSupplyTwab,_amount->toUint208(),""Ticket/burn-amount-exceeds-total-supply-twab"",uint32(block->timestamp));"
+Ticket.sol,Ticket,_decreaseTotalSupplyTwab,None,NewTotalSupplyTwab
+Ticket.sol,Ticket,_increaseTotalSupplyTwab,None,NewTotalSupplyTwab
+DrawCalculatorV2.sol,DrawCalculatorV2,constructor,DrawCalculatorV2,Deployed
+ControlledToken.sol,ControlledToken,constructor,ControlledToken,No Chain
+ControlledToken.sol,ControlledToken,constructor,ControlledToken,Deployed
+ControlledToken.sol,ControlledToken,controllerMint,ControlledToken,onlyController
+ControlledToken.sol,ControlledToken,controllerBurn,ControlledToken,onlyController
+ControlledToken.sol,ControlledToken,controllerBurnFrom,ControlledToken,onlyController
+DrawBuffer.sol,DrawBuffer,constructor,DrawBuffer,No Chain
+DrawBuffer.sol,DrawBuffer,pushDraw,DrawBuffer,onlyManagerOrOwner
+DrawBuffer.sol,DrawBuffer,setDraw,DrawBuffer,onlyOwner
+DrawBuffer.sol,DrawBuffer,setDraw,None,DrawSet
+DrawBuffer.sol,DrawBuffer,_pushDraw,None,DrawSet
+PrizeDistributor.sol,PrizeDistributor,constructor,PrizeDistributor,No Chain
+PrizeDistributor.sol,PrizeDistributor,constructor,None,TokenSet
+PrizeDistributor.sol,PrizeDistributor,claim,None,ClaimedDraw
+PrizeDistributor.sol,PrizeDistributor,withdrawERC20,PrizeDistributor,onlyOwner
+PrizeDistributor.sol,PrizeDistributor,withdrawERC20,None,ERC20Withdrawn
+PrizeDistributor.sol,PrizeDistributor,setDrawCalculator,PrizeDistributor,onlyOwner
+PrizeDistributor.sol,PrizeDistributor,_setDrawCalculator,None,DrawCalculatorSet
+Reserve.sol,Reserve,constructor,Reserve,No Chain
+Reserve.sol,Reserve,constructor,Reserve,Deployed
+Reserve.sol,Reserve,withdrawTo,Reserve,onlyManagerOrOwner
+Reserve.sol,Reserve,withdrawTo,None,Withdrawn
+Reserve.sol,Reserve,_checkpoint,Reserve,->balanceOf(address(this))
+Reserve.sol,Reserve,_checkpoint,Reserve,No chain
+Reserve.sol,Reserve,_checkpoint,Reserve,No chain
+Reserve.sol,Reserve,_checkpoint,Reserve,No chain
+Reserve.sol,Reserve,_checkpoint,Reserve,No chain
+Reserve.sol,Reserve,_checkpoint,Reserve,No chain
+Reserve.sol,Reserve,_checkpoint,Reserve,No chain
+Reserve.sol,Reserve,_checkpoint,None,Checkpoint
+PrizeDistributionBuffer.sol,PrizeDistributionBuffer,constructor,PrizeDistributionBuffer,No Chain
+PrizeDistributionBuffer.sol,PrizeDistributionBuffer,constructor,PrizeDistributionBuffer,Deployed
+PrizeDistributionBuffer.sol,PrizeDistributionBuffer,getPrizeDistributions,PrizeDistributionBuffer,->PrizeDistribution[]memory_prizeDistributions=newIPrizeDistributionBuffer->PrizeDistribution[](drawIdsLength)
+PrizeDistributionBuffer.sol,PrizeDistributionBuffer,getPrizeDistributions,PrizeDistributionBuffer,No chain
+PrizeDistributionBuffer.sol,PrizeDistributionBuffer,getPrizeDistributions,PrizeDistributionBuffer,->PrizeDistribution[](drawIdsLength);
+PrizeDistributionBuffer.sol,PrizeDistributionBuffer,pushPrizeDistribution,PrizeDistributionBuffer,No chain
+PrizeDistributionBuffer.sol,PrizeDistributionBuffer,pushPrizeDistribution,PrizeDistributionBuffer,onlyManagerOrOwner
+PrizeDistributionBuffer.sol,PrizeDistributionBuffer,setPrizeDistribution,PrizeDistributionBuffer,No chain
+PrizeDistributionBuffer.sol,PrizeDistributionBuffer,setPrizeDistribution,PrizeDistributionBuffer,onlyOwner
+PrizeDistributionBuffer.sol,PrizeDistributionBuffer,setPrizeDistribution,None,PrizeDistributionSet
+PrizeDistributionBuffer.sol,PrizeDistributionBuffer,_pushPrizeDistribution,PrizeDistributionBuffer,No chain
+PrizeDistributionBuffer.sol,PrizeDistributionBuffer,_pushPrizeDistribution,None,PrizeDistributionSet
+PrizeSplitStrategy.sol,PrizeSplitStrategy,constructor,PrizeSplitStrategy,No Chain
+PrizeSplitStrategy.sol,PrizeSplitStrategy,constructor,PrizeSplitStrategy,Deployed
+PrizeSplitStrategy.sol,PrizeSplitStrategy,distribute,None,Distributed
+PrizeSplitStrategy.sol,PrizeSplitStrategy,_awardPrizeSplitAmount,None,PrizeSplitAwarded
+PrizeSplit.sol,PrizeSplit,setPrizeSplits,PrizeSplit,No chain
+PrizeSplit.sol,PrizeSplit,setPrizeSplits,PrizeSplit,->length
+PrizeSplit.sol,PrizeSplit,setPrizeSplits,PrizeSplit,"->max,""PrizeSplit/invalid-prizesplits-length"")"
+PrizeSplit.sol,PrizeSplit,setPrizeSplits,PrizeSplit,No chain
+PrizeSplit.sol,PrizeSplit,setPrizeSplits,PrizeSplit,"->target!=address(0),""PrizeSplit/invalid-prizesplit-target"")"
+PrizeSplit.sol,PrizeSplit,setPrizeSplits,PrizeSplit,"->target,split->percentage,index)"
+PrizeSplit.sol,PrizeSplit,setPrizeSplits,PrizeSplit,onlyOwner
+PrizeSplit.sol,PrizeSplit,setPrizeSplits,PrizeSplit,->length;
+PrizeSplit.sol,PrizeSplit,setPrizeSplits,None,PrizeSplitSet
+PrizeSplit.sol,PrizeSplit,setPrizeSplits,PrizeSplit,->length>newPrizeSplitsLength
+PrizeSplit.sol,PrizeSplit,setPrizeSplits,None,PrizeSplitRemoved
+PrizeSplit.sol,PrizeSplit,setPrizeSplit,PrizeSplit,No chain
+PrizeSplit.sol,PrizeSplit,setPrizeSplit,PrizeSplit,"->length,""PrizeSplit/nonexistent-prizesplit"")"
+PrizeSplit.sol,PrizeSplit,setPrizeSplit,PrizeSplit,"->target!=address(0),""PrizeSplit/invalid-prizesplit-target"")"
+PrizeSplit.sol,PrizeSplit,setPrizeSplit,PrizeSplit,"->target,_prizeSplit->percentage,_prizeSplitIndex)"
+PrizeSplit.sol,PrizeSplit,setPrizeSplit,PrizeSplit,onlyOwner
+PrizeSplit.sol,PrizeSplit,setPrizeSplit,None,PrizeSplitSet
+PrizeSplit.sol,PrizeSplit,_distributePrizeSplits,PrizeSplit,"->target,_splitAmount)"
+PrizeSplitStrategyHarness.sol,PrizeSplitStrategyHarness,constructor,PrizeSplitStrategyHarness,No Chain
+TicketHarness.sol,TicketHarness,constructor,TicketHarness,No Chain
+DrawCalculatorV2Harness.sol,DrawCalculatorV2Harness,constructor,DrawCalculatorV2Harness,No Chain
+DrawCalculatorHarness.sol,DrawCalculatorHarness,constructor,DrawCalculatorHarness,No Chain
+ERC721Mintable.sol,ERC721Mintable,constructor,ERC721Mintable,No Chain
+TwabLibraryExposed.sol,TwabLibExposed,increaseBalance,TwabLibExposed,Updated
+TwabLibraryExposed.sol,TwabLibExposed,decreaseBalance,TwabLibExposed,Updated
+PrizeSplitHarness.sol,PrizeSplitHarness,constructor,PrizeSplitHarness,No Chain
+PrizeSplitHarness.sol,PrizeSplitHarness,_awardPrizeSplitAmount,None,PrizeSplitAwarded
+EIP2612PermitMintable.sol,EIP2612PermitMintable,constructor,EIP2612PermitMintable,No Chain
+EIP2612PermitMintable.sol,EIP2612PermitMintable,constructor,EIP2612PermitMintable,No Chain
+DrawBeaconHarness.sol,DrawBeaconHarness,constructor,DrawBeaconHarness,No Chain
+ReserveHarness.sol,ReserveHarness,constructor,ReserveHarness,No Chain
+ReserveHarness.sol,ReserveHarness,doubleCheckpoint,ReserveHarness,No chain
+ReserveHarness.sol,ReserveHarness,doubleCheckpoint,ReserveHarness,No chain
+PrizePoolHarness.sol,PrizePoolHarness,constructor,PrizePoolHarness,No Chain
+PrizePoolHarness.sol,PrizePoolHarness,_balance,PrizePoolHarness,No chain
+PrizePoolHarness.sol,PrizePoolHarness,_balance,PrizePoolHarness,No chain
+PrizePoolHarness.sol,PrizePoolHarness,_supply,PrizePoolHarness,No chain
+PrizePoolHarness.sol,PrizePoolHarness,_supply,PrizePoolHarness,No chain
+DrawBufferHarness.sol,DrawBufferHarness,constructor,DrawBufferHarness,No Chain
+ERC20Mintable.sol,ERC20Mintable,constructor,ERC20Mintable,No Chain
+EIP2612PermitAndDeposit.sol,EIP2612PermitAndDeposit,permitAndDepositToAndDelegate,EIP2612PermitAndDeposit,No chain
+EIP2612PermitAndDeposit.sol,EIP2612PermitAndDeposit,permitAndDepositToAndDelegate,EIP2612PermitAndDeposit,No chain
+EIP2612PermitAndDeposit.sol,EIP2612PermitAndDeposit,permitAndDepositToAndDelegate,EIP2612PermitAndDeposit,No chain
+EIP2612PermitAndDeposit.sol,EIP2612PermitAndDeposit,permitAndDepositToAndDelegate,EIP2612PermitAndDeposit,No chain
+EIP2612PermitAndDeposit.sol,EIP2612PermitAndDeposit,permitAndDepositToAndDelegate,EIP2612PermitAndDeposit,No chain
+EIP2612PermitAndDeposit.sol,EIP2612PermitAndDeposit,permitAndDepositToAndDelegate,EIP2612PermitAndDeposit,No chain
+EIP2612PermitAndDeposit.sol,EIP2612PermitAndDeposit,permitAndDepositToAndDelegate,EIP2612PermitAndDeposit,No chain
+EIP2612PermitAndDeposit.sol,EIP2612PermitAndDeposit,_depositTo,EIP2612PermitAndDeposit,No chain
+EIP2612PermitAndDeposit.sol,EIP2612PermitAndDeposit,_depositTo,EIP2612PermitAndDeposit,No chain
+YieldSourcePrizePool.sol,YieldSourcePrizePool,constructor,YieldSourcePrizePool,No Chain
+YieldSourcePrizePool.sol,YieldSourcePrizePool,constructor,YieldSourcePrizePool,Deployed
+YieldSourcePrizePool.sol,YieldSourcePrizePool,sweep,YieldSourcePrizePool,No chain
+YieldSourcePrizePool.sol,YieldSourcePrizePool,sweep,YieldSourcePrizePool,No chain
+YieldSourcePrizePool.sol,YieldSourcePrizePool,sweep,YieldSourcePrizePool,nonReentrant
+YieldSourcePrizePool.sol,YieldSourcePrizePool,sweep,YieldSourcePrizePool,onlyOwner
+YieldSourcePrizePool.sol,YieldSourcePrizePool,sweep,YieldSourcePrizePool,Swept
+YieldSourcePrizePool.sol,YieldSourcePrizePool,_balance,YieldSourcePrizePool,No chain
+YieldSourcePrizePool.sol,YieldSourcePrizePool,_balance,YieldSourcePrizePool,No chain
+YieldSourcePrizePool.sol,YieldSourcePrizePool,_supply,YieldSourcePrizePool,No chain
+YieldSourcePrizePool.sol,YieldSourcePrizePool,_supply,YieldSourcePrizePool,No chain
+StakePrizePool.sol,StakePrizePool,constructor,StakePrizePool,No Chain
+StakePrizePool.sol,StakePrizePool,constructor,StakePrizePool,Deployed
+StakePrizePool.sol,StakePrizePool,_balance,StakePrizePool,No chain
+StakePrizePool.sol,StakePrizePool,_balance,StakePrizePool,No chain
+PrizePool.sol,PrizePool,constructor,PrizePool,No Chain
+PrizePool.sol,PrizePool,captureAwardBalance,PrizePool,nonReentrant
+PrizePool.sol,PrizePool,captureAwardBalance,None,AwardCaptured
+PrizePool.sol,PrizePool,depositTo,PrizePool,nonReentrant
+PrizePool.sol,PrizePool,depositTo,PrizePool,canAddLiquidity
+PrizePool.sol,PrizePool,depositToAndDelegate,PrizePool,nonReentrant
+PrizePool.sol,PrizePool,depositToAndDelegate,PrizePool,canAddLiquidity
+PrizePool.sol,PrizePool,_depositTo,PrizePool,No chain
+PrizePool.sol,PrizePool,_depositTo,PrizePool,No chain
+PrizePool.sol,PrizePool,_depositTo,None,Deposited
+PrizePool.sol,PrizePool,withdrawFrom,PrizePool,nonReentrant
+PrizePool.sol,PrizePool,withdrawFrom,None,Withdrawal
+PrizePool.sol,PrizePool,award,PrizePool,onlyPrizeStrategy
+PrizePool.sol,PrizePool,award,None,Awarded
+PrizePool.sol,PrizePool,transferExternalERC20,PrizePool,onlyPrizeStrategy
+PrizePool.sol,PrizePool,transferExternalERC20,None,TransferredExternalERC20
+PrizePool.sol,PrizePool,awardExternalERC20,PrizePool,onlyPrizeStrategy
+PrizePool.sol,PrizePool,awardExternalERC20,None,AwardedExternalERC20
+PrizePool.sol,PrizePool,awardExternalERC721,PrizePool,No chain
+PrizePool.sol,PrizePool,awardExternalERC721,PrizePool,No chain
+PrizePool.sol,PrizePool,awardExternalERC721,PrizePool,onlyPrizeStrategy
+PrizePool.sol,PrizePool,awardExternalERC721,None,ErrorAwardingExternalERC721
+PrizePool.sol,PrizePool,awardExternalERC721,None,AwardedExternalERC721
+PrizePool.sol,PrizePool,setBalanceCap,PrizePool,onlyOwner
+PrizePool.sol,PrizePool,setLiquidityCap,PrizePool,onlyOwner
+PrizePool.sol,PrizePool,setTicket,PrizePool,onlyOwner
+PrizePool.sol,PrizePool,setTicket,None,TicketSet
+PrizePool.sol,PrizePool,setPrizeStrategy,PrizePool,onlyOwner
+PrizePool.sol,PrizePool,compLikeDelegate,PrizePool,onlyOwner
+PrizePool.sol,PrizePool,compLikeDelegate,PrizePool,No chain
+PrizePool.sol,PrizePool,compLikeDelegate,PrizePool,No chain
+PrizePool.sol,PrizePool,_setBalanceCap,None,BalanceCapSet
+PrizePool.sol,PrizePool,_setLiquidityCap,None,LiquidityCapSet
+PrizePool.sol,PrizePool,_setPrizeStrategy,None,PrizeStrategySet
+IPrizeDistributionBuffer.sol,IPrizeDistributionBuffer,pushPrizeDistribution,IPrizeDistributionBuffer,No chain
+IPrizeDistributionBuffer.sol,IPrizeDistributionBuffer,setPrizeDistribution,IPrizeDistributionBuffer,No chain

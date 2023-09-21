@@ -1,0 +1,591 @@
+StandardBondingCalculator.sol,FixedPoint,fraction,FixedPoint,->uq112x112(0)
+StandardBondingCalculator.sol,FixedPoint,fraction,FullMath,"->mulDiv(numerator,Q112,denominator)"
+StandardBondingCalculator.sol,FixedPoint,fraction,FullMath,"->mulDiv(numerator,Q112,denominator);"
+StandardBondingCalculator.sol,FixedPoint,sqrt,BitMath,->mostSignificantBit(self->_x)
+StandardBondingCalculator.sol,FixedPoint,sqrt,Babylonian,->sqrt(uint256(self->_x)<<safeShiftBits)<<((112-safeShiftBits)/2)))
+StandardBondingCalculator.sol,FixedPoint,sqrt,Babylonian,->sqrt(uint256(self->_x)<<112)))
+StandardBondingCalculator.sol,FixedPoint,sqrt,BitMath,->mostSignificantBit(self->_x);
+StandardBondingCalculator.sol,SGTBondingCalculator,getKValue,IERC20,->token0())->decimals()
+StandardBondingCalculator.sol,SGTBondingCalculator,getKValue,IERC20,->token1())->decimals()
+StandardBondingCalculator.sol,SGTBondingCalculator,getKValue,IERC20,->add(token1)->sub(IERC20(_pair)->decimals())
+StandardBondingCalculator.sol,SGTBondingCalculator,getKValue,IUniswapV2Pair,->getReserves()
+StandardBondingCalculator.sol,SGTBondingCalculator,getKValue,IERC20,->token0())->decimals();
+StandardBondingCalculator.sol,SGTBondingCalculator,getKValue,IERC20,->token1())->decimals();
+StandardBondingCalculator.sol,SGTBondingCalculator,getKValue,IERC20,->add(token1)->sub(IERC20(_pair)->decimals());
+StandardBondingCalculator.sol,SGTBondingCalculator,getKValue,IUniswapV2Pair,->getReserves();
+StandardBondingCalculator.sol,SGTBondingCalculator,valuation,IUniswapV2Pair,->totalSupply()
+StandardBondingCalculator.sol,SGTBondingCalculator,valuation,FixedPoint,"->mul(FixedPoint->fraction(amount_,totalSupply)->decode112with18())->div(1e18)"
+StandardBondingCalculator.sol,SGTBondingCalculator,valuation,IUniswapV2Pair,->totalSupply();
+StandardBondingCalculator.sol,SGTBondingCalculator,markdown,IUniswapV2Pair,->getReserves()
+StandardBondingCalculator.sol,SGTBondingCalculator,markdown,IERC20,->mul(2*(10**IERC20(SGT)->decimals()))->div(getTotalValue(_pair))
+StandardBondingCalculator.sol,SGTBondingCalculator,markdown,IUniswapV2Pair,->getReserves();
+StandardBondingCalculator.sol,SGTBondingCalculator,markdown,IUniswapV2Pair,->token0()
+sSGTERC20.sol,Address,sendValue,Address,No chain
+sSGTERC20.sol,Address,sendValue,Address,No chain
+sSGTERC20.sol,Address,functionCallWithValue,Address,No chain
+sSGTERC20.sol,Address,functionCallWithValue,Address,No chain
+sSGTERC20.sol,ERC20,transferFrom,ERC20,No chain
+sSGTERC20.sol,ERC20,decreaseAllowance,ERC20,No chain
+sSGTERC20.sol,ERC20,_transfer,ERC20,No chain
+sSGTERC20.sol,ERC20,_transfer,IERC20,Transfer
+sSGTERC20.sol,ERC20,_mint,IERC20,Transfer
+sSGTERC20.sol,ERC20,_burn,ERC20,No chain
+sSGTERC20.sol,ERC20,_burn,IERC20,Transfer
+sSGTERC20.sol,ERC20,_approve,IERC20,Approval
+sSGTERC20.sol,Counters,current,Counters,No chain
+sSGTERC20.sol,Counters,increment,Counters,No chain
+sSGTERC20.sol,Counters,decrement,Counters,No chain
+sSGTERC20.sol,ERC20Permit,constructor,ERC20Permit,No chain
+sSGTERC20.sol,ERC20Permit,constructor,ERC20Permit,No chain
+sSGTERC20.sol,Ownable,constructor,Ownable,OwnershipPushed
+sSGTERC20.sol,Ownable,renounceManagement,Ownable,onlyManager
+sSGTERC20.sol,Ownable,renounceManagement,Ownable,OwnershipPushed
+sSGTERC20.sol,Ownable,pushManagement,Ownable,onlyManager
+sSGTERC20.sol,Ownable,pushManagement,Ownable,OwnershipPushed
+sSGTERC20.sol,Ownable,pullManagement,Ownable,No chain
+sSGTERC20.sol,Ownable,pullManagement,Ownable,OwnershipPulled
+sSGTERC20.sol,sSGT,constructor,ERC20,No Chain
+sSGTERC20.sol,sSGT,constructor,ERC20Permit,No Chain
+sSGTERC20.sol,sSGT,initialize,IERC20,Transfer
+sSGTERC20.sol,sSGT,initialize,sSGT,LogStakingContractUpdated
+sSGTERC20.sol,sSGT,setIndex,Ownable,onlyManager
+sSGTERC20.sol,sSGT,rebase,sSGT,onlyStakingContract
+sSGTERC20.sol,sSGT,rebase,sSGT,LogSupply
+sSGTERC20.sol,sSGT,rebase,sSGT,LogRebase
+sSGTERC20.sol,sSGT,_storeRebase,sSGT,LogSupply
+sSGTERC20.sol,sSGT,_storeRebase,sSGT,LogRebase
+sSGTERC20.sol,sSGT,transfer,IERC20,Transfer
+sSGTERC20.sol,sSGT,transferFrom,IERC20,Approval
+sSGTERC20.sol,sSGT,transferFrom,IERC20,Transfer
+sSGTERC20.sol,sSGT,approve,IERC20,Approval
+sSGTERC20.sol,sSGT,_approve,IERC20,Approval
+sSGTERC20.sol,sSGT,increaseAllowance,IERC20,Approval
+sSGTERC20.sol,sSGT,decreaseAllowance,IERC20,Approval
+SGTERC20.sol,EnumerableSet,_at,EnumerableSet,No chain
+SGTERC20.sol,ERC20,transferFrom,ERC20,No chain
+SGTERC20.sol,ERC20,decreaseAllowance,ERC20,No chain
+SGTERC20.sol,ERC20,_transfer,ERC20,No chain
+SGTERC20.sol,ERC20,_transfer,IERC20,Transfer
+SGTERC20.sol,ERC20,_mint,IERC20,Transfer
+SGTERC20.sol,ERC20,_burn,ERC20,No chain
+SGTERC20.sol,ERC20,_burn,IERC20,Transfer
+SGTERC20.sol,ERC20,_approve,IERC20,Approval
+SGTERC20.sol,Counters,current,Counters,No chain
+SGTERC20.sol,Counters,increment,Counters,No chain
+SGTERC20.sol,Counters,decrement,Counters,No chain
+SGTERC20.sol,ERC20Permit,constructor,ERC20Permit,No chain
+SGTERC20.sol,ERC20Permit,constructor,ERC20Permit,No chain
+SGTERC20.sol,Ownable,constructor,Ownable,OwnershipTransferred
+SGTERC20.sol,Ownable,renounceOwnership,Ownable,onlyOwner
+SGTERC20.sol,Ownable,renounceOwnership,Ownable,OwnershipTransferred
+SGTERC20.sol,Ownable,transferOwnership,Ownable,onlyOwner
+SGTERC20.sol,Ownable,transferOwnership,Ownable,OwnershipTransferred
+SGTERC20.sol,VaultOwned,setVault,Ownable,onlyOwner
+SGTERC20.sol,SGTERC20Token,constructor,ERC20,No Chain
+SGTERC20.sol,SGTERC20Token,mint,VaultOwned,onlyVault
+SGTERC20.sol,SGTERC20Token,_burnFrom,ERC20,No chain
+SGTERC20.sol,SGTERC20Token,_burnFrom,ERC20,No chain
+BondDepository.sol,Ownable,constructor,Ownable,OwnershipPushed
+BondDepository.sol,Ownable,renounceManagement,Ownable,onlyPolicy
+BondDepository.sol,Ownable,renounceManagement,Ownable,OwnershipPushed
+BondDepository.sol,Ownable,pushManagement,Ownable,onlyPolicy
+BondDepository.sol,Ownable,pushManagement,Ownable,OwnershipPushed
+BondDepository.sol,Ownable,pullManagement,Ownable,No chain
+BondDepository.sol,Ownable,pullManagement,Ownable,OwnershipPulled
+BondDepository.sol,Address,sendValue,Address,No chain
+BondDepository.sol,Address,sendValue,Address,No chain
+BondDepository.sol,Address,functionCallWithValue,Address,No chain
+BondDepository.sol,Address,functionCallWithValue,Address,No chain
+BondDepository.sol,ERC20,transferFrom,ERC20,No chain
+BondDepository.sol,ERC20,decreaseAllowance,ERC20,No chain
+BondDepository.sol,ERC20,_transfer,ERC20,No chain
+BondDepository.sol,ERC20,_transfer,IERC20,Transfer
+BondDepository.sol,ERC20,_mint,IERC20,Transfer
+BondDepository.sol,ERC20,_burn,ERC20,No chain
+BondDepository.sol,ERC20,_burn,IERC20,Transfer
+BondDepository.sol,ERC20,_approve,IERC20,Approval
+BondDepository.sol,Counters,current,Counters,No chain
+BondDepository.sol,Counters,increment,Counters,No chain
+BondDepository.sol,Counters,decrement,Counters,No chain
+BondDepository.sol,ERC20Permit,constructor,ERC20Permit,No chain
+BondDepository.sol,ERC20Permit,constructor,ERC20Permit,No chain
+BondDepository.sol,SafeERC20,safeTransfer,IERC20,No chain
+BondDepository.sol,SafeERC20,safeTransferFrom,IERC20,No chain
+BondDepository.sol,SafeERC20,safeApprove,IERC20,No chain
+BondDepository.sol,SafeERC20,safeApprove,SafeERC20,No chain
+BondDepository.sol,SafeERC20,safeApprove,ERC20,No chain
+BondDepository.sol,SafeERC20,safeIncreaseAllowance,IERC20,No chain
+BondDepository.sol,SafeERC20,safeIncreaseAllowance,SafeERC20,No chain
+BondDepository.sol,SafeERC20,safeIncreaseAllowance,SafeERC20,No chain
+BondDepository.sol,SafeERC20,safeIncreaseAllowance,SafeERC20,No chain
+BondDepository.sol,SafeERC20,safeDecreaseAllowance,IERC20,No chain
+BondDepository.sol,SafeERC20,safeDecreaseAllowance,SafeERC20,No chain
+BondDepository.sol,SafeERC20,safeDecreaseAllowance,SafeERC20,No chain
+BondDepository.sol,SafeERC20,safeDecreaseAllowance,ERC20,No chain
+BondDepository.sol,SafeERC20,safeDecreaseAllowance,ERC20,No chain
+BondDepository.sol,SafeERC20,_callOptionalReturn,IERC20,No chain
+BondDepository.sol,SafeERC20,_callOptionalReturn,ERC20,No chain
+BondDepository.sol,SafeERC20,_callOptionalReturn,ERC20,No chain
+BondDepository.sol,SafeERC20,_callOptionalReturn,ERC20,No chain
+BondDepository.sol,FixedPoint,fraction,FixedPoint,->uq112x112(0)
+BondDepository.sol,FixedPoint,fraction,FullMath,"->mulDiv(numerator,Q112,denominator)"
+BondDepository.sol,FixedPoint,fraction,FullMath,"->mulDiv(numerator,Q112,denominator);"
+BondDepository.sol,SGTBondDepository,initializeBondTerms,Ownable,onlyPolicy
+BondDepository.sol,SGTBondDepository,setBondTerms,Ownable,onlyPolicy
+BondDepository.sol,SGTBondDepository,setAdjustment,Ownable,onlyPolicy
+BondDepository.sol,SGTBondDepository,setStaking,Ownable,onlyPolicy
+BondDepository.sol,SGTBondDepository,deposit,ITreasury,"->valueOf(principle,_amount)"
+BondDepository.sol,SGTBondDepository,deposit,IERC20,"->safeTransferFrom(msg->sender,address(this),_amount)"
+BondDepository.sol,SGTBondDepository,deposit,SGTBondDepository,No chain
+BondDepository.sol,SGTBondDepository,deposit,SGTBondDepository,No chain
+BondDepository.sol,SGTBondDepository,deposit,IERC20,"->approve(address(treasury),_amount)"
+BondDepository.sol,SGTBondDepository,deposit,ITreasury,"->deposit(_amount,principle,profit)"
+BondDepository.sol,SGTBondDepository,deposit,ITreasury,"->valueOf(principle,_amount);"
+BondDepository.sol,SGTBondDepository,deposit,IERC20,"->safeTransfer(DAO,fee)"
+BondDepository.sol,SGTBondDepository,deposit,SGTBondDepository,BondCreated
+BondDepository.sol,SGTBondDepository,deposit,SGTBondDepository,BondPriceChanged
+BondDepository.sol,SGTBondDepository,redeem,SGTBondDepository,BondRedeemed
+BondDepository.sol,SGTBondDepository,redeem,SGTBondDepository,BondRedeemed
+BondDepository.sol,SGTBondDepository,stakeOrSend,IStaking,"->stake(_amount,_recipient)"
+BondDepository.sol,SGTBondDepository,stakeOrSend,IERC20,"->approve(staking,_amount)"
+BondDepository.sol,SGTBondDepository,stakeOrSend,IStaking,"->stake(_amount,_recipient)"
+BondDepository.sol,SGTBondDepository,stakeOrSend,IERC20,"->transfer(_recipient,_amount)"
+BondDepository.sol,SGTBondDepository,stakeOrSend,IERC20,"->approve(stakingHelper,_amount)"
+BondDepository.sol,SGTBondDepository,stakeOrSend,IStaking,"->stake(_amount,_recipient)"
+BondDepository.sol,SGTBondDepository,stakeOrSend,IERC20,"->approve(staking,_amount)"
+BondDepository.sol,SGTBondDepository,stakeOrSend,IStaking,"->stake(_amount,_recipient)"
+BondDepository.sol,SGTBondDepository,stakeOrSend,IERC20,"->approve(stakingHelper,_amount)"
+BondDepository.sol,SGTBondDepository,stakeOrSend,IStaking,"->stake(_amount,_recipient)"
+BondDepository.sol,SGTBondDepository,stakeOrSend,IERC20,"->approve(staking,_amount)"
+BondDepository.sol,SGTBondDepository,stakeOrSend,IStaking,"->stake(_amount,_recipient)"
+BondDepository.sol,SGTBondDepository,adjust,SGTBondDepository,ControlVariableAdjustment
+BondDepository.sol,SGTBondDepository,maxPayout,IERC20,->totalSupply()->mul(terms->maxPayout)->div(100000)
+BondDepository.sol,SGTBondDepository,payoutFor,FixedPoint,"->fraction(_value,bondPrice())->decode112with18()->div(1e16)"
+BondDepository.sol,SGTBondDepository,bondPriceInUSD,IBondCalculator,->mul(IBondCalculator(bondCalculator)->markdown(principle))->div(100)
+BondDepository.sol,SGTBondDepository,bondPriceInUSD,IERC20,->mul(10**IERC20(principle)->decimals())->div(100)
+BondDepository.sol,SGTBondDepository,debtRatio,IERC20,->totalSupply()
+BondDepository.sol,SGTBondDepository,debtRatio,FixedPoint,"->fraction(currentDebt()->mul(1e9),supply)->decode112with18()->div(1e18)"
+BondDepository.sol,SGTBondDepository,debtRatio,IERC20,->totalSupply();
+BondDepository.sol,SGTBondDepository,standardizedDebtRatio,IBondCalculator,->mul(IBondCalculator(bondCalculator)->markdown(principle))->div(1e9)
+BondDepository.sol,SGTBondDepository,recoverLostToken,IERC20,"->safeTransfer(DAO,IERC20(_token)->balanceOf(address(this)))"
+BondDepository.sol,SGTBondDepository,recoverLostToken,IERC20,No chain
+BondDepository.sol,SGTBondDepository,recoverLostToken,SGTBondDepository,No chain
+StakingDistributor.sol,SafeERC20,safeApprove,SafeERC20,No chain
+StakingDistributor.sol,SafeERC20,safeApprove,SafeERC20,No chain
+StakingDistributor.sol,SafeERC20,safeIncreaseAllowance,SafeERC20,No chain
+StakingDistributor.sol,SafeERC20,safeIncreaseAllowance,SafeERC20,No chain
+StakingDistributor.sol,SafeERC20,safeIncreaseAllowance,SafeERC20,No chain
+StakingDistributor.sol,SafeERC20,safeDecreaseAllowance,SafeERC20,No chain
+StakingDistributor.sol,SafeERC20,safeDecreaseAllowance,SafeERC20,No chain
+StakingDistributor.sol,SafeERC20,safeDecreaseAllowance,SafeERC20,No chain
+StakingDistributor.sol,SafeERC20,safeDecreaseAllowance,SafeERC20,No chain
+StakingDistributor.sol,SafeERC20,_callOptionalReturn,SafeERC20,No chain
+StakingDistributor.sol,SafeERC20,_callOptionalReturn,SafeERC20,No chain
+StakingDistributor.sol,SafeERC20,_callOptionalReturn,SafeERC20,No chain
+StakingDistributor.sol,Address,sendValue,Address,No chain
+StakingDistributor.sol,Address,sendValue,Address,No chain
+StakingDistributor.sol,Address,functionCallWithValue,Address,No chain
+StakingDistributor.sol,Address,functionCallWithValue,Address,No chain
+StakingDistributor.sol,Policy,constructor,Policy,OwnershipTransferred
+StakingDistributor.sol,Policy,renouncePolicy,Policy,onlyPolicy
+StakingDistributor.sol,Policy,renouncePolicy,Policy,OwnershipTransferred
+StakingDistributor.sol,Policy,pushPolicy,Policy,No chain
+StakingDistributor.sol,Policy,pushPolicy,Policy,onlyPolicy
+StakingDistributor.sol,Policy,pullPolicy,Policy,->sender==_newPolicy)
+StakingDistributor.sol,Policy,pullPolicy,Policy,OwnershipTransferred
+StakingDistributor.sol,Distributor,distribute,ITreasury,"->rate>0)ITreasury(treasury)->mintRewards(info[i]->recipient,nextRewardAt(info[i]->rate))"
+StakingDistributor.sol,Distributor,distribute,ITreasury,"->mintRewards(info[i]->recipient,nextRewardAt(info[i]->rate))"
+StakingDistributor.sol,Distributor,distribute,ITreasury,"->mintRewards(info[i]->recipient,nextRewardAt(info[i]->rate))"
+StakingDistributor.sol,Distributor,nextRewardAt,IERC20,->totalSupply()->mul(_rate)->div(1000000)
+StakingDistributor.sol,Distributor,addRecipient,Policy,onlyPolicy
+StakingDistributor.sol,Distributor,removeRecipient,Policy,onlyPolicy
+StakingDistributor.sol,Distributor,setAdjustment,Policy,onlyPolicy
+StakingWarmup.sol,StakingWarmup,retrieve,IERC20,"->transfer(_staker,_amount)"
+StakingHelper.sol,StakingHelper,stake,IERC20,"->transferFrom(msg->sender,address(this),_amount)"
+StakingHelper.sol,StakingHelper,stake,StakingHelper,No chain
+StakingHelper.sol,StakingHelper,stake,StakingHelper,No chain
+StakingHelper.sol,StakingHelper,stake,IERC20,"->approve(staking,_amount)"
+StakingHelper.sol,StakingHelper,stake,IStaking,"->stake(_amount,recipient)"
+StakingHelper.sol,StakingHelper,stake,IStaking,->claim(recipient)
+Treasury.sol,Ownable,constructor,Ownable,OwnershipPushed
+Treasury.sol,Ownable,renounceManagement,Ownable,onlyManager
+Treasury.sol,Ownable,renounceManagement,Ownable,OwnershipPushed
+Treasury.sol,Ownable,pushManagement,Ownable,onlyManager
+Treasury.sol,Ownable,pushManagement,Ownable,OwnershipPushed
+Treasury.sol,Ownable,pullManagement,Ownable,No chain
+Treasury.sol,Ownable,pullManagement,Ownable,OwnershipPulled
+Treasury.sol,SafeERC20,safeTransfer,IERC20,No chain
+Treasury.sol,SafeERC20,safeTransferFrom,IERC20,No chain
+Treasury.sol,SafeERC20,_callOptionalReturn,IERC20,No chain
+Treasury.sol,SafeERC20,_callOptionalReturn,SafeERC20,No chain
+Treasury.sol,SafeERC20,_callOptionalReturn,SafeERC20,No chain
+Treasury.sol,SafeERC20,_callOptionalReturn,SafeERC20,No chain
+Treasury.sol,SGTTreasury,deposit,IERC20,"->safeTransferFrom(msg->sender,address(this),_amount)"
+Treasury.sol,SGTTreasury,deposit,SGTTreasury,No chain
+Treasury.sol,SGTTreasury,deposit,SGTTreasury,No chain
+Treasury.sol,SGTTreasury,deposit,IERC20,"->mint(msg->sender,send_)"
+Treasury.sol,SGTTreasury,deposit,SGTTreasury,ReservesUpdated
+Treasury.sol,SGTTreasury,deposit,SGTTreasury,Deposit
+Treasury.sol,SGTTreasury,withdraw,IOHMERC20,"->burnFrom(msg->sender,value)"
+Treasury.sol,SGTTreasury,withdraw,IERC20,"->safeTransfer(msg->sender,_amount)"
+Treasury.sol,SGTTreasury,withdraw,SGTTreasury,ReservesUpdated
+Treasury.sol,SGTTreasury,withdraw,SGTTreasury,Withdrawal
+Treasury.sol,SGTTreasury,incurDebt,IERC20,->balanceOf(msg->sender)
+Treasury.sol,SGTTreasury,incurDebt,IERC20,"->transfer(msg->sender,_amount)"
+Treasury.sol,SGTTreasury,incurDebt,IERC20,->balanceOf(msg->sender);
+Treasury.sol,SGTTreasury,incurDebt,SGTTreasury,ReservesUpdated
+Treasury.sol,SGTTreasury,incurDebt,SGTTreasury,CreateDebt
+Treasury.sol,SGTTreasury,repayDebtWithReserve,IERC20,"->safeTransferFrom(msg->sender,address(this),_amount)"
+Treasury.sol,SGTTreasury,repayDebtWithReserve,SGTTreasury,No chain
+Treasury.sol,SGTTreasury,repayDebtWithReserve,SGTTreasury,No chain
+Treasury.sol,SGTTreasury,repayDebtWithReserve,SGTTreasury,ReservesUpdated
+Treasury.sol,SGTTreasury,repayDebtWithReserve,SGTTreasury,RepayDebt
+Treasury.sol,SGTTreasury,repayDebtWithOHM,IOHMERC20,"->burnFrom(msg->sender,_amount)"
+Treasury.sol,SGTTreasury,repayDebtWithOHM,SGTTreasury,RepayDebt
+Treasury.sol,SGTTreasury,manage,IERC20,"->safeTransfer(msg->sender,_amount)"
+Treasury.sol,SGTTreasury,manage,SGTTreasury,ReservesUpdated
+Treasury.sol,SGTTreasury,manage,SGTTreasury,ReservesManaged
+Treasury.sol,SGTTreasury,mintRewards,IERC20,"->mint(_recipient,_amount)"
+Treasury.sol,SGTTreasury,mintRewards,SGTTreasury,RewardsMinted
+Treasury.sol,SGTTreasury,excessReserves,IERC20,->sub(IERC20(SGT)->totalSupply()->sub(totalDebt))
+Treasury.sol,SGTTreasury,auditReserves,SGTTreasury,No chain
+Treasury.sol,SGTTreasury,auditReserves,IERC20,"->add(valueOf(reserveTokens[i],IERC20(reserveTokens[i])->balanceOf(address(this))))"
+Treasury.sol,SGTTreasury,auditReserves,SGTTreasury,No chain
+Treasury.sol,SGTTreasury,auditReserves,SGTTreasury,No chain
+Treasury.sol,SGTTreasury,auditReserves,IERC20,"->add(valueOf(liquidityTokens[i],IERC20(liquidityTokens[i])->balanceOf(address(this))))"
+Treasury.sol,SGTTreasury,auditReserves,SGTTreasury,No chain
+Treasury.sol,SGTTreasury,auditReserves,Ownable,onlyManager
+Treasury.sol,SGTTreasury,auditReserves,SGTTreasury,ReservesUpdated
+Treasury.sol,SGTTreasury,auditReserves,SGTTreasury,ReservesAudited
+Treasury.sol,SGTTreasury,valueOf,IBondCalculator,"->valuation(_token,_amount)"
+Treasury.sol,SGTTreasury,valueOf,IERC20,->mul(10**IERC20(SGT)->decimals())->div(10**IERC20(_token)->decimals())
+Treasury.sol,SGTTreasury,valueOf,IERC20,No chain
+Treasury.sol,SGTTreasury,valueOf,IBondCalculator,"->valuation(_token,_amount)"
+Treasury.sol,SGTTreasury,valueOf,IBondCalculator,"->valuation(_token,_amount)"
+Treasury.sol,SGTTreasury,queue,Ownable,onlyManager
+Treasury.sol,SGTTreasury,queue,SGTTreasury,ChangeQueued
+Treasury.sol,SGTTreasury,toggle,Ownable,onlyManager
+Treasury.sol,SGTTreasury,toggle,SGTTreasury,ChangeActivated
+ETHBondDepository.sol,Ownable,constructor,Ownable,OwnershipPushed
+ETHBondDepository.sol,Ownable,renounceManagement,Ownable,onlyPolicy
+ETHBondDepository.sol,Ownable,renounceManagement,Ownable,OwnershipPushed
+ETHBondDepository.sol,Ownable,pushManagement,Ownable,onlyPolicy
+ETHBondDepository.sol,Ownable,pushManagement,Ownable,OwnershipPushed
+ETHBondDepository.sol,Ownable,pullManagement,Ownable,No chain
+ETHBondDepository.sol,Ownable,pullManagement,Ownable,OwnershipPulled
+ETHBondDepository.sol,Address,sendValue,Address,No chain
+ETHBondDepository.sol,Address,sendValue,Address,No chain
+ETHBondDepository.sol,Address,functionCallWithValue,Address,No chain
+ETHBondDepository.sol,Address,functionCallWithValue,Address,No chain
+ETHBondDepository.sol,ERC20,transferFrom,ERC20,No chain
+ETHBondDepository.sol,ERC20,decreaseAllowance,ERC20,No chain
+ETHBondDepository.sol,ERC20,_transfer,ERC20,No chain
+ETHBondDepository.sol,ERC20,_transfer,IERC20,Transfer
+ETHBondDepository.sol,ERC20,_mint,IERC20,Transfer
+ETHBondDepository.sol,ERC20,_burn,ERC20,No chain
+ETHBondDepository.sol,ERC20,_burn,IERC20,Transfer
+ETHBondDepository.sol,ERC20,_approve,IERC20,Approval
+ETHBondDepository.sol,Counters,current,Counters,No chain
+ETHBondDepository.sol,Counters,increment,Counters,No chain
+ETHBondDepository.sol,Counters,decrement,Counters,No chain
+ETHBondDepository.sol,ERC20Permit,constructor,ERC20Permit,No chain
+ETHBondDepository.sol,ERC20Permit,constructor,ERC20Permit,No chain
+ETHBondDepository.sol,SafeERC20,safeTransfer,IERC20,No chain
+ETHBondDepository.sol,SafeERC20,safeTransferFrom,IERC20,No chain
+ETHBondDepository.sol,SafeERC20,safeApprove,IERC20,No chain
+ETHBondDepository.sol,SafeERC20,safeApprove,SafeERC20,No chain
+ETHBondDepository.sol,SafeERC20,safeApprove,ERC20,No chain
+ETHBondDepository.sol,SafeERC20,safeIncreaseAllowance,IERC20,No chain
+ETHBondDepository.sol,SafeERC20,safeIncreaseAllowance,SafeERC20,No chain
+ETHBondDepository.sol,SafeERC20,safeIncreaseAllowance,SafeERC20,No chain
+ETHBondDepository.sol,SafeERC20,safeIncreaseAllowance,SafeERC20,No chain
+ETHBondDepository.sol,SafeERC20,safeDecreaseAllowance,IERC20,No chain
+ETHBondDepository.sol,SafeERC20,safeDecreaseAllowance,SafeERC20,No chain
+ETHBondDepository.sol,SafeERC20,safeDecreaseAllowance,SafeERC20,No chain
+ETHBondDepository.sol,SafeERC20,safeDecreaseAllowance,ERC20,No chain
+ETHBondDepository.sol,SafeERC20,safeDecreaseAllowance,ERC20,No chain
+ETHBondDepository.sol,SafeERC20,_callOptionalReturn,IERC20,No chain
+ETHBondDepository.sol,SafeERC20,_callOptionalReturn,ERC20,No chain
+ETHBondDepository.sol,SafeERC20,_callOptionalReturn,ERC20,No chain
+ETHBondDepository.sol,SafeERC20,_callOptionalReturn,ERC20,No chain
+ETHBondDepository.sol,FixedPoint,fraction,FixedPoint,->uq112x112(0)
+ETHBondDepository.sol,FixedPoint,fraction,FullMath,"->mulDiv(numerator,Q112,denominator)"
+ETHBondDepository.sol,FixedPoint,fraction,FullMath,"->mulDiv(numerator,Q112,denominator);"
+ETHBondDepository.sol,ETHBondDepository,initializeBondTerms,Ownable,onlyPolicy
+ETHBondDepository.sol,ETHBondDepository,setBondTerms,Ownable,onlyPolicy
+ETHBondDepository.sol,ETHBondDepository,setAdjustment,Ownable,onlyPolicy
+ETHBondDepository.sol,ETHBondDepository,setStaking,Ownable,onlyPolicy
+ETHBondDepository.sol,ETHBondDepository,deposit,ITreasury,"->valueOf(principle,_amount)"
+ETHBondDepository.sol,ETHBondDepository,deposit,IWETH9,"->transfer(treasury,_amount)"
+ETHBondDepository.sol,ETHBondDepository,deposit,ITreasury,"->mintRewards(address(this),payout)"
+ETHBondDepository.sol,ETHBondDepository,deposit,ETHBondDepository,No chain
+ETHBondDepository.sol,ETHBondDepository,deposit,ITreasury,"->valueOf(principle,_amount);"
+ETHBondDepository.sol,ETHBondDepository,deposit,ETHBondDepository,No chain
+ETHBondDepository.sol,ETHBondDepository,deposit,ETHBondDepository,No chain
+ETHBondDepository.sol,ETHBondDepository,deposit,IWETH9,No chain
+ETHBondDepository.sol,ETHBondDepository,deposit,IWETH9,"->transfer(treasury,_amount)"
+ETHBondDepository.sol,ETHBondDepository,deposit,IERC20,"->safeTransferFrom(msg->sender,treasury,_amount)"
+ETHBondDepository.sol,ETHBondDepository,deposit,ETHBondDepository,BondCreated
+ETHBondDepository.sol,ETHBondDepository,deposit,ETHBondDepository,BondPriceChanged
+ETHBondDepository.sol,ETHBondDepository,redeem,ETHBondDepository,BondRedeemed
+ETHBondDepository.sol,ETHBondDepository,redeem,ETHBondDepository,BondRedeemed
+ETHBondDepository.sol,ETHBondDepository,stakeOrSend,IStaking,"->stake(_amount,_recipient)"
+ETHBondDepository.sol,ETHBondDepository,stakeOrSend,IERC20,"->approve(staking,_amount)"
+ETHBondDepository.sol,ETHBondDepository,stakeOrSend,IStaking,"->stake(_amount,_recipient)"
+ETHBondDepository.sol,ETHBondDepository,stakeOrSend,IERC20,"->transfer(_recipient,_amount)"
+ETHBondDepository.sol,ETHBondDepository,stakeOrSend,IERC20,"->approve(stakingHelper,_amount)"
+ETHBondDepository.sol,ETHBondDepository,stakeOrSend,IStaking,"->stake(_amount,_recipient)"
+ETHBondDepository.sol,ETHBondDepository,stakeOrSend,IERC20,"->approve(staking,_amount)"
+ETHBondDepository.sol,ETHBondDepository,stakeOrSend,IStaking,"->stake(_amount,_recipient)"
+ETHBondDepository.sol,ETHBondDepository,stakeOrSend,IERC20,"->approve(stakingHelper,_amount)"
+ETHBondDepository.sol,ETHBondDepository,stakeOrSend,IStaking,"->stake(_amount,_recipient)"
+ETHBondDepository.sol,ETHBondDepository,stakeOrSend,IERC20,"->approve(staking,_amount)"
+ETHBondDepository.sol,ETHBondDepository,stakeOrSend,IStaking,"->stake(_amount,_recipient)"
+ETHBondDepository.sol,ETHBondDepository,adjust,ETHBondDepository,ControlVariableAdjustment
+ETHBondDepository.sol,ETHBondDepository,maxPayout,IERC20,->totalSupply()->mul(terms->maxPayout)->div(100000)
+ETHBondDepository.sol,ETHBondDepository,payoutFor,FixedPoint,"->fraction(_value,bondPrice())->decode112with18()->div(1e14)"
+ETHBondDepository.sol,ETHBondDepository,debtRatio,IERC20,->totalSupply()
+ETHBondDepository.sol,ETHBondDepository,debtRatio,FixedPoint,"->fraction(currentDebt()->mul(1e9),supply)->decode112with18()->div(1e18)"
+ETHBondDepository.sol,ETHBondDepository,debtRatio,IERC20,->totalSupply();
+ETHBondDepository.sol,ETHBondDepository,recoverLostToken,IERC20,"->safeTransfer(DAO,IERC20(_token)->balanceOf(address(this)))"
+ETHBondDepository.sol,ETHBondDepository,recoverLostToken,IERC20,No chain
+ETHBondDepository.sol,ETHBondDepository,recoverLostToken,ETHBondDepository,No chain
+ETHBondDepository.sol,ETHBondDepository,refundETH,ETHBondDepository,No chain
+ETHBondDepository.sol,ETHBondDepository,refundETH,ETHBondDepository,No chain
+ETHBondDepository.sol,ETHBondDepository,refundETH,ETHBondDepository,No chain
+ETHBondDepository.sol,ETHBondDepository,refundETH,ETHBondDepository,No chain
+Staking.sol,Address,sendValue,Address,No chain
+Staking.sol,Address,sendValue,Address,No chain
+Staking.sol,Address,functionCallWithValue,Address,No chain
+Staking.sol,Address,functionCallWithValue,Address,No chain
+Staking.sol,SafeERC20,safeTransfer,IERC20,No chain
+Staking.sol,SafeERC20,safeTransferFrom,IERC20,No chain
+Staking.sol,SafeERC20,safeApprove,IERC20,No chain
+Staking.sol,SafeERC20,safeApprove,SafeERC20,No chain
+Staking.sol,SafeERC20,safeApprove,SafeERC20,No chain
+Staking.sol,SafeERC20,safeIncreaseAllowance,IERC20,No chain
+Staking.sol,SafeERC20,safeIncreaseAllowance,SafeERC20,No chain
+Staking.sol,SafeERC20,safeIncreaseAllowance,SafeERC20,No chain
+Staking.sol,SafeERC20,safeIncreaseAllowance,SafeERC20,No chain
+Staking.sol,SafeERC20,safeDecreaseAllowance,IERC20,No chain
+Staking.sol,SafeERC20,safeDecreaseAllowance,SafeERC20,No chain
+Staking.sol,SafeERC20,safeDecreaseAllowance,SafeERC20,No chain
+Staking.sol,SafeERC20,safeDecreaseAllowance,SafeERC20,No chain
+Staking.sol,SafeERC20,safeDecreaseAllowance,SafeERC20,No chain
+Staking.sol,SafeERC20,_callOptionalReturn,IERC20,No chain
+Staking.sol,SafeERC20,_callOptionalReturn,SafeERC20,No chain
+Staking.sol,SafeERC20,_callOptionalReturn,SafeERC20,No chain
+Staking.sol,SafeERC20,_callOptionalReturn,SafeERC20,No chain
+Staking.sol,Ownable,constructor,Ownable,OwnershipPushed
+Staking.sol,Ownable,renounceManagement,Ownable,onlyManager
+Staking.sol,Ownable,renounceManagement,Ownable,OwnershipPushed
+Staking.sol,Ownable,pushManagement,Ownable,onlyManager
+Staking.sol,Ownable,pushManagement,Ownable,OwnershipPushed
+Staking.sol,Ownable,pullManagement,Ownable,No chain
+Staking.sol,Ownable,pullManagement,Ownable,OwnershipPulled
+Staking.sol,SGTStaking,stake,IERC20,"->safeTransferFrom(msg->sender,address(this),_amount)"
+Staking.sol,SGTStaking,stake,SGTStaking,No chain
+Staking.sol,SGTStaking,stake,SGTStaking,No chain
+Staking.sol,SGTStaking,stake,IsSGT,No chain
+Staking.sol,SGTStaking,stake,IERC20,"->safeTransfer(warmupContract,_amount)"
+Staking.sol,SGTStaking,claim,IWarmup,"->retrieve(_recipient,IsSGT(sSGT)->balanceForGons(info->gons))"
+Staking.sol,SGTStaking,claim,IWarmup,No chain
+Staking.sol,SGTStaking,claim,IWarmup,"->retrieve(_recipient,IsSGT(sSGT)->balanceForGons(info->gons))"
+Staking.sol,SGTStaking,claim,IWarmup,No chain
+Staking.sol,SGTStaking,forfeit,IWarmup,"->retrieve(address(this),IsSGT(sSGT)->balanceForGons(info->gons))"
+Staking.sol,SGTStaking,forfeit,IWarmup,No chain
+Staking.sol,SGTStaking,forfeit,SGTStaking,No chain
+Staking.sol,SGTStaking,forfeit,SGTStaking,No chain
+Staking.sol,SGTStaking,forfeit,IERC20,"->safeTransfer(msg->sender,info->deposit)"
+Staking.sol,SGTStaking,unstake,IERC20,"->safeTransferFrom(msg->sender,address(this),_amount)"
+Staking.sol,SGTStaking,unstake,SGTStaking,No chain
+Staking.sol,SGTStaking,unstake,SGTStaking,No chain
+Staking.sol,SGTStaking,unstake,IERC20,"->safeTransfer(msg->sender,_amount)"
+Staking.sol,SGTStaking,index,IsSGT,->index()
+Staking.sol,SGTStaking,rebase,IDistributor,->distribute()
+Staking.sol,SGTStaking,rebase,IsSGT,->circulatingSupply()
+Staking.sol,SGTStaking,rebase,IsSGT,"->rebase(epoch->distribute,epoch->number)"
+Staking.sol,SGTStaking,rebase,IDistributor,->distribute()
+Staking.sol,SGTStaking,rebase,IsSGT,->circulatingSupply()
+Staking.sol,SGTStaking,rebase,IDistributor,->distribute()
+Staking.sol,SGTStaking,rebase,IsSGT,->circulatingSupply();
+Staking.sol,SGTStaking,contractBalance,IERC20,->balanceOf(address(this))->add(totalBonus)
+Staking.sol,SGTStaking,contractBalance,SGTStaking,No chain
+Staking.sol,SGTStaking,contractBalance,SGTStaking,No chain
+Staking.sol,SGTStaking,giveLockBonus,IERC20,"->safeTransfer(locker,_amount)"
+Staking.sol,SGTStaking,returnLockBonus,IERC20,"->safeTransferFrom(locker,address(this),_amount)"
+Staking.sol,SGTStaking,returnLockBonus,SGTStaking,No chain
+Staking.sol,SGTStaking,setContract,Ownable,onlyManager
+Staking.sol,SGTStaking,setWarmup,Ownable,onlyManager
+MockBondDepository.sol,Ownable,constructor,Ownable,OwnershipPushed
+MockBondDepository.sol,Ownable,renounceManagement,Ownable,onlyPolicy
+MockBondDepository.sol,Ownable,renounceManagement,Ownable,OwnershipPushed
+MockBondDepository.sol,Ownable,pushManagement,Ownable,onlyPolicy
+MockBondDepository.sol,Ownable,pushManagement,Ownable,OwnershipPushed
+MockBondDepository.sol,Ownable,pullManagement,Ownable,No chain
+MockBondDepository.sol,Ownable,pullManagement,Ownable,OwnershipPulled
+MockBondDepository.sol,Address,sendValue,Address,No chain
+MockBondDepository.sol,Address,sendValue,Address,No chain
+MockBondDepository.sol,Address,functionCallWithValue,Address,No chain
+MockBondDepository.sol,Address,functionCallWithValue,Address,No chain
+MockBondDepository.sol,ERC20,transferFrom,ERC20,No chain
+MockBondDepository.sol,ERC20,decreaseAllowance,ERC20,No chain
+MockBondDepository.sol,ERC20,_transfer,ERC20,No chain
+MockBondDepository.sol,ERC20,_transfer,IERC20,Transfer
+MockBondDepository.sol,ERC20,_mint,IERC20,Transfer
+MockBondDepository.sol,ERC20,_burn,ERC20,No chain
+MockBondDepository.sol,ERC20,_burn,IERC20,Transfer
+MockBondDepository.sol,ERC20,_approve,IERC20,Approval
+MockBondDepository.sol,Counters,current,Counters,No chain
+MockBondDepository.sol,Counters,increment,Counters,No chain
+MockBondDepository.sol,Counters,decrement,Counters,No chain
+MockBondDepository.sol,ERC20Permit,constructor,ERC20Permit,No chain
+MockBondDepository.sol,ERC20Permit,constructor,ERC20Permit,No chain
+MockBondDepository.sol,SafeERC20,safeTransfer,IERC20,No chain
+MockBondDepository.sol,SafeERC20,safeTransferFrom,IERC20,No chain
+MockBondDepository.sol,SafeERC20,safeApprove,IERC20,No chain
+MockBondDepository.sol,SafeERC20,safeApprove,SafeERC20,No chain
+MockBondDepository.sol,SafeERC20,safeApprove,ERC20,No chain
+MockBondDepository.sol,SafeERC20,safeIncreaseAllowance,IERC20,No chain
+MockBondDepository.sol,SafeERC20,safeIncreaseAllowance,SafeERC20,No chain
+MockBondDepository.sol,SafeERC20,safeIncreaseAllowance,SafeERC20,No chain
+MockBondDepository.sol,SafeERC20,safeIncreaseAllowance,SafeERC20,No chain
+MockBondDepository.sol,SafeERC20,safeDecreaseAllowance,IERC20,No chain
+MockBondDepository.sol,SafeERC20,safeDecreaseAllowance,SafeERC20,No chain
+MockBondDepository.sol,SafeERC20,safeDecreaseAllowance,SafeERC20,No chain
+MockBondDepository.sol,SafeERC20,safeDecreaseAllowance,ERC20,No chain
+MockBondDepository.sol,SafeERC20,safeDecreaseAllowance,ERC20,No chain
+MockBondDepository.sol,SafeERC20,_callOptionalReturn,IERC20,No chain
+MockBondDepository.sol,SafeERC20,_callOptionalReturn,ERC20,No chain
+MockBondDepository.sol,SafeERC20,_callOptionalReturn,ERC20,No chain
+MockBondDepository.sol,SafeERC20,_callOptionalReturn,ERC20,No chain
+MockBondDepository.sol,FixedPoint,fraction,FixedPoint,->uq112x112(0)
+MockBondDepository.sol,FixedPoint,fraction,FullMath,"->mulDiv(numerator,Q112,denominator)"
+MockBondDepository.sol,FixedPoint,fraction,FullMath,"->mulDiv(numerator,Q112,denominator);"
+MockBondDepository.sol,MockOlympusBondDepository,initializeBondTerms,Ownable,onlyPolicy
+MockBondDepository.sol,MockOlympusBondDepository,setBondTerms,Ownable,onlyPolicy
+MockBondDepository.sol,MockOlympusBondDepository,setAdjustment,Ownable,onlyPolicy
+MockBondDepository.sol,MockOlympusBondDepository,setStaking,Ownable,onlyPolicy
+MockBondDepository.sol,MockOlympusBondDepository,deposit,ITreasury,"->valueOfToken(principle,_amount)"
+MockBondDepository.sol,MockOlympusBondDepository,deposit,IERC20,"->safeTransferFrom(msg->sender,address(this),_amount)"
+MockBondDepository.sol,MockOlympusBondDepository,deposit,MockOlympusBondDepository,No chain
+MockBondDepository.sol,MockOlympusBondDepository,deposit,MockOlympusBondDepository,No chain
+MockBondDepository.sol,MockOlympusBondDepository,deposit,IERC20,"->approve(address(treasury),_amount)"
+MockBondDepository.sol,MockOlympusBondDepository,deposit,ITreasury,"->deposit(_amount,principle,profit)"
+MockBondDepository.sol,MockOlympusBondDepository,deposit,ITreasury,"->valueOfToken(principle,_amount);"
+MockBondDepository.sol,MockOlympusBondDepository,deposit,IERC20,"->safeTransfer(DAO,fee)"
+MockBondDepository.sol,MockOlympusBondDepository,deposit,MockOlympusBondDepository,BondCreated
+MockBondDepository.sol,MockOlympusBondDepository,deposit,MockOlympusBondDepository,BondPriceChanged
+MockBondDepository.sol,MockOlympusBondDepository,redeem,MockOlympusBondDepository,BondRedeemed
+MockBondDepository.sol,MockOlympusBondDepository,redeem,MockOlympusBondDepository,BondRedeemed
+MockBondDepository.sol,MockOlympusBondDepository,stakeOrSend,IStaking,"->stake(_amount,_recipient)"
+MockBondDepository.sol,MockOlympusBondDepository,stakeOrSend,IERC20,"->approve(staking,_amount)"
+MockBondDepository.sol,MockOlympusBondDepository,stakeOrSend,IStaking,"->stake(_amount,_recipient)"
+MockBondDepository.sol,MockOlympusBondDepository,stakeOrSend,IERC20,"->transfer(_recipient,_amount)"
+MockBondDepository.sol,MockOlympusBondDepository,stakeOrSend,IERC20,"->approve(stakingHelper,_amount)"
+MockBondDepository.sol,MockOlympusBondDepository,stakeOrSend,IStaking,"->stake(_amount,_recipient)"
+MockBondDepository.sol,MockOlympusBondDepository,stakeOrSend,IERC20,"->approve(staking,_amount)"
+MockBondDepository.sol,MockOlympusBondDepository,stakeOrSend,IStaking,"->stake(_amount,_recipient)"
+MockBondDepository.sol,MockOlympusBondDepository,stakeOrSend,IERC20,"->approve(stakingHelper,_amount)"
+MockBondDepository.sol,MockOlympusBondDepository,stakeOrSend,IStaking,"->stake(_amount,_recipient)"
+MockBondDepository.sol,MockOlympusBondDepository,stakeOrSend,IERC20,"->approve(staking,_amount)"
+MockBondDepository.sol,MockOlympusBondDepository,stakeOrSend,IStaking,"->stake(_amount,_recipient)"
+MockBondDepository.sol,MockOlympusBondDepository,adjust,MockOlympusBondDepository,ControlVariableAdjustment
+MockBondDepository.sol,MockOlympusBondDepository,maxPayout,IERC20,->totalSupply()->mul(terms->maxPayout)->div(100000)
+MockBondDepository.sol,MockOlympusBondDepository,payoutFor,FixedPoint,"->fraction(_value,bondPrice())->decode112with18()->div(1e16)"
+MockBondDepository.sol,MockOlympusBondDepository,bondPriceInUSD,IBondCalculator,->mul(IBondCalculator(bondCalculator)->markdown(principle))->div(100)
+MockBondDepository.sol,MockOlympusBondDepository,bondPriceInUSD,IERC20,->mul(10**IERC20(principle)->decimals())->div(100)
+MockBondDepository.sol,MockOlympusBondDepository,debtRatio,IERC20,->totalSupply()
+MockBondDepository.sol,MockOlympusBondDepository,debtRatio,FixedPoint,"->fraction(currentDebt()->mul(1e9),supply)->decode112with18()->div(1e18)"
+MockBondDepository.sol,MockOlympusBondDepository,debtRatio,IERC20,->totalSupply();
+MockBondDepository.sol,MockOlympusBondDepository,standardizedDebtRatio,IBondCalculator,->mul(IBondCalculator(bondCalculator)->markdown(principle))->div(1e9)
+MockBondDepository.sol,MockOlympusBondDepository,recoverLostToken,IERC20,"->safeTransfer(DAO,IERC20(_token)->balanceOf(address(this)))"
+MockBondDepository.sol,MockOlympusBondDepository,recoverLostToken,IERC20,No chain
+MockBondDepository.sol,MockOlympusBondDepository,recoverLostToken,MockOlympusBondDepository,No chain
+DAI.sol,DAI,rely,LibNote,note
+DAI.sol,DAI,rely,DAI,auth
+DAI.sol,DAI,deny,LibNote,note
+DAI.sol,DAI,deny,DAI,auth
+DAI.sol,DAI,constructor,DAI,No chain
+DAI.sol,DAI,constructor,DAI,No chain
+DAI.sol,DAI,transferFrom,DAI,Transfer
+DAI.sol,DAI,addAuth,DAI,auth
+DAI.sol,DAI,adjustDailyDAILimit,DAI,auth
+DAI.sol,DAI,mint,DAI,"->sender])<=dailyDAILimit||sub(block->number,lastMintRestart[msg->sender])>=6500&&wad<=dailyDAILimit,""Over daily DAI Limit"")"
+DAI.sol,DAI,mint,DAI,No chain
+DAI.sol,DAI,mint,DAI,Transfer
+DAI.sol,DAI,burn,DAI,Transfer
+DAI.sol,DAI,_approve,DAI,Approval
+DAI.sol,DAI,permit,DAI,Approval
+Frax.sol,FRAX,rely,LibNote,note
+Frax.sol,FRAX,rely,FRAX,auth
+Frax.sol,FRAX,deny,LibNote,note
+Frax.sol,FRAX,deny,FRAX,auth
+Frax.sol,FRAX,constructor,FRAX,No chain
+Frax.sol,FRAX,constructor,FRAX,No chain
+Frax.sol,FRAX,transferFrom,FRAX,Transfer
+Frax.sol,FRAX,addAuth,FRAX,auth
+Frax.sol,FRAX,adjustDailyFraxLimit,FRAX,auth
+Frax.sol,FRAX,mint,FRAX,Transfer
+Frax.sol,FRAX,burn,FRAX,Transfer
+Frax.sol,FRAX,_approve,FRAX,Approval
+Frax.sol,FRAX,permit,FRAX,Approval
+MockTreasury.sol,Ownable,constructor,Ownable,OwnershipPushed
+MockTreasury.sol,Ownable,renounceManagement,Ownable,onlyManager
+MockTreasury.sol,Ownable,renounceManagement,Ownable,OwnershipPushed
+MockTreasury.sol,Ownable,pushManagement,Ownable,onlyManager
+MockTreasury.sol,Ownable,pushManagement,Ownable,OwnershipPushed
+MockTreasury.sol,Ownable,pullManagement,Ownable,No chain
+MockTreasury.sol,Ownable,pullManagement,Ownable,OwnershipPulled
+MockTreasury.sol,SafeERC20,safeTransfer,IERC20,No chain
+MockTreasury.sol,SafeERC20,safeTransferFrom,IERC20,No chain
+MockTreasury.sol,SafeERC20,_callOptionalReturn,IERC20,No chain
+MockTreasury.sol,SafeERC20,_callOptionalReturn,SafeERC20,No chain
+MockTreasury.sol,SafeERC20,_callOptionalReturn,SafeERC20,No chain
+MockTreasury.sol,SafeERC20,_callOptionalReturn,SafeERC20,No chain
+MockTreasury.sol,MockOlympusTreasury,deposit,IERC20,"->safeTransferFrom(msg->sender,address(this),_amount)"
+MockTreasury.sol,MockOlympusTreasury,deposit,MockOlympusTreasury,No chain
+MockTreasury.sol,MockOlympusTreasury,deposit,MockOlympusTreasury,No chain
+MockTreasury.sol,MockOlympusTreasury,deposit,IERC20,"->mint(msg->sender,send_)"
+MockTreasury.sol,MockOlympusTreasury,deposit,MockOlympusTreasury,ReservesUpdated
+MockTreasury.sol,MockOlympusTreasury,deposit,MockOlympusTreasury,Deposit
+MockTreasury.sol,MockOlympusTreasury,withdraw,IOHMERC20,"->burnFrom(msg->sender,value)"
+MockTreasury.sol,MockOlympusTreasury,withdraw,IERC20,"->safeTransfer(msg->sender,_amount)"
+MockTreasury.sol,MockOlympusTreasury,withdraw,MockOlympusTreasury,ReservesUpdated
+MockTreasury.sol,MockOlympusTreasury,withdraw,MockOlympusTreasury,Withdrawal
+MockTreasury.sol,MockOlympusTreasury,incurDebt,IERC20,->balanceOf(msg->sender)
+MockTreasury.sol,MockOlympusTreasury,incurDebt,IERC20,"->transfer(msg->sender,_amount)"
+MockTreasury.sol,MockOlympusTreasury,incurDebt,IERC20,->balanceOf(msg->sender);
+MockTreasury.sol,MockOlympusTreasury,incurDebt,MockOlympusTreasury,ReservesUpdated
+MockTreasury.sol,MockOlympusTreasury,incurDebt,MockOlympusTreasury,CreateDebt
+MockTreasury.sol,MockOlympusTreasury,repayDebtWithReserve,IERC20,"->safeTransferFrom(msg->sender,address(this),_amount)"
+MockTreasury.sol,MockOlympusTreasury,repayDebtWithReserve,MockOlympusTreasury,No chain
+MockTreasury.sol,MockOlympusTreasury,repayDebtWithReserve,MockOlympusTreasury,No chain
+MockTreasury.sol,MockOlympusTreasury,repayDebtWithReserve,MockOlympusTreasury,ReservesUpdated
+MockTreasury.sol,MockOlympusTreasury,repayDebtWithReserve,MockOlympusTreasury,RepayDebt
+MockTreasury.sol,MockOlympusTreasury,repayDebtWithOHM,IOHMERC20,"->burnFrom(msg->sender,_amount)"
+MockTreasury.sol,MockOlympusTreasury,repayDebtWithOHM,MockOlympusTreasury,RepayDebt
+MockTreasury.sol,MockOlympusTreasury,manage,IERC20,"->safeTransfer(msg->sender,_amount)"
+MockTreasury.sol,MockOlympusTreasury,manage,MockOlympusTreasury,ReservesUpdated
+MockTreasury.sol,MockOlympusTreasury,manage,MockOlympusTreasury,ReservesManaged
+MockTreasury.sol,MockOlympusTreasury,mintRewards,IERC20,"->mint(_recipient,_amount)"
+MockTreasury.sol,MockOlympusTreasury,mintRewards,MockOlympusTreasury,RewardsMinted
+MockTreasury.sol,MockOlympusTreasury,excessReserves,IERC20,->sub(IERC20(OHM)->totalSupply()->sub(totalDebt))
+MockTreasury.sol,MockOlympusTreasury,auditReserves,MockOlympusTreasury,No chain
+MockTreasury.sol,MockOlympusTreasury,auditReserves,IERC20,"->add(valueOfToken(reserveTokens[i],IERC20(reserveTokens[i])->balanceOf(address(this))))"
+MockTreasury.sol,MockOlympusTreasury,auditReserves,MockOlympusTreasury,No chain
+MockTreasury.sol,MockOlympusTreasury,auditReserves,MockOlympusTreasury,No chain
+MockTreasury.sol,MockOlympusTreasury,auditReserves,IERC20,"->add(valueOfToken(liquidityTokens[i],IERC20(liquidityTokens[i])->balanceOf(address(this))))"
+MockTreasury.sol,MockOlympusTreasury,auditReserves,MockOlympusTreasury,No chain
+MockTreasury.sol,MockOlympusTreasury,auditReserves,Ownable,onlyManager
+MockTreasury.sol,MockOlympusTreasury,auditReserves,MockOlympusTreasury,ReservesUpdated
+MockTreasury.sol,MockOlympusTreasury,auditReserves,MockOlympusTreasury,ReservesAudited
+MockTreasury.sol,MockOlympusTreasury,valueOfToken,IBondCalculator,"->valuation(_token,_amount)"
+MockTreasury.sol,MockOlympusTreasury,valueOfToken,IERC20,->mul(10**IERC20(OHM)->decimals())->div(10**IERC20(_token)->decimals())
+MockTreasury.sol,MockOlympusTreasury,valueOfToken,IERC20,No chain
+MockTreasury.sol,MockOlympusTreasury,valueOfToken,IBondCalculator,"->valuation(_token,_amount)"
+MockTreasury.sol,MockOlympusTreasury,valueOfToken,IBondCalculator,"->valuation(_token,_amount)"
+MockTreasury.sol,MockOlympusTreasury,queue,Ownable,onlyManager
+MockTreasury.sol,MockOlympusTreasury,queue,MockOlympusTreasury,ChangeQueued
+MockTreasury.sol,MockOlympusTreasury,toggle,Ownable,onlyManager
+MockTreasury.sol,MockOlympusTreasury,toggle,MockOlympusTreasury,ChangeActivated

@@ -1,0 +1,287 @@
+File,Source_Contract,Source_Function,Target_Contract,Chain
+INameWrapper.sol,INameWrapper,setUpgradeContract,INameWrapper,No chain
+NameWrapper.sol,NameWrapper,constructor,NameWrapper,No Chain
+NameWrapper.sol,NameWrapper,supportsInterface,NameWrapper,->interfaceId||interfaceId==type(IERC721Receiver)->interfaceId||super->supportsInterface(interfaceId)
+NameWrapper.sol,NameWrapper,setMetadataService,NameWrapper,onlyOwner
+NameWrapper.sol,NameWrapper,setUpgradeContract,NameWrapper,No chain
+NameWrapper.sol,NameWrapper,setUpgradeContract,NameWrapper,onlyOwner
+NameWrapper.sol,NameWrapper,wrapETH2LD,NameWrapper,No chain
+NameWrapper.sol,NameWrapper,wrapETH2LD,NameWrapper,No chain
+NameWrapper.sol,NameWrapper,wrapETH2LD,NameWrapper,No chain
+NameWrapper.sol,NameWrapper,wrapETH2LD,NameWrapper,No chain
+NameWrapper.sol,NameWrapper,registerAndWrapETH2LD,NameWrapper,No chain
+NameWrapper.sol,NameWrapper,registerAndWrapETH2LD,NameWrapper,No chain
+NameWrapper.sol,NameWrapper,registerAndWrapETH2LD,NameWrapper,onlyController
+NameWrapper.sol,NameWrapper,renew,NameWrapper,onlyController
+NameWrapper.sol,NameWrapper,renew,NameWrapper,No chain
+NameWrapper.sol,NameWrapper,renew,NameWrapper,No chain
+NameWrapper.sol,NameWrapper,wrap,NameWrapper,No chain
+NameWrapper.sol,NameWrapper,wrap,NameWrapper,No chain
+NameWrapper.sol,NameWrapper,unwrapETH2LD,NameWrapper,No chain
+NameWrapper.sol,NameWrapper,unwrapETH2LD,NameWrapper,No chain
+NameWrapper.sol,NameWrapper,unwrapETH2LD,NameWrapper,onlyTokenOwner
+NameWrapper.sol,NameWrapper,unwrap,NameWrapper,onlyTokenOwner
+NameWrapper.sol,NameWrapper,setFuses,NameWrapper,onlyTokenOwner
+NameWrapper.sol,NameWrapper,setFuses,NameWrapper,operationAllowed
+NameWrapper.sol,NameWrapper,extendExpiry,None,ExpiryExtended
+NameWrapper.sol,NameWrapper,setChildFuses,NameWrapper,No chain
+NameWrapper.sol,NameWrapper,setChildFuses,NameWrapper,No chain
+NameWrapper.sol,NameWrapper,setSubnodeOwner,NameWrapper,onlyTokenOwner
+NameWrapper.sol,NameWrapper,setSubnodeOwner,NameWrapper,No chain
+NameWrapper.sol,NameWrapper,setSubnodeOwner,NameWrapper,No chain
+NameWrapper.sol,NameWrapper,setSubnodeRecord,NameWrapper,onlyTokenOwner
+NameWrapper.sol,NameWrapper,setSubnodeRecord,NameWrapper,No chain
+NameWrapper.sol,NameWrapper,setSubnodeRecord,NameWrapper,No chain
+NameWrapper.sol,NameWrapper,setSubnodeRecord,NameWrapper,No chain
+NameWrapper.sol,NameWrapper,setSubnodeRecord,NameWrapper,No chain
+NameWrapper.sol,NameWrapper,setRecord,NameWrapper,No chain
+NameWrapper.sol,NameWrapper,setRecord,NameWrapper,No chain
+NameWrapper.sol,NameWrapper,setRecord,NameWrapper,onlyTokenOwner
+NameWrapper.sol,NameWrapper,setRecord,NameWrapper,operationAllowed
+NameWrapper.sol,NameWrapper,setResolver,NameWrapper,onlyTokenOwner
+NameWrapper.sol,NameWrapper,setResolver,NameWrapper,operationAllowed
+NameWrapper.sol,NameWrapper,setTTL,NameWrapper,onlyTokenOwner
+NameWrapper.sol,NameWrapper,setTTL,NameWrapper,operationAllowed
+NameWrapper.sol,NameWrapper,isWrapped,NameWrapper,No chain
+NameWrapper.sol,NameWrapper,isWrapped,NameWrapper,No chain
+NameWrapper.sol,NameWrapper,onERC721Received,NameWrapper,No chain
+NameWrapper.sol,NameWrapper,onERC721Received,NameWrapper,No chain
+NameWrapper.sol,NameWrapper,_mint,None,NameUnwrapped
+NameWrapper.sol,NameWrapper,_wrap,None,NameWrapped
+NameWrapper.sol,NameWrapper,_unwrap,None,NameUnwrapped
+NameWrapper.sol,NameWrapper,_setFuses,None,FusesSet
+NameWrapper.sol,NameWrapper,_setFuses,None,ExpiryExtended
+NameWrapper.sol,NameWrapper,_isWrapped,NameWrapper,No chain
+NameWrapper.sol,NameWrapper,_isWrapped,NameWrapper,No chain
+ERC1155Fuse.sol,ERC1155Fuse,setApprovalForAll,None,ApprovalForAll
+ERC1155Fuse.sol,ERC1155Fuse,safeBatchTransferFrom,None,TransferBatch
+ERC1155Fuse.sol,ERC1155Fuse,_mint,None,TransferSingle
+ERC1155Fuse.sol,ERC1155Fuse,_burn,ERC1155Fuse,->getData(tokenId)
+ERC1155Fuse.sol,ERC1155Fuse,_burn,ERC1155Fuse,->getData(tokenId);
+ERC1155Fuse.sol,ERC1155Fuse,_burn,None,TransferSingle
+ERC1155Fuse.sol,ERC1155Fuse,_transfer,None,TransferSingle
+ERC1155Fuse.sol,ERC1155Fuse,_approve,ERC1155Fuse,Approval
+Controllable.sol,Controllable,setController,Controllable,onlyOwner
+Controllable.sol,Controllable,setController,Controllable,ControllerChanged
+UpgradedNameWrapperMock.sol,UpgradedNameWrapperMock,wrapFromUpgrade,UpgradedNameWrapperMock,No chain
+UpgradedNameWrapperMock.sol,UpgradedNameWrapperMock,wrapFromUpgrade,UpgradedNameWrapperMock,No chain
+UpgradedNameWrapperMock.sol,UpgradedNameWrapperMock,wrapFromUpgrade,UpgradedNameWrapperMock,No chain
+UpgradedNameWrapperMock.sol,UpgradedNameWrapperMock,wrapFromUpgrade,UpgradedNameWrapperMock,No chain
+UpgradedNameWrapperMock.sol,UpgradedNameWrapperMock,wrapFromUpgrade,UpgradedNameWrapperMock,No chain
+UpgradedNameWrapperMock.sol,UpgradedNameWrapperMock,wrapFromUpgrade,UpgradedNameWrapperMock,No chain
+UpgradedNameWrapperMock.sol,UpgradedNameWrapperMock,wrapFromUpgrade,UpgradedNameWrapperMock,No chain
+UpgradedNameWrapperMock.sol,UpgradedNameWrapperMock,wrapFromUpgrade,UpgradedNameWrapperMock,No chain
+UpgradedNameWrapperMock.sol,UpgradedNameWrapperMock,wrapFromUpgrade,UpgradedNameWrapperMock,No chain
+UpgradedNameWrapperMock.sol,UpgradedNameWrapperMock,wrapFromUpgrade,UpgradedNameWrapperMock,No chain
+UpgradedNameWrapperMock.sol,UpgradedNameWrapperMock,wrapFromUpgrade,UpgradedNameWrapperMock,No chain
+UpgradedNameWrapperMock.sol,UpgradedNameWrapperMock,wrapFromUpgrade,UpgradedNameWrapperMock,No chain
+UpgradedNameWrapperMock.sol,UpgradedNameWrapperMock,wrapFromUpgrade,UpgradedNameWrapperMock,NameUpgraded
+TestUnwrap.sol,TestUnwrap,setWrapperApproval,TestUnwrap,onlyOwner
+TestUnwrap.sol,TestUnwrap,_unwrapETH2LD,TestUnwrap,No chain
+TestUnwrap.sol,TestUnwrap,_unwrapETH2LD,TestUnwrap,No chain
+TestUnwrap.sol,TestUnwrap,_unwrapSubnode,TestUnwrap,No chain
+TestUnwrap.sol,TestUnwrap,_unwrapSubnode,TestUnwrap,No chain
+ERC1155ReceiverMock.sol,ERC1155ReceiverMock,onERC1155Received,ERC1155ReceiverMock,Received
+ERC1155ReceiverMock.sol,ERC1155ReceiverMock,onERC1155BatchReceived,ERC1155ReceiverMock,BatchReceived
+NameGriefer.sol,NameGriefer,destroy,NameGriefer,No chain
+NameGriefer.sol,NameGriefer,destroy,NameGriefer,No chain
+NameGriefer.sol,NameGriefer,onERC1155Received,NameGriefer,No chain
+NameGriefer.sol,NameGriefer,onERC1155Received,NameGriefer,No chain
+NameGriefer.sol,NameGriefer,onERC1155Received,NameGriefer,->onERC1155Received->selector
+NameGriefer.sol,NameGriefer,onERC1155BatchReceived,NameGriefer,->onERC1155BatchReceived->selector
+TestNameWrapperReentrancy.sol,TestNameWrapperReentrancy,onERC1155Received,TestNameWrapperReentrancy,No chain
+TestNameWrapperReentrancy.sol,TestNameWrapperReentrancy,onERC1155Received,TestNameWrapperReentrancy,No chain
+TestNameWrapperReentrancy.sol,TestNameWrapperReentrancy,onERC1155Received,TestNameWrapperReentrancy,No chain
+TestNameWrapperReentrancy.sol,TestNameWrapperReentrancy,onERC1155BatchReceived,TestNameWrapperReentrancy,No chain
+TestNameWrapperReentrancy.sol,TestNameWrapperReentrancy,onERC1155BatchReceived,TestNameWrapperReentrancy,No chain
+TestNameWrapperReentrancy.sol,TestNameWrapperReentrancy,onERC1155BatchReceived,TestNameWrapperReentrancy,No chain
+TestNameWrapperReentrancy.sol,TestNameWrapperReentrancy,claimToOwner,TestNameWrapperReentrancy,No chain
+TestNameWrapperReentrancy.sol,TestNameWrapperReentrancy,claimToOwner,TestNameWrapperReentrancy,No chain
+LowLevelCallUtils.sol,LowLevelCallUtils,functionStaticCall,LowLevelCallUtils,No chain
+UniversalResolver.sol,UniversalResolver,setGatewayURLs,UniversalResolver,onlyOwner
+UniversalResolver.sol,UniversalResolver,resolve,UniversalResolver,No chain
+UniversalResolver.sol,UniversalResolver,resolve,UniversalResolver,No chain
+UniversalResolver.sol,UniversalResolver,resolve,UniversalResolver,No chain
+UniversalResolver.sol,UniversalResolver,resolve,UniversalResolver,No chain
+UniversalResolver.sol,UniversalResolver,resolve,UniversalResolver,No chain
+UniversalResolver.sol,UniversalResolver,resolve,UniversalResolver,No chain
+UniversalResolver.sol,UniversalResolver,resolve,UniversalResolver,No chain
+UniversalResolver.sol,UniversalResolver,resolve,UniversalResolver,No chain
+UniversalResolver.sol,UniversalResolver,resolve,UniversalResolver,No chain
+UniversalResolver.sol,UniversalResolver,reverse,UniversalResolver,No chain
+UniversalResolver.sol,UniversalResolver,reverse,UniversalResolver,No chain
+UniversalResolver.sol,UniversalResolver,reverse,UniversalResolver,No chain
+UniversalResolver.sol,UniversalResolver,getForwardDataFromReverse,UniversalResolver,No chain
+UniversalResolver.sol,UniversalResolver,getForwardDataFromReverse,UniversalResolver,No chain
+UniversalResolver.sol,UniversalResolver,getForwardDataFromReverse,UniversalResolver,No chain
+UniversalResolver.sol,UniversalResolver,getForwardDataFromReverse,UniversalResolver,No chain
+UniversalResolver.sol,UniversalResolver,resolveSingleCallback,UniversalResolver,No chain
+UniversalResolver.sol,UniversalResolver,resolveSingleCallback,UniversalResolver,No chain
+UniversalResolver.sol,UniversalResolver,resolveSingleCallback,UniversalResolver,No chain
+UniversalResolver.sol,UniversalResolver,resolveCallback,UniversalResolver,No chain
+UniversalResolver.sol,UniversalResolver,resolveCallback,UniversalResolver,No chain
+UniversalResolver.sol,UniversalResolver,resolveCallback,UniversalResolver,No chain
+UniversalResolver.sol,UniversalResolver,reverseCallback,UniversalResolver,No chain
+UniversalResolver.sol,UniversalResolver,reverseCallback,UniversalResolver,No chain
+UniversalResolver.sol,UniversalResolver,reverseCallback,UniversalResolver,No chain
+UniversalResolver.sol,UniversalResolver,_multicall,UniversalResolver,No chain
+UniversalResolver.sol,UniversalResolver,_multicall,UniversalResolver,No chain
+UniversalResolver.sol,UniversalResolver,_multicall,BatchGateway,"->gateways,abi->encodeWithSelector(BatchGateway->query->selector,callDatas),multicallData->callbackFunction,abi->encode(multicallData->isWildcard,multicallData->resolver,multicallData->gateways,multicallData->metaData,extraDatas))"
+UniversalResolver.sol,UniversalResolver,_multicall,UniversalResolver,No chain
+UniversalResolver.sol,UniversalResolver,_multicall,UniversalResolver,No chain
+UniversalResolver.sol,UniversalResolver,_multicall,UniversalResolver,No chain
+UniversalResolver.sol,UniversalResolver,_multicall,UniversalResolver,No chain
+UniversalResolver.sol,UniversalResolver,_multicall,UniversalResolver,No chain
+UniversalResolver.sol,UniversalResolver,_multicall,UniversalResolver,No chain
+UniversalResolver.sol,UniversalResolver,_multicall,UniversalResolver,No chain
+UniversalResolver.sol,UniversalResolver,_multicall,UniversalResolver,No chain
+ERC20Recoverable.sol,ERC20Recoverable,recoverFunds,ERC20Recoverable,onlyOwner
+StablePriceOracle.sol,StablePriceOracle,constructor,AggregatorInterface,No chain
+ETHRegistrarController.sol,ETHRegistrarController,constructor,ETHRegistrarController,No Chain
+ETHRegistrarController.sol,ETHRegistrarController,register,ETHRegistrarController,NameRegistered
+ETHRegistrarController.sol,ETHRegistrarController,renew,ETHRegistrarController,NameRenewed
+ETHRegistrarController.sol,ETHRegistrarController,withdraw,ETHRegistrarController,No chain
+ETHRegistrarController.sol,ETHRegistrarController,withdraw,ETHRegistrarController,No chain
+ETHRegistrarController.sol,ETHRegistrarController,withdraw,ETHRegistrarController,No chain
+ETHRegistrarController.sol,ETHRegistrarController,supportsInterface,ETHRegistrarController,->interfaceId||interfaceID==type(IETHRegistrarController)->interfaceId
+LinearPremiumPriceOracle.sol,LinearPremiumPriceOracle,constructor,LinearPremiumPriceOracle,No Chain
+ExponentialPremiumPriceOracle.sol,ExponentialPremiumPriceOracle,constructor,ExponentialPremiumPriceOracle,No Chain
+BaseRegistrarImplementation.sol,BaseRegistrarImplementation,constructor,BaseRegistrarImplementation,No Chain
+BaseRegistrarImplementation.sol,BaseRegistrarImplementation,addController,BaseRegistrarImplementation,onlyOwner
+BaseRegistrarImplementation.sol,BaseRegistrarImplementation,addController,None,ControllerAdded
+BaseRegistrarImplementation.sol,BaseRegistrarImplementation,removeController,BaseRegistrarImplementation,onlyOwner
+BaseRegistrarImplementation.sol,BaseRegistrarImplementation,removeController,None,ControllerRemoved
+BaseRegistrarImplementation.sol,BaseRegistrarImplementation,setResolver,BaseRegistrarImplementation,onlyOwner
+BaseRegistrarImplementation.sol,BaseRegistrarImplementation,_register,BaseRegistrarImplementation,live
+BaseRegistrarImplementation.sol,BaseRegistrarImplementation,_register,BaseRegistrarImplementation,onlyController
+BaseRegistrarImplementation.sol,BaseRegistrarImplementation,_register,None,NameRegistered
+BaseRegistrarImplementation.sol,BaseRegistrarImplementation,renew,BaseRegistrarImplementation,live
+BaseRegistrarImplementation.sol,BaseRegistrarImplementation,renew,BaseRegistrarImplementation,onlyController
+BaseRegistrarImplementation.sol,BaseRegistrarImplementation,renew,None,NameRenewed
+BaseRegistrarImplementation.sol,BaseRegistrarImplementation,reclaim,BaseRegistrarImplementation,live
+BulkRenewal.sol,BulkRenewal,renewAll,BulkRenewal,No chain
+BulkRenewal.sol,BulkRenewal,renewAll,BulkRenewal,No chain
+BulkRenewal.sol,BulkRenewal,renewAll,BulkRenewal,No chain
+BulkRenewal.sol,BulkRenewal,renewAll,BulkRenewal,No chain
+BulkRenewal.sol,BulkRenewal,supportsInterface,BulkRenewal,->interfaceId||interfaceID==type(IBulkRenewal)->interfaceId
+StaticBulkRenewal.sol,StaticBulkRenewal,renewAll,StaticBulkRenewal,No chain
+StaticBulkRenewal.sol,StaticBulkRenewal,renewAll,StaticBulkRenewal,No chain
+StaticBulkRenewal.sol,StaticBulkRenewal,renewAll,StaticBulkRenewal,No chain
+StaticBulkRenewal.sol,StaticBulkRenewal,renewAll,StaticBulkRenewal,No chain
+ResolverBase.sol,ResolverBase,clearRecords,ResolverBase,authorised
+ResolverBase.sol,ResolverBase,clearRecords,None,VersionChanged
+Multicallable.sol,Multicallable,_multicall,Multicallable,No chain
+Multicallable.sol,Multicallable,_multicall,Multicallable,No chain
+Multicallable.sol,Multicallable,supportsInterface,Multicallable,->interfaceId||super->supportsInterface(interfaceID)
+PublicResolver.sol,PublicResolver,constructor,PublicResolver,No Chain
+PublicResolver.sol,PublicResolver,setApprovalForAll,PublicResolver,ApprovalForAll
+PublicResolver.sol,PublicResolver,approve,PublicResolver,Approved
+DNSResolver.sol,DNSResolver,setDNSRecords,DNSResolver,authorised
+DNSResolver.sol,DNSResolver,setZonehash,DNSResolver,authorised
+DNSResolver.sol,DNSResolver,setZonehash,None,DNSZonehashChanged
+DNSResolver.sol,DNSResolver,setDNSRRSet,None,DNSRecordDeleted
+DNSResolver.sol,DNSResolver,setDNSRRSet,None,DNSRecordChanged
+TextResolver.sol,TextResolver,setText,TextResolver,authorised
+TextResolver.sol,TextResolver,setText,None,TextChanged
+TextResolver.sol,TextResolver,supportsInterface,TextResolver,->interfaceId||super->supportsInterface(interfaceID)
+ContentHashResolver.sol,ContentHashResolver,setContenthash,ContentHashResolver,authorised
+ContentHashResolver.sol,ContentHashResolver,setContenthash,None,ContenthashChanged
+ContentHashResolver.sol,ContentHashResolver,supportsInterface,ContentHashResolver,->interfaceId||super->supportsInterface(interfaceID)
+PubkeyResolver.sol,PubkeyResolver,setPubkey,PubkeyResolver,authorised
+PubkeyResolver.sol,PubkeyResolver,setPubkey,None,PubkeyChanged
+PubkeyResolver.sol,PubkeyResolver,supportsInterface,PubkeyResolver,->interfaceId||super->supportsInterface(interfaceID)
+NameResolver.sol,NameResolver,setName,NameResolver,authorised
+NameResolver.sol,NameResolver,setName,None,NameChanged
+NameResolver.sol,NameResolver,supportsInterface,NameResolver,->interfaceId||super->supportsInterface(interfaceID)
+InterfaceResolver.sol,InterfaceResolver,setInterface,InterfaceResolver,authorised
+InterfaceResolver.sol,InterfaceResolver,setInterface,None,InterfaceChanged
+InterfaceResolver.sol,InterfaceResolver,supportsInterface,InterfaceResolver,->interfaceId||super->supportsInterface(interfaceID)
+ExtendedResolver.sol,ExtendedResolver,resolve,ExtendedResolver,No chain
+ExtendedResolver.sol,ExtendedResolver,resolve,ExtendedResolver,No chain
+ABIResolver.sol,ABIResolver,setABI,ABIResolver,authorised
+ABIResolver.sol,ABIResolver,setABI,None,ABIChanged
+ABIResolver.sol,ABIResolver,supportsInterface,ABIResolver,->interfaceId||super->supportsInterface(interfaceID)
+AddrResolver.sol,AddrResolver,setAddr,AddrResolver,authorised
+AddrResolver.sol,AddrResolver,setAddr,AddrResolver,authorised
+AddrResolver.sol,AddrResolver,setAddr,None,AddressChanged
+AddrResolver.sol,AddrResolver,setAddr,None,AddrChanged
+AddrResolver.sol,AddrResolver,supportsInterface,AddrResolver,->interfaceId||interfaceID==type(IAddressResolver)->interfaceId||super->supportsInterface(interfaceID)
+DNSRegistrar.sol,DNSRegistrar,constructor,DNSRegistrar,NewPublicSuffixList
+DNSRegistrar.sol,DNSRegistrar,setPublicSuffixList,DNSRegistrar,onlyOwner
+DNSRegistrar.sol,DNSRegistrar,setPublicSuffixList,DNSRegistrar,NewPublicSuffixList
+DNSRegistrar.sol,DNSRegistrar,supportsInterface,DNSRegistrar,->interfaceId||interfaceID==type(IDNSRegistrar)->interfaceId
+DNSRegistrar.sol,DNSRegistrar,_claim,DNSRegistrar,Claim
+DNSRegistrar.sol,DNSRegistrar,_enableNode,DNSRegistrar,No chain
+DNSRegistrar.sol,DNSRegistrar,_enableNode,DNSRegistrar,No chain
+DNSRegistrar.sol,DNSRegistrar,_enableNode,DNSRegistrar,No chain
+DNSRegistrar.sol,DNSRegistrar,_enableNode,DNSRegistrar,No chain
+DNSRegistrar.sol,DNSRegistrar,_enableNode,DNSRegistrar,No chain
+DNSRegistrar.sol,DNSRegistrar,_enableNode,DNSRegistrar,No chain
+DNSRegistrar.sol,DNSRegistrar,_enableNode,DNSRegistrar,No chain
+DNSRegistrar.sol,DNSRegistrar,_enableNode,DNSRegistrar,No chain
+DNSRegistrar.sol,DNSRegistrar,_enableNode,DNSRegistrar,No chain
+DNSRegistrar.sol,DNSRegistrar,_enableNode,DNSRegistrar,No chain
+OffchainDNSResolver.sol,OffchainDNSResolver,resolve,OffchainDNSResolver,No chain
+OffchainDNSResolver.sol,OffchainDNSResolver,resolve,IDNSGateway,"->encodeCall(IDNSGateway->resolve,(name,TYPE_TXT)),OffchainDNSResolver->resolveCallback->selector,abi->encode(name,data))"
+OffchainDNSResolver.sol,OffchainDNSResolver,resolve,IDNSGateway,No chain
+OffchainDNSResolver.sol,OffchainDNSResolver,resolve,OffchainDNSResolver,No chain
+OffchainDNSResolver.sol,OffchainDNSResolver,resolve,OffchainDNSResolver,No chain
+OffchainDNSResolver.sol,OffchainDNSResolver,resolve,OffchainDNSResolver,No chain
+SimplePublicSuffixList.sol,SimplePublicSuffixList,addPublicSuffixes,SimplePublicSuffixList,onlyOwner
+FIFSRegistrar.sol,FIFSRegistrar,register,FIFSRegistrar,only_owner
+ENSRegistry.sol,ENSRegistry,setOwner,ENSRegistry,authorised
+ENSRegistry.sol,ENSRegistry,setOwner,None,Transfer
+ENSRegistry.sol,ENSRegistry,setSubnodeOwner,ENSRegistry,authorised
+ENSRegistry.sol,ENSRegistry,setSubnodeOwner,None,NewOwner
+ENSRegistry.sol,ENSRegistry,setResolver,ENSRegistry,authorised
+ENSRegistry.sol,ENSRegistry,setResolver,None,NewResolver
+ENSRegistry.sol,ENSRegistry,setTTL,ENSRegistry,authorised
+ENSRegistry.sol,ENSRegistry,setTTL,None,NewTTL
+ENSRegistry.sol,ENSRegistry,setApprovalForAll,None,ApprovalForAll
+ENSRegistry.sol,ENSRegistry,_setResolverAndTTL,None,NewResolver
+ENSRegistry.sol,ENSRegistry,_setResolverAndTTL,None,NewTTL
+ENSRegistryWithFallback.sol,ENSRegistryWithFallback,constructor,ENSRegistryWithFallback,No Chain
+ReverseRegistrar.sol,ReverseRegistrar,constructor,ReverseRegistrar,->owner(ADDR_REVERSE_NODE))
+ReverseRegistrar.sol,ReverseRegistrar,setDefaultResolver,ReverseRegistrar,onlyOwner
+ReverseRegistrar.sol,ReverseRegistrar,setDefaultResolver,ReverseRegistrar,DefaultResolverChanged
+ReverseRegistrar.sol,ReverseRegistrar,claimForAddr,ReverseRegistrar,authorised
+ReverseRegistrar.sol,ReverseRegistrar,claimForAddr,ReverseRegistrar,ReverseClaimed
+ReverseRegistrar.sol,ReverseRegistrar,claimForAddrWithSignature,ReverseRegistrar,"->encodePacked(IReverseRegistrar->claimForAddrWithSignature->selector,addr,owner,resolver,relayer,signatureExpiry))"
+ReverseRegistrar.sol,ReverseRegistrar,claimForAddrWithSignature,ReverseRegistrar,"->encodePacked(IReverseRegistrar->claimForAddrWithSignature->selector,addr,owner,resolver,relayer,signatureExpiry));"
+ReverseRegistrar.sol,ReverseRegistrar,claimForAddrWithSignature,ReverseRegistrar,ReverseClaimed
+ReverseRegistrar.sol,ReverseRegistrar,setNameForAddr,NameResolver,"->setName(node,name)"
+ReverseRegistrar.sol,ReverseRegistrar,setNameForAddrWithSignature,NameResolver,"->setName(node,name)"
+Ownable.sol,Ownable,transferOwnership,Ownable,onlyOwner
+Ownable.sol,Ownable,transferOwnership,Ownable,OwnershipTransferred
+Root.sol,Root,setSubnodeOwner,Root,onlyController
+Root.sol,Root,setResolver,Root,onlyOwner
+Root.sol,Root,lock,Root,onlyOwner
+Root.sol,Root,lock,Root,TLDLocked
+Controllable.sol,Controllable,setController,Controllable,onlyOwner
+Controllable.sol,Controllable,setController,Controllable,ControllerChanged
+DNSSECImpl.sol,DNSSECImpl,setAlgorithm,DNSSECImpl,owner_only
+DNSSECImpl.sol,DNSSECImpl,setAlgorithm,None,AlgorithmUpdated
+DNSSECImpl.sol,DNSSECImpl,setDigest,DNSSECImpl,owner_only
+DNSSECImpl.sol,DNSSECImpl,setDigest,None,DigestUpdated
+Owned.sol,Owned,setOwner,Owned,owner_only
+ReverseRegistrar.sol,ReverseRegistrar,constructor,NameResolver,No chain
+ReverseRegistrar.sol,ReverseRegistrar,constructor,ReverseRegistrar,->owner(ADDR_REVERSE_NODE))
+ReverseRegistrar.sol,ReverseRegistrar,claimWithResolver,ReverseRegistrar,No chain
+ReverseRegistrar.sol,ReverseRegistrar,claimWithResolver,ReverseRegistrar,No chain
+ReverseRegistrar.sol,ReverseRegistrar,claimWithResolver,ReverseRegistrar,No chain
+ReverseRegistrar.sol,ReverseRegistrar,claimWithResolver,ReverseRegistrar,No chain
+Migrations.sol,Migrations,setCompleted,Migrations,restricted
+Migrations.sol,Migrations,upgrade,Migrations,restricted
+FIFSRegistrar.sol,FIFSRegistrar,register,FIFSRegistrar,only_owner
+ENSRegistry.sol,ENSRegistry,setOwner,ENSRegistry,authorised
+ENSRegistry.sol,ENSRegistry,setOwner,None,Transfer
+ENSRegistry.sol,ENSRegistry,setSubnodeOwner,ENSRegistry,authorised
+ENSRegistry.sol,ENSRegistry,setSubnodeOwner,None,NewOwner
+ENSRegistry.sol,ENSRegistry,setResolver,ENSRegistry,authorised
+ENSRegistry.sol,ENSRegistry,setResolver,None,NewResolver
+ENSRegistry.sol,ENSRegistry,setTTL,ENSRegistry,authorised
+ENSRegistry.sol,ENSRegistry,setTTL,None,NewTTL
+ENSRegistry.sol,ENSRegistry,setApprovalForAll,None,ApprovalForAll
+ENSRegistry.sol,ENSRegistry,_setResolverAndTTL,None,NewResolver
+ENSRegistry.sol,ENSRegistry,_setResolverAndTTL,None,NewTTL
+ENSRegistryWithFallback.sol,ENSRegistryWithFallback,constructor,ENSRegistryWithFallback,No Chain
